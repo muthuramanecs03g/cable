@@ -1,0 +1,1892 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AF_XDP	xdpsock_user.c	39;"	d	file:
+ALLOW_PKT	hbm_kern.h	30;"	d
+ARRAY_LOOKUP	map_perf_test_user.c	/^	ARRAY_LOOKUP,$/;"	e	enum:test_type	file:
+ARRAY_SIZE	cookie_uid_helper_example.c	34;"	d	file:
+A_OF_PORT_A	test_map_in_map_user.c	20;"	d	file:
+BATCH_SIZE	xdpsock_user.c	47;"	d	file:
+BENCH_L2FWD	xdpsock_user.c	/^	BENCH_L2FWD = 2,$/;"	e	enum:benchmark_type	file:
+BENCH_RXDROP	xdpsock_user.c	/^	BENCH_RXDROP = 0,$/;"	e	enum:benchmark_type	file:
+BENCH_TXONLY	xdpsock_user.c	/^	BENCH_TXONLY = 1,$/;"	e	enum:benchmark_type	file:
+BPF_ALU32_IMM	bpf_insn.h	36;"	d
+BPF_ALU32_REG	bpf_insn.h	18;"	d
+BPF_ALU64_IMM	bpf_insn.h	28;"	d
+BPF_ALU64_REG	bpf_insn.h	10;"	d
+BPF_EXIT_INSN	bpf_insn.h	209;"	d
+BPF_F_GET	fds_example.c	22;"	d	file:
+BPF_F_KEY	fds_example.c	25;"	d	file:
+BPF_F_KEY_VAL	fds_example.c	27;"	d	file:
+BPF_F_PIN	fds_example.c	21;"	d	file:
+BPF_F_PIN_GET	fds_example.c	23;"	d	file:
+BPF_F_VAL	fds_example.c	26;"	d	file:
+BPF_JMP32_IMM	bpf_insn.h	189;"	d
+BPF_JMP32_REG	bpf_insn.h	169;"	d
+BPF_JMP_IMM	bpf_insn.h	179;"	d
+BPF_JMP_REG	bpf_insn.h	159;"	d
+BPF_LDX_MEM	bpf_insn.h	119;"	d
+BPF_LD_ABS	bpf_insn.h	109;"	d
+BPF_LD_IMM64	bpf_insn.h	81;"	d
+BPF_LD_IMM64_RAW	bpf_insn.h	84;"	d
+BPF_LD_MAP_FD	bpf_insn.h	103;"	d
+BPF_MOV32_IMM	bpf_insn.h	72;"	d
+BPF_MOV32_REG	bpf_insn.h	54;"	d
+BPF_MOV64_IMM	bpf_insn.h	64;"	d
+BPF_MOV64_REG	bpf_insn.h	46;"	d
+BPF_M_MAP	fds_example.c	30;"	d	file:
+BPF_M_PROG	fds_example.c	31;"	d	file:
+BPF_M_UNSPEC	fds_example.c	29;"	d	file:
+BPF_PSEUDO_MAP_FD	bpf_insn.h	99;"	d
+BPF_RAW_INSN	bpf_insn.h	199;"	d
+BPF_SAMPLES_PATH	Makefile	/^BPF_SAMPLES_PATH ?= $(abspath $(srctree)\/$(src))$/;"	m
+BPF_STX_MEM	bpf_insn.h	129;"	d
+BPF_STX_XADD	bpf_insn.h	139;"	d
+BPF_ST_MEM	bpf_insn.h	149;"	d
+BPF_UTILS_H	upf.h	82;"	d
+BTF_LLC_PROBE	Makefile	/^BTF_LLC_PROBE := $(shell $(LLC) -march=bpf -mattr=help 2>&1 | grep dwarfris)$/;"	m
+BTF_LLVM_PROBE	Makefile	/^BTF_LLVM_PROBE := $(shell echo "int main() { return 0; }" | \\$/;"	m
+BTF_OBJCOPY_PROBE	Makefile	/^BTF_OBJCOPY_PROBE := $(shell $(LLVM_OBJCOPY) --help 2>&1 | grep -i 'usage.*llvm')$/;"	m
+BTF_PAHOLE	Makefile	/^BTF_PAHOLE ?= pahole$/;"	m
+BTF_PAHOLE_PROBE	Makefile	/^BTF_PAHOLE_PROBE := $(shell $(BTF_PAHOLE) --help 2>&1 | grep BTF)$/;"	m
+BURST_SIZE_NS	hbm_kern.h	50;"	d
+BYTES_PER_NS	hbm_kern.h	59;"	d
+BYTES_TO_NS	hbm_kern.h	60;"	d
+CB_MAGIC	test_lwt_bpf.c	33;"	d	file:
+CGROUP_HELPERS	Makefile	/^CGROUP_HELPERS := ..\/..\/tools\/testing\/selftests\/bpf\/cgroup_helpers.o$/;"	m
+CGROUP_PATH	test_current_task_under_cgroup_user.c	13;"	d	file:
+CHECK_AND_RET	task_fd_query_user.c	33;"	d	file:
+CHECK_PERROR_RET	task_fd_query_user.c	24;"	d	file:
+CLANG	Makefile	/^CLANG ?= clang$/;"	m
+CLANG_ARCH_ARGS	Makefile	/^CLANG_ARCH_ARGS = -target $(ARCH)$/;"	m
+CPUFREQ_HIGHEST_FREQ	cpustat_user.c	30;"	d	file:
+CPUFREQ_LOWEST_FREQ	cpustat_user.c	29;"	d	file:
+CPUFREQ_MAX_SYSFS_PATH	cpustat_user.c	28;"	d	file:
+CPU_OCCUPY	linux_resource.h	/^}CPU_OCCUPY;$/;"	t	typeref:struct:CPU_PACKED
+CPU_PACKED	linux_resource.h	/^typedef struct CPU_PACKED         \/\/定义一个cpu occupy的结构体$/;"	s
+CPU_USED_RATE	my_xdp_monitor_down_user.c	/^    CPU_USED_RATE = 0,$/;"	e	enum:__anon14	file:
+CPU_USED_RATE	my_xdp_monitor_user.c	/^    CPU_USED_RATE = 0,$/;"	e	enum:__anon6	file:
+CPU_USED_RATE	qos_user.c	/^    CPU_USED_RATE = 0,$/;"	e	enum:__anon2	file:
+CREDIT_PER_NS	hbm_kern.h	58;"	d
+CTX_ACT_DROP	edt.h	23;"	d
+CTX_ACT_OK	edt.h	22;"	d
+CTX_ACT_TX	edt.h	24;"	d
+CWR	hbm_kern.h	32;"	d
+DEBUG	ibumad_kern.c	33;"	d	file:
+DEBUG	logger.h	4;"	d
+DEBUG	parse_varlen.c	20;"	d	file:
+DEBUG	tcp_basertt_kern.c	22;"	d	file:
+DEBUG	tcp_bufs_kern.c	23;"	d	file:
+DEBUG	tcp_clamp_kern.c	23;"	d	file:
+DEBUG	tcp_cong_kern.c	22;"	d	file:
+DEBUG	tcp_iw_kern.c	23;"	d	file:
+DEBUG	tcp_rwnd_kern.c	22;"	d	file:
+DEBUG	tcp_synrto_kern.c	22;"	d	file:
+DEBUG	tcp_tos_reflect_kern.c	21;"	d	file:
+DEBUGFS	bpf_load.c	30;"	d	file:
+DEBUGFS	hbm.c	71;"	d	file:
+DEBUG_HEXDUMP	xdpsock_user.c	49;"	d	file:
+DEFAULT_FREQ	sampleip_user.c	23;"	d	file:
+DEFAULT_PKTGEN_UDP_PORT	parse_ldabs.c	16;"	d	file:
+DEFAULT_PKTGEN_UDP_PORT	parse_simple.c	17;"	d	file:
+DEFAULT_PKTGEN_UDP_PORT	parse_varlen.c	19;"	d	file:
+DEFAULT_SECS	sampleip_user.c	24;"	d	file:
+DEFAULT_TTL	xdp_adjust_tail_kern.c	23;"	d	file:
+DELTA_RATE_CHECK	hbm.c	213;"	d	file:
+DEV_MEM	linux_resource.h	/^typedef struct DEV_MEM         \/\/定义一个mem occupy的结构体$/;"	s
+DEV_MEM	linux_resource.h	/^}DEV_MEM;$/;"	t	typeref:struct:DEV_MEM
+DISK_USED_RATE	my_xdp_monitor_down_user.c	/^    DISK_USED_RATE = 3,$/;"	e	enum:__anon14	file:
+DISK_USED_RATE	my_xdp_monitor_user.c	/^    DISK_USED_RATE = 3,$/;"	e	enum:__anon6	file:
+DISK_USED_RATE	qos_user.c	/^    DISK_USED_RATE = 3,$/;"	e	enum:__anon2	file:
+DROP_PKT	hbm_kern.h	29;"	d
+DROP_THRESH	hbm_kern.h	42;"	d
+DROP_THRESH_NS	hbm_kern.h	52;"	d
+DWARF2BTF	Makefile	/^	DWARF2BTF = y$/;"	m
+ETH_ALEN	qos_user.c	40;"	d	file:
+EXIT_FAIL	xdp_redirect_cpu_user.c	51;"	d	file:
+EXIT_FAIL	xdp_rxq_info_user.c	41;"	d	file:
+EXIT_FAIL_BPF	xdp_redirect_cpu_user.c	54;"	d	file:
+EXIT_FAIL_BPF	xdp_rxq_info_user.c	44;"	d	file:
+EXIT_FAIL_MEM	my_xdp_monitor_down_user.c	74;"	d	file:
+EXIT_FAIL_MEM	my_xdp_monitor_user.c	81;"	d	file:
+EXIT_FAIL_MEM	qos_user.c	105;"	d	file:
+EXIT_FAIL_MEM	xdp_monitor_user.c	45;"	d	file:
+EXIT_FAIL_MEM	xdp_redirect_cpu_user.c	55;"	d	file:
+EXIT_FAIL_MEM	xdp_rxq_info_user.c	45;"	d	file:
+EXIT_FAIL_OPTION	xdp_redirect_cpu_user.c	52;"	d	file:
+EXIT_FAIL_OPTION	xdp_rxq_info_user.c	42;"	d	file:
+EXIT_FAIL_XDP	xdp_redirect_cpu_user.c	53;"	d	file:
+EXIT_FAIL_XDP	xdp_rxq_info_user.c	43;"	d	file:
+EXIT_OK	xdp_redirect_cpu_user.c	50;"	d	file:
+EXIT_OK	xdp_rxq_info_user.c	40;"	d	file:
+GTP	my_xdp_monitor_down_kern.c	/^    GTP = 2,$/;"	e	enum:__anon4	file:
+GTP	my_xdp_monitor_kern.c	/^       GTP = 2,$/;"	e	enum:__anon1	file:
+GTP	upf_kern.c	/^  GTP = 2,$/;"	e	enum:__anon13	file:
+GTPU_G_PDU	upf.h	14;"	d
+GTPV1U_MSG_HEADER_MIN_SIZE	upf.h	13;"	d
+GTP_C	my_xdp_monitor_down_kern.c	/^    GTP_C = 1,$/;"	e	enum:__anon4	file:
+GTP_C	my_xdp_monitor_kern.c	/^       GTP_C = 1,$/;"	e	enum:__anon1	file:
+GTP_C	upf_kern.c	/^  GTP_C = 1,$/;"	e	enum:__anon13	file:
+GTP_U	my_xdp_monitor_down_kern.c	/^    GTP_U = 0,$/;"	e	enum:__anon4	file:
+GTP_U	my_xdp_monitor_kern.c	/^enum { GTP_U = 0,$/;"	e	enum:__anon1	file:
+GTP_U	upf_kern.c	/^  GTP_U = 0,$/;"	e	enum:__anon13	file:
+GTP_UDP_PORT	upf.h	15;"	d
+HASH_KMALLOC	map_perf_test_user.c	/^	HASH_KMALLOC,$/;"	e	enum:test_type	file:
+HASH_LOOKUP	map_perf_test_user.c	/^	HASH_LOOKUP,$/;"	e	enum:test_type	file:
+HASH_PREALLOC	map_perf_test_user.c	/^	HASH_PREALLOC,$/;"	e	enum:test_type	file:
+HDR_PROBE	Makefile	/^HDR_PROBE := $(shell echo "\\#include <linux\/types.h>\\n struct list_head { int a; }; int main() { return 0; }" | \\$/;"	m
+HOSTCC	Makefile	/^HOSTCC = $(CROSS_COMPILE)gcc$/;"	m
+H_OF_PORT_A	test_map_in_map_user.c	21;"	d	file:
+H_OF_PORT_H	test_map_in_map_user.c	22;"	d	file:
+ICMP_TOOBIG_PAYLOAD_SIZE	xdp_adjust_tail_kern.c	26;"	d	file:
+ICMP_TOOBIG_SIZE	xdp_adjust_tail_kern.c	25;"	d	file:
+INITIAL_CREDIT_PACKETS	hbm_kern.h	39;"	d
+INITVAL	xdp_redirect_cpu_kern.c	466;"	d	file:
+INIT_CREDIT	hbm_kern.h	47;"	d
+INIT_LIST_HEAD	test_lru_dist.c	/^static inline void INIT_LIST_HEAD(struct list_head *list)$/;"	f	file:
+INLINE_RESULT_H	test_map_in_map_user.c	19;"	d	file:
+INNER_LRU_HASH_PREALLOC	map_perf_test_user.c	/^	INNER_LRU_HASH_PREALLOC,$/;"	e	enum:test_type	file:
+INTERFACE_VALUE_ACCESS	upf.h	/^  INTERFACE_VALUE_ACCESS = 0,$/;"	e	enum:destination_interface_value_e
+INTERFACE_VALUE_CORE	upf.h	/^  INTERFACE_VALUE_CORE = 1,$/;"	e	enum:destination_interface_value_e
+INTERFACE_VALUE_CP_FUNCTION	upf.h	/^  INTERFACE_VALUE_CP_FUNCTION = 3,$/;"	e	enum:destination_interface_value_e
+INTERFACE_VALUE_LI_FUNCTION	upf.h	/^  INTERFACE_VALUE_LI_FUNCTION = 4$/;"	e	enum:destination_interface_value_e
+INTERFACE_VALUE_SGI_LAN_N6_LAN	upf.h	/^  INTERFACE_VALUE_SGI_LAN_N6_LAN = 2,$/;"	e	enum:destination_interface_value_e
+INTERVAL	tcp_dumpstats_kern.c	10;"	d	file:
+IPV6_FLOWINFO_MASK	xdp_fwd_kern.c	24;"	d	file:
+IP_CSUM_OFF	tcbpf1_kern.c	20;"	d	file:
+IP_CSUM_OFF	test_lwt_bpf.c	84;"	d	file:
+IP_DST_OFF	test_lwt_bpf.c	85;"	d	file:
+IP_MF	parse_ldabs.c	17;"	d	file:
+IP_MF	sockex2_kern.c	9;"	d	file:
+IP_MF	sockex3_kern.c	16;"	d	file:
+IP_OFFSET	parse_ldabs.c	18;"	d	file:
+IP_OFFSET	sockex2_kern.c	10;"	d	file:
+IP_OFFSET	sockex3_kern.c	17;"	d	file:
+IP_PROTO_OFF	test_lwt_bpf.c	87;"	d	file:
+IP_SRC_OFF	qos_kern.c	8;"	d	file:
+IP_SRC_OFF	tcbpf1_kern.c	32;"	d	file:
+IP_SRC_OFF	test_lwt_bpf.c	86;"	d	file:
+IS_PSEUDO	tcbpf1_kern.c	34;"	d	file:
+IS_PSEUDO	test_lwt_bpf.c	90;"	d	file:
+KBUILD_MODNAME	hbm_kern.h	11;"	d
+KBUILD_MODNAME	ibumad_kern.c	13;"	d	file:
+KBUILD_MODNAME	my_xdp_monitor_down_kern.c	2;"	d	file:
+KBUILD_MODNAME	my_xdp_monitor_kern.c	1;"	d	file:
+KBUILD_MODNAME	parse_ldabs.c	7;"	d	file:
+KBUILD_MODNAME	parse_simple.c	7;"	d	file:
+KBUILD_MODNAME	parse_varlen.c	7;"	d	file:
+KBUILD_MODNAME	qos_kern.c	1;"	d	file:
+KBUILD_MODNAME	tc_l2_redirect_kern.c	7;"	d	file:
+KBUILD_MODNAME	tcbpf1_kern.c	1;"	d	file:
+KBUILD_MODNAME	test_cgrp2_tc_kern.c	7;"	d	file:
+KBUILD_MODNAME	test_map_in_map_kern.c	8;"	d	file:
+KBUILD_MODNAME	upf_kern.c	1;"	d	file:
+KBUILD_MODNAME	xdp1_kern.c	7;"	d	file:
+KBUILD_MODNAME	xdp2_kern.c	7;"	d	file:
+KBUILD_MODNAME	xdp_adjust_tail_kern.c	13;"	d	file:
+KBUILD_MODNAME	xdp_fwd_kern.c	13;"	d	file:
+KBUILD_MODNAME	xdp_redirect_kern.c	12;"	d	file:
+KBUILD_MODNAME	xdp_redirect_map_kern.c	12;"	d	file:
+KBUILD_MODNAME	xdp_router_ipv4_kern.c	7;"	d	file:
+KBUILD_MODNAME	xdp_tx_iptunnel_kern.c	11;"	d	file:
+KERN_STACKID_FLAGS	trace_event_kern.c	34;"	d	file:
+LARGE_PKT_DROP_THRESH	hbm_kern.h	43;"	d
+LARGE_PKT_DROP_THRESH_NS	hbm_kern.h	54;"	d
+LARGE_PKT_THRESH	hbm_kern.h	45;"	d
+LIBBPF	Makefile	/^LIBBPF = $(TOOLS_PATH)\/lib\/bpf\/libbpf.a$/;"	m
+LLC	Makefile	/^LLC ?= llc$/;"	m
+LLVM_OBJCOPY	Makefile	/^LLVM_OBJCOPY ?= llvm-objcopy$/;"	m
+LLVM_READELF	Makefile	/^LLVM_READELF ?= llvm-readelf$/;"	m
+LPM_KMALLOC	map_perf_test_user.c	/^	LPM_KMALLOC,$/;"	e	enum:test_type	file:
+LRU_HASH_LOOKUP	map_perf_test_user.c	/^	LRU_HASH_LOOKUP,$/;"	e	enum:test_type	file:
+LRU_HASH_PREALLOC	map_perf_test_user.c	/^	LRU_HASH_PREALLOC,$/;"	e	enum:test_type	file:
+MAP_KEY_BYTES	test_cgrp2_attach.c	/^	MAP_KEY_BYTES,$/;"	e	enum:__anon10	file:
+MAP_KEY_PACKETS	test_cgrp2_attach.c	/^	MAP_KEY_PACKETS,$/;"	e	enum:__anon10	file:
+MAP_OFF_CSTATE_IDX	cpustat_kern.c	49;"	d	file:
+MAP_OFF_CSTATE_TIME	cpustat_kern.c	48;"	d	file:
+MAP_OFF_NUM	cpustat_kern.c	52;"	d	file:
+MAP_OFF_PSTATE_IDX	cpustat_kern.c	51;"	d	file:
+MAP_OFF_PSTATE_TIME	cpustat_kern.c	50;"	d	file:
+MARK_REGION_SIZE	hbm_kern.h	44;"	d
+MARK_REGION_SIZE_NS	hbm_kern.h	55;"	d
+MARK_THRESH	hbm_kern.h	41;"	d
+MARK_THRESH_NS	hbm_kern.h	51;"	d
+MAX_BYTES_PER_PACKET	hbm_kern.h	40;"	d
+MAX_CNT	test_overhead_user.c	23;"	d	file:
+MAX_CNT	trace_output_user.c	33;"	d	file:
+MAX_CPU	cpustat_kern.c	21;"	d	file:
+MAX_CPU	cpustat_user.c	23;"	d	file:
+MAX_CPU	lathist_kern.c	14;"	d	file:
+MAX_CPU	lathist_user.c	14;"	d	file:
+MAX_CPUS	my_xdp_monitor_down_user.c	124;"	d	file:
+MAX_CPUS	my_xdp_monitor_user.c	131;"	d	file:
+MAX_CPUS	qos_user.c	106;"	d	file:
+MAX_CPUS	xdp_monitor_kern.c	130;"	d	file:
+MAX_CPUS	xdp_monitor_user.c	122;"	d	file:
+MAX_CPUS	xdp_redirect_cpu_kern.c	18;"	d	file:
+MAX_CPUS	xdp_redirect_cpu_user.c	23;"	d	file:
+MAX_CPUS	xdp_sample_pkts_kern.c	8;"	d	file:
+MAX_CPUS	xdp_sample_pkts_user.c	21;"	d	file:
+MAX_CREDIT	hbm_kern.h	46;"	d
+MAX_CSTATE_ENTRIES	cpustat_kern.c	23;"	d	file:
+MAX_CSTATE_ENTRIES	cpustat_user.c	25;"	d	file:
+MAX_ENTRIES	lathist_kern.c	13;"	d	file:
+MAX_ENTRIES	lathist_user.c	13;"	d	file:
+MAX_ENTRIES	map_perf_test_kern.c	13;"	d	file:
+MAX_INDEX	lwt_len_hist_user.c	15;"	d	file:
+MAX_INDEX	qos_user.c	39;"	d	file:
+MAX_INDEX	tracex2_user.c	14;"	d	file:
+MAX_IPS	sampleip_kern.c	13;"	d	file:
+MAX_IPS	sampleip_user.c	25;"	d	file:
+MAX_IPTNL_ENTRIES	xdp_tx_iptunnel_common.h	9;"	d
+MAX_MAPS	bpf_load.h	7;"	d
+MAX_NR_CPUS	map_perf_test_kern.c	14;"	d	file:
+MAX_NR_CPUS	map_perf_test_user.c	25;"	d	file:
+MAX_NR_PORTS	test_map_in_map_kern.c	15;"	d	file:
+MAX_PCKT_SIZE	xdp_adjust_tail_kern.c	24;"	d	file:
+MAX_PROG	xdp_redirect_cpu_user.c	26;"	d	file:
+MAX_PROGS	bpf_load.h	8;"	d
+MAX_PSTATE_ENTRIES	cpustat_kern.c	22;"	d	file:
+MAX_PSTATE_ENTRIES	cpustat_user.c	24;"	d	file:
+MAX_RXQs	xdp_rxq_info_kern.c	46;"	d	file:
+MAX_SOCKS	xdpsock_user.c	50;"	d	file:
+MAX_STARS	cpustat_user.c	26;"	d	file:
+MAX_STARS	lathist_user.c	15;"	d	file:
+MAX_STARS	lwt_len_hist_user.c	16;"	d	file:
+MAX_STARS	tracex2_user.c	15;"	d	file:
+MEM_OCCUPY	linux_resource.h	/^}MEM_OCCUPY;$/;"	t	typeref:struct:MEM_PACKED
+MEM_PACK	linux_resource.h	/^typedef struct MEM_PACK         \/\/定义一个mem occupy的结构体$/;"	s
+MEM_PACK	linux_resource.h	/^}MEM_PACK;$/;"	t	typeref:struct:MEM_PACK
+MEM_PACKED	linux_resource.h	/^typedef struct MEM_PACKED         \/\/定义一个mem occupy的结构体$/;"	s
+MEM_USED_RATE	my_xdp_monitor_down_user.c	/^    MEM_USED_RATE = 2,$/;"	e	enum:__anon14	file:
+MEM_USED_RATE	my_xdp_monitor_user.c	/^    MEM_USED_RATE = 2,$/;"	e	enum:__anon6	file:
+MEM_USED_RATE	qos_user.c	/^    MEM_USED_RATE = 2,$/;"	e	enum:__anon2	file:
+MINBLOCK_US	offwaketime_kern.c	16;"	d	file:
+NANOSEC_PER_SEC	my_xdp_monitor_down_user.c	98;"	d	file:
+NANOSEC_PER_SEC	my_xdp_monitor_user.c	105;"	d	file:
+NANOSEC_PER_SEC	qos_user.c	108;"	d	file:
+NANOSEC_PER_SEC	xdp_monitor_user.c	68;"	d	file:
+NANOSEC_PER_SEC	xdp_redirect_cpu_user.c	131;"	d	file:
+NANOSEC_PER_SEC	xdp_rxq_info_user.c	168;"	d	file:
+NOCOMMON_LRU_HASH_PREALLOC	map_perf_test_user.c	/^	NOCOMMON_LRU_HASH_PREALLOC,$/;"	e	enum:test_type	file:
+NO_TOUCH	xdp_rxq_info_kern.c	/^	NO_TOUCH = 0x0U,$/;"	e	enum:cfg_options_flags	file:
+NO_TOUCH	xdp_rxq_info_user.c	/^	NO_TOUCH = 0x0U,$/;"	e	enum:cfg_options_flags	file:
+NR_TESTS	map_perf_test_user.c	/^	NR_TESTS,$/;"	e	enum:test_type	file:
+NR_TESTS	test_map_in_map_user.c	30;"	d	file:
+NUM_FRAMES	xdpsock_user.c	46;"	d	file:
+OUTER_HEADER_REMOVAL_GTPU_UDP_IPV4	upf.h	9;"	d
+OUTER_HEADER_REMOVAL_GTPU_UDP_IPV6	upf.h	10;"	d
+OUTER_HEADER_REMOVAL_UDP_IPV4	upf.h	11;"	d
+OUTER_HEADER_REMOVAL_UDP_IPV6	upf.h	12;"	d
+PAGE_OFFSET	sampleip_user.c	26;"	d	file:
+PARSE_IP	sockex3_kern.c	/^PROG(PARSE_IP)(struct __sk_buff *skb)$/;"	f
+PARSE_IP	sockex3_kern.c	30;"	d	file:
+PARSE_IP	sockex3_user.c	12;"	d	file:
+PARSE_IPV6	sockex3_kern.c	/^PROG(PARSE_IPV6)(struct __sk_buff *skb)$/;"	f
+PARSE_IPV6	sockex3_kern.c	31;"	d	file:
+PARSE_IP_PROG_FD	sockex3_user.c	13;"	d	file:
+PARSE_MPLS	sockex3_kern.c	/^PROG(PARSE_MPLS)(struct __sk_buff *skb)$/;"	f
+PARSE_MPLS	sockex3_kern.c	29;"	d	file:
+PARSE_VLAN	sockex3_kern.c	/^PROG(PARSE_VLAN)(struct __sk_buff *skb)$/;"	f
+PARSE_VLAN	sockex3_kern.c	28;"	d	file:
+PERCPU_HASH_KMALLOC	map_perf_test_user.c	/^	PERCPU_HASH_KMALLOC,$/;"	e	enum:test_type	file:
+PERCPU_HASH_PREALLOC	map_perf_test_user.c	/^	PERCPU_HASH_PREALLOC,$/;"	e	enum:test_type	file:
+PFCP	my_xdp_monitor_down_user.c	/^    PFCP = 1,$/;"	e	enum:__anon14	file:
+PFCP	my_xdp_monitor_user.c	/^    PFCP = 1,$/;"	e	enum:__anon6	file:
+PFCP	qos_user.c	/^    PFCP = 1,$/;"	e	enum:__anon2	file:
+PFCP_PORT	my_xdp_monitor_down_kern.c	24;"	d	file:
+PFCP_PORT	my_xdp_monitor_kern.c	23;"	d	file:
+PFCP_PORT	upf_kern.c	19;"	d	file:
+PF_XDP	xdpsock_user.c	43;"	d	file:
+PIN_GLOBAL_NS	qos_kern.c	7;"	d	file:
+PIN_GLOBAL_NS	tc_l2_redirect_kern.c	22;"	d	file:
+PIN_GLOBAL_NS	test_cgrp2_tc_kern.c	22;"	d	file:
+PKG_TYPE_MAX	my_xdp_monitor_down_user.c	114;"	d	file:
+PKG_TYPE_MAX	my_xdp_monitor_user.c	121;"	d	file:
+PKG_TYPE_MAX	qos_user.c	124;"	d	file:
+PMU_RETPROBE_FILE	task_fd_query_user.c	66;"	d	file:
+PMU_TYPE_FILE	task_fd_query_user.c	44;"	d	file:
+PORT	cookie_uid_helper_example.c	56;"	d	file:
+PORT_A	test_map_in_map_user.c	16;"	d	file:
+PORT_H	test_map_in_map_user.c	17;"	d	file:
+PRINT_RAW_ADDR	offwaketime_user.c	19;"	d	file:
+PROG	sockex3_kern.c	19;"	d	file:
+PROG	spintest_kern.c	34;"	d	file:
+PROG	tracex5_kern.c	15;"	d	file:
+PROG_ARRAY_FD	sockex3_user.c	14;"	d	file:
+RATE_THRESHOLD	hbm.c	214;"	d	file:
+READ_MEM	xdp_rxq_info_kern.c	/^	READ_MEM = 0x1U,$/;"	e	enum:cfg_options_flags	file:
+READ_MEM	xdp_rxq_info_user.c	/^	READ_MEM = 0x1U,$/;"	e	enum:cfg_options_flags	file:
+READ_ONCE	edt.h	57;"	d
+REDIR_ERROR	xdp_monitor_user.c	/^	REDIR_ERROR = 1,$/;"	e	enum:__anon11	file:
+REDIR_RES_MAX	xdp_monitor_user.c	86;"	d	file:
+REDIR_SUCCESS	xdp_monitor_user.c	/^	REDIR_SUCCESS = 0,$/;"	e	enum:__anon11	file:
+REG_RESULT_H	test_map_in_map_user.c	18;"	d	file:
+RET_VAL_COUNT	hbm.c	327;"	d	file:
+S	tracex3_kern.c	35;"	d	file:
+S	tracex3_kern.c	39;"	d	file:
+SAMPLE_FREQ	trace_event_user.c	23;"	d	file:
+SAMPLE_PERIOD	tracex6_user.c	22;"	d	file:
+SAMPLE_SIZE	xdp_sample_pkts_kern.c	7;"	d	file:
+SAMPLE_SIZE	xdp_sample_pkts_user.c	73;"	d	file:
+SEC	my_xdp_monitor_down_kern.c	25;"	d	file:
+SEC	my_xdp_monitor_kern.c	24;"	d	file:
+SEC	upf_kern.c	20;"	d	file:
+SIZE	tracex2_user.c	39;"	d	file:
+SLOTS	tracex3_kern.c	42;"	d	file:
+SLOTS	tracex3_user.c	17;"	d	file:
+SOL_XDP	xdpsock_user.c	35;"	d	file:
+STACKID_FLAGS	offwaketime_kern.c	58;"	d	file:
+STATS_INTERVAL_S	xdp_adjust_tail_user.c	25;"	d	file:
+STATS_INTERVAL_S	xdp_tx_iptunnel_user.c	23;"	d	file:
+SWAP_MAC	xdp_rxq_info_kern.c	/^	SWAP_MAC = 0x2U,$/;"	e	enum:cfg_options_flags	file:
+SWAP_MAC	xdp_rxq_info_user.c	/^	SWAP_MAC = 0x2U,$/;"	e	enum:cfg_options_flags	file:
+SYSNR	syscall_nrs.c	5;"	d	file:
+SYS__NR_mmap	tracex5_kern.c	/^PROG(SYS__NR_mmap)(struct pt_regs *ctx)$/;"	f
+SYS__NR_mmap2	tracex5_kern.c	/^PROG(SYS__NR_mmap2)(struct pt_regs *ctx)$/;"	f
+SYS__NR_read	tracex5_kern.c	/^PROG(SYS__NR_read)(struct pt_regs *ctx)$/;"	f
+SYS__NR_write	tracex5_kern.c	/^PROG(SYS__NR_write)(struct pt_regs *ctx)$/;"	f
+SuperFastHash	hash_func01.h	/^__u32 SuperFastHash (const char *data, int len, __u32 initval) {$/;"	f
+TASK_COMM_LEN	offwaketime_user.c	39;"	d	file:
+TASK_COMM_LEN	trace_event_user.c	53;"	d	file:
+TCP_CSUM_OFF	tcbpf1_kern.c	31;"	d	file:
+TCP_CSUM_OFF	test_lwt_bpf.c	88;"	d	file:
+TCP_DPORT_OFF	tcbpf1_kern.c	45;"	d	file:
+TCP_ECN_OK	hbm_kern.h	31;"	d
+TEST_BIT	map_perf_test_user.c	24;"	d	file:
+TOOLS_PATH	Makefile	/^TOOLS_PATH := $(BPF_SAMPLES_PATH)\/..\/..\/tools$/;"	m
+TOS_OFF	tcbpf1_kern.c	21;"	d	file:
+TRACE_HELPERS	Makefile	/^TRACE_HELPERS := ..\/..\/tools\/testing\/selftests\/bpf\/trace_helpers.o$/;"	m
+UDP_CSUM_OFF	test_lwt_bpf.c	89;"	d	file:
+UNKNOW	my_xdp_monitor_down_kern.c	/^    UNKNOW = 3$/;"	e	enum:__anon4	file:
+UNKNOW	my_xdp_monitor_kern.c	/^       UNKNOW = 3$/;"	e	enum:__anon1	file:
+UNKNOW	upf_kern.c	/^  UNKNOW = 3$/;"	e	enum:__anon13	file:
+USER	my_xdp_monitor_down_user.c	/^    USER =4,$/;"	e	enum:__anon14	file:
+USER	my_xdp_monitor_user.c	/^    USER =4,$/;"	e	enum:__anon6	file:
+USER	qos_user.c	/^    USER =4,$/;"	e	enum:__anon2	file:
+USER_STACKID_FLAGS	trace_event_kern.c	35;"	d	file:
+Usage	do_hbm_test.sh	/^Usage() {$/;"	f
+Usage	hbm.c	/^static void Usage(void)$/;"	f	file:
+WRITE_ONCE	edt.h	64;"	d
+XDP_ACTION_MAX	xdp_monitor_user.c	99;"	d	file:
+XDP_ACTION_MAX	xdp_rxq_info_user.c	93;"	d	file:
+XDP_ACTION_MAX_STRLEN	xdp_rxq_info_user.c	94;"	d	file:
+XDP_REDIRECT_ERROR	xdp_monitor_kern.c	/^	XDP_REDIRECT_ERROR = 1$/;"	e	enum:__anon3	file:
+XDP_REDIRECT_ERROR	xdp_redirect_cpu_kern.c	/^	XDP_REDIRECT_ERROR = 1$/;"	e	enum:__anon5	file:
+XDP_REDIRECT_SUCCESS	xdp_monitor_kern.c	/^	XDP_REDIRECT_SUCCESS = 0,$/;"	e	enum:__anon3	file:
+XDP_REDIRECT_SUCCESS	xdp_redirect_cpu_kern.c	/^	XDP_REDIRECT_SUCCESS = 0,$/;"	e	enum:__anon5	file:
+XDP_UNKNOWN	xdp_monitor_kern.c	17;"	d	file:
+XDP_UNKNOWN	xdp_monitor_user.c	98;"	d	file:
+_	offwaketime_kern.c	14;"	d	file:
+_	test_overhead_kprobe_kern.c	12;"	d	file:
+_	tracex1_kern.c	13;"	d	file:
+_GNU_SOURCE	cookie_uid_helper_example.c	31;"	d	file:
+_GNU_SOURCE	cpustat_user.c	3;"	d	file:
+_GNU_SOURCE	hbm.c	32;"	d	file:
+_GNU_SOURCE	map_perf_test_user.c	4;"	d	file:
+_GNU_SOURCE	test_cgrp2_attach.c	19;"	d	file:
+_GNU_SOURCE	test_cgrp2_sock.c	11;"	d	file:
+_GNU_SOURCE	test_cgrp2_sock2.c	10;"	d	file:
+_GNU_SOURCE	test_current_task_under_cgroup_user.c	5;"	d	file:
+_GNU_SOURCE	test_lru_dist.c	5;"	d	file:
+_GNU_SOURCE	test_overhead_user.c	4;"	d	file:
+_GNU_SOURCE	tracex6_user.c	2;"	d	file:
+_GNU_SOURCE	tracex7_user.c	1;"	d	file:
+_SAMPLES_BPF_XDP_TX_IPTNL_COMMON_H	xdp_tx_iptunnel_common.h	5;"	d
+__ASM_GOTO_WORKAROUND_H	asm_goto_workaround.h	4;"	d
+__BPF_INSN_H	bpf_insn.h	4;"	d
+__BPF_LOAD_H	bpf_load.h	3;"	d
+__BPF_LOGGER_H	logger.h	2;"	d
+__BPF_UPF_H	upf.h	2;"	d
+__EDT_H_	edt.h	15;"	d
+__MAPS_H__	maps.h	2;"	d
+__READ_ONCE	edt.h	40;"	d
+__WRITE_ONCE	edt.h	44;"	d
+__clang__	upf.h	78;"	d
+__csum_replace_by_4	csum.h	/^__csum_replace_by_4(__sum16 *sum, __wsum from, __wsum to)$/;"	f
+__csum_replace_by_diff	csum.h	/^__csum_replace_by_diff(__sum16 *sum, __wsum diff)$/;"	f
+__ctx_buff	edt.h	18;"	d
+__ctx_is	edt.h	19;"	d
+__do_push_ll_and_redirect	test_lwt_bpf.c	/^static inline int __do_push_ll_and_redirect(struct __sk_buff *skb)$/;"	f	file:
+__doc__	my_xdp_monitor_down_user.c	/^static const char *__doc__ =$/;"	v	file:
+__doc__	my_xdp_monitor_user.c	/^static const char *__doc__ =$/;"	v	file:
+__doc__	qos_user.c	/^static const char *__doc__ =$/;"	v	file:
+__doc__	xdp_monitor_user.c	/^static const char *__doc__=$/;"	v	file:
+__doc__	xdp_redirect_cpu_user.c	/^static const char *__doc__ =$/;"	v	file:
+__doc__	xdp_rxq_info_user.c	/^static const char *__doc__ = " XDP RX-queue info extract example\\n\\n"$/;"	v	file:
+__doc_err_only__	xdp_monitor_user.c	/^static const char *__doc_err_only__=$/;"	v	file:
+__exit_with_error	xdpsock_user.c	/^static void __exit_with_error(int error, const char *file, const char *func,$/;"	f	file:
+__fill_garbage	test_lwt_bpf.c	/^static inline void __fill_garbage(struct __sk_buff *skb)$/;"	f	file:
+__list_add	test_lru_dist.c	/^static inline void __list_add(struct list_head *new,$/;"	f	file:
+__list_del	test_lru_dist.c	/^static inline void __list_del(struct list_head *prev, struct list_head *next)$/;"	f	file:
+__list_del_entry	test_lru_dist.c	/^static inline void __list_del_entry(struct list_head *entry)$/;"	f	file:
+__pad	xdp_monitor_kern.c	/^	u64 __pad;		\/\/ First 8 bytes are not accessible by bpf code$/;"	m	struct:cpumap_enqueue_ctx	file:
+__pad	xdp_monitor_kern.c	/^	u64 __pad;		\/\/ First 8 bytes are not accessible by bpf code$/;"	m	struct:cpumap_kthread_ctx	file:
+__pad	xdp_monitor_kern.c	/^	u64 __pad;		\/\/ First 8 bytes are not accessible by bpf code$/;"	m	struct:devmap_xmit_ctx	file:
+__pad	xdp_monitor_kern.c	/^	u64 __pad;		\/\/ First 8 bytes are not accessible by bpf code$/;"	m	struct:xdp_redirect_ctx	file:
+__pad	xdp_monitor_kern.c	/^	u64 __pad;	\/\/ First 8 bytes are not accessible by bpf code$/;"	m	struct:xdp_exception_ctx	file:
+__pad	xdp_redirect_cpu_kern.c	/^	u64 __pad;		\/\/ First 8 bytes are not accessible by bpf code$/;"	m	struct:cpumap_enqueue_ctx	file:
+__pad	xdp_redirect_cpu_kern.c	/^	u64 __pad;		\/\/ First 8 bytes are not accessible by bpf code$/;"	m	struct:cpumap_kthread_ctx	file:
+__pad	xdp_redirect_cpu_kern.c	/^	u64 __pad;	\/\/ First 8 bytes are not accessible by bpf code$/;"	m	struct:xdp_exception_ctx	file:
+__pad	xdp_redirect_cpu_kern.c	/^	u64 __pad;	\/\/ First 8 bytes are not accessible by bpf code$/;"	m	struct:xdp_redirect_ctx	file:
+__wsum	csum.h	/^typedef __u32 __wsum;$/;"	t
+_call_cmd	xdp2skb_meta.sh	/^function _call_cmd() {$/;"	f
+_clone_redirect_recv	tcbpf1_kern.c	/^int _clone_redirect_recv(struct __sk_buff *skb)$/;"	f
+_clone_redirect_xmit	tcbpf1_kern.c	/^int _clone_redirect_xmit(struct __sk_buff *skb)$/;"	f
+_drop_non_tun_vip	tc_l2_redirect_kern.c	/^int _drop_non_tun_vip(struct __sk_buff *skb)$/;"	f
+_hbm_out_cg	hbm_edt_kern.c	/^int _hbm_out_cg(struct __sk_buff *skb)$/;"	f
+_hbm_out_cg	hbm_out_kern.c	/^int _hbm_out_cg(struct __sk_buff *skb)$/;"	f
+_htonl	qos_kern.c	13;"	d	file:
+_htonl	tc_l2_redirect_kern.c	20;"	d	file:
+_htonl	tcbpf1_kern.c	13;"	d	file:
+_l2_to_ip6tun_ingress_redirect	tc_l2_redirect_kern.c	/^int _l2_to_ip6tun_ingress_redirect(struct __sk_buff *skb)$/;"	f
+_l2_to_iptun_ingress_forward	tc_l2_redirect_kern.c	/^int _l2_to_iptun_ingress_forward(struct __sk_buff *skb)$/;"	f
+_l2_to_iptun_ingress_redirect	tc_l2_redirect_kern.c	/^int _l2_to_iptun_ingress_redirect(struct __sk_buff *skb)$/;"	f
+_redirect_recv	tcbpf1_kern.c	/^int _redirect_recv(struct __sk_buff *skb)$/;"	f
+_redirect_xmit	tcbpf1_kern.c	/^int _redirect_xmit(struct __sk_buff *skb)$/;"	f
+_sockops	tcp_dumpstats_kern.c	/^int _sockops(struct bpf_sock_ops *ctx)$/;"	f
+_tc_mark	xdp2skb_meta_kern.c	/^int _tc_mark(struct __sk_buff *ctx)$/;"	f
+_xdp_icmp	xdp_adjust_tail_kern.c	/^int _xdp_icmp(struct xdp_md *xdp)$/;"	f
+_xdp_mark	xdp2skb_meta_kern.c	/^int _xdp_mark(struct xdp_md *ctx)$/;"	f
+_xdp_tx_iptunnel	xdp_tx_iptunnel_kern.c	/^int _xdp_tx_iptunnel(struct xdp_md *xdp)$/;"	f
+act	xdp_monitor_kern.c	/^	u32 act;		\/\/	offset:12  size:4; signed:0;$/;"	m	struct:xdp_redirect_ctx	file:
+act	xdp_monitor_kern.c	/^	u32 act;		\/\/	offset:12; size:4; signed:0;$/;"	m	struct:cpumap_enqueue_ctx	file:
+act	xdp_monitor_kern.c	/^	u32 act;		\/\/	offset:12; size:4; signed:0;$/;"	m	struct:cpumap_kthread_ctx	file:
+act	xdp_monitor_kern.c	/^	u32 act;		\/\/	offset:12; size:4; signed:0;$/;"	m	struct:devmap_xmit_ctx	file:
+act	xdp_monitor_kern.c	/^	u32 act;	\/\/	offset:12; size:4; signed:0;$/;"	m	struct:xdp_exception_ctx	file:
+act	xdp_redirect_cpu_kern.c	/^	u32 act;		\/\/	offset:12; size:4; signed:0;$/;"	m	struct:cpumap_enqueue_ctx	file:
+act	xdp_redirect_cpu_kern.c	/^	u32 act;		\/\/	offset:12; size:4; signed:0;$/;"	m	struct:cpumap_kthread_ctx	file:
+act	xdp_redirect_cpu_kern.c	/^	u32 act;	\/\/	offset:12  size:4; signed:0;$/;"	m	struct:xdp_redirect_ctx	file:
+act	xdp_redirect_cpu_kern.c	/^	u32 act;	\/\/	offset:12; size:4; signed:0;$/;"	m	struct:xdp_exception_ctx	file:
+action	xdp_rxq_info_kern.c	/^	__u32 action;$/;"	m	struct:config	file:
+action	xdp_rxq_info_user.c	/^	__u32 action;$/;"	m	struct:config	file:
+action2str	xdp_monitor_user.c	/^static const char *action2str(int action)$/;"	f	file:
+action2str	xdp_rxq_info_user.c	/^static const char *action2str(int action)$/;"	f	file:
+add_ip6ip6_tunnel	test_ipip.sh	/^function add_ip6ip6_tunnel {$/;"	f
+add_ipip6_tunnel	test_ipip.sh	/^function add_ipip6_tunnel {$/;"	f
+add_ipip_tunnel	test_ipip.sh	/^function add_ipip_tunnel {$/;"	f
+alloc_rec_per_cpu	xdp_monitor_user.c	/^static void *alloc_rec_per_cpu(int record_size)$/;"	f	file:
+alloc_record_per_cpu	xdp_redirect_cpu_user.c	/^static struct datarec *alloc_record_per_cpu(void)$/;"	f	file:
+alloc_record_per_cpu	xdp_rxq_info_user.c	/^static struct datarec *alloc_record_per_cpu(void)$/;"	f	file:
+alloc_record_per_rxq	xdp_rxq_info_user.c	/^static struct record *alloc_record_per_rxq(void)$/;"	f	file:
+alloc_stats_record	my_xdp_monitor_down_user.c	/^static struct stats_record *alloc_stats_record(void)$/;"	f	file:
+alloc_stats_record	my_xdp_monitor_user.c	/^static struct stats_record *alloc_stats_record(void)$/;"	f	file:
+alloc_stats_record	qos_user.c	/^static struct stats_record *alloc_stats_record(void)$/;"	f	file:
+alloc_stats_record	xdp_monitor_user.c	/^static struct stats_record *alloc_stats_record(void)$/;"	f	file:
+alloc_stats_record	xdp_redirect_cpu_user.c	/^static struct stats_record *alloc_stats_record(void)$/;"	f	file:
+alloc_stats_record	xdp_rxq_info_user.c	/^static struct stats_record *alloc_stats_record(void)$/;"	f	file:
+always	Makefile	/^always := $(hostprogs-y)$/;"	m
+arp	xdp_router_ipv4_kern.c	/^	struct arp_entry arp;$/;"	m	struct:direct_map	typeref:struct:direct_map::arp_entry	file:
+arp_entry	xdp_router_ipv4_kern.c	/^struct arp_entry {$/;"	s	file:
+arp_table_map_fd	xdp_router_ipv4_user.c	/^static int arp_table_map_fd;$/;"	v	file:
+array_fd	qos_user.c	/^static int array_fd = -1;$/;"	v	file:
+array_of_lru_hashs_idx	map_perf_test_user.c	/^static int array_of_lru_hashs_idx = -1;$/;"	v	file:
+asm_inline	asm_goto_workaround.h	23;"	d
+asm_inline	asm_goto_workaround.h	24;"	d
+asm_volatile_goto	asm_goto_workaround.h	13;"	d
+asm_volatile_goto	asm_goto_workaround.h	14;"	d
+attach_bpf	test_cgrp2_sock2.sh	/^function attach_bpf {$/;"	f
+attach_bpf	test_ipip.sh	/^function attach_bpf {$/;"	f
+attach_filter	test_cgrp2_attach.c	/^static int attach_filter(int cg_fd, int type, int verdict)$/;"	f	file:
+attach_tc_mark	xdp2skb_meta.sh	/^function attach_tc_mark()$/;"	f
+attach_xdp_mark	xdp2skb_meta.sh	/^function attach_xdp_mark()$/;"	f
+attr_id	ibumad_kern.c	/^	u16 attr_id;$/;"	m	struct:ib_umad_rw_args	file:
+attr_mod	ibumad_kern.c	/^	u32 attr_mod;$/;"	m	struct:ib_umad_rw_args	file:
+b32	xdp_router_ipv4_kern.c	/^	u32 b32[2];$/;"	m	union:key_4	file:
+b8	xdp_router_ipv4_kern.c	/^	u8 b8[8];$/;"	m	union:key_4	file:
+barrier	edt.h	48;"	d
+base_version	ibumad_kern.c	/^	u8 base_version;$/;"	m	struct:ib_umad_rw_args	file:
+benchmark_type	xdpsock_user.c	/^enum benchmark_type {$/;"	g	file:
+bpf_barrier	edt.h	/^static __always_inline void bpf_barrier(void)$/;"	f
+bpf_basertt	tcp_basertt_kern.c	/^int bpf_basertt(struct bpf_sock_ops *skops)$/;"	f
+bpf_basertt	tcp_tos_reflect_kern.c	/^int bpf_basertt(struct bpf_sock_ops *skops)$/;"	f
+bpf_bufs	tcp_bufs_kern.c	/^int bpf_bufs(struct bpf_sock_ops *skops)$/;"	f
+bpf_clamp	tcp_clamp_kern.c	/^int bpf_clamp(struct bpf_sock_ops *skops)$/;"	f
+bpf_cong	tcp_cong_kern.c	/^int bpf_cong(struct bpf_sock_ops *skops)$/;"	f
+bpf_debug	logger.h	11;"	d
+bpf_debug	logger.h	18;"	d
+bpf_do_map	fds_example.c	/^static int bpf_do_map(const char *file, uint32_t flags, uint32_t key,$/;"	f	file:
+bpf_do_prog	fds_example.c	/^static int bpf_do_prog(const char *file, uint32_t flags, const char *object)$/;"	f	file:
+bpf_elf_map	lwt_len_hist_kern.c	/^struct bpf_elf_map {$/;"	s	file:
+bpf_elf_map	qos_kern.c	/^struct bpf_elf_map {$/;"	s	file:
+bpf_elf_map	tc_l2_redirect_kern.c	/^struct bpf_elf_map {$/;"	s	file:
+bpf_elf_map	test_cgrp2_tc_kern.c	/^struct bpf_elf_map {$/;"	s	file:
+bpf_find_probe_type	task_fd_query_user.c	/^static int bpf_find_probe_type(const char *event_type)$/;"	f	file:
+bpf_get_retprobe_bit	task_fd_query_user.c	/^static int bpf_get_retprobe_bit(const char *event_type)$/;"	f	file:
+bpf_iw	tcp_iw_kern.c	/^int bpf_iw(struct bpf_sock_ops *skops)$/;"	f
+bpf_load_map_def	bpf_load.h	/^struct bpf_load_map_def {$/;"	s
+bpf_log_buf	bpf_load.c	/^char bpf_log_buf[BPF_LOG_BUF_SIZE];$/;"	v
+bpf_log_buf	lwt_len_hist_user.c	/^char bpf_log_buf[BPF_LOG_BUF_SIZE];$/;"	v
+bpf_log_buf	sock_example.c	/^char bpf_log_buf[BPF_LOG_BUF_SIZE];$/;"	v
+bpf_log_buf	test_cgrp2_attach.c	/^char bpf_log_buf[BPF_LOG_BUF_SIZE];$/;"	v
+bpf_log_buf	test_cgrp2_sock.c	/^char bpf_log_buf[BPF_LOG_BUF_SIZE];$/;"	v
+bpf_map_create	fds_example.c	/^static int bpf_map_create(void)$/;"	f	file:
+bpf_map_data	bpf_load.h	/^struct bpf_map_data {$/;"	s
+bpf_printk	hbm_kern.h	35;"	d
+bpf_printk	hbm_kern.h	36;"	d
+bpf_printk	ibumad_kern.c	35;"	d	file:
+bpf_printk	ibumad_kern.c	36;"	d	file:
+bpf_printk	my_xdp_monitor_down_kern.c	26;"	d	file:
+bpf_printk	my_xdp_monitor_kern.c	25;"	d	file:
+bpf_prog1	cpustat_kern.c	/^int bpf_prog1(struct cpu_args *ctx)$/;"	f
+bpf_prog1	lathist_kern.c	/^int bpf_prog1(struct pt_regs *ctx)$/;"	f
+bpf_prog1	sock_flags_kern.c	/^int bpf_prog1(struct bpf_sock *sk)$/;"	f
+bpf_prog1	sockex1_kern.c	/^int bpf_prog1(struct __sk_buff *skb)$/;"	f
+bpf_prog1	task_fd_query_kern.c	/^int bpf_prog1(struct pt_regs *ctx)$/;"	f
+bpf_prog1	tcbpf1_kern.c	/^int bpf_prog1(struct __sk_buff *skb)$/;"	f
+bpf_prog1	test_current_task_under_cgroup_kern.c	/^int bpf_prog1(struct pt_regs *ctx)$/;"	f
+bpf_prog1	test_probe_write_user_kern.c	/^int bpf_prog1(struct pt_regs *ctx)$/;"	f
+bpf_prog1	trace_event_kern.c	/^int bpf_prog1(struct bpf_perf_event_data *ctx)$/;"	f
+bpf_prog1	trace_output_kern.c	/^int bpf_prog1(struct pt_regs *ctx)$/;"	f
+bpf_prog1	tracex1_kern.c	/^int bpf_prog1(struct pt_regs *ctx)$/;"	f
+bpf_prog1	tracex3_kern.c	/^int bpf_prog1(struct pt_regs *ctx)$/;"	f
+bpf_prog1	tracex4_kern.c	/^int bpf_prog1(struct pt_regs *ctx)$/;"	f
+bpf_prog1	tracex5_kern.c	/^int bpf_prog1(struct pt_regs *ctx)$/;"	f
+bpf_prog1	tracex6_kern.c	/^int bpf_prog1(struct pt_regs *ctx)$/;"	f
+bpf_prog1	tracex7_kern.c	/^int bpf_prog1(struct pt_regs *ctx)$/;"	f
+bpf_prog2	cpustat_kern.c	/^int bpf_prog2(struct cpu_args *ctx)$/;"	f
+bpf_prog2	lathist_kern.c	/^int bpf_prog2(struct pt_regs *ctx)$/;"	f
+bpf_prog2	sock_flags_kern.c	/^int bpf_prog2(struct bpf_sock *sk)$/;"	f
+bpf_prog2	sockex2_kern.c	/^int bpf_prog2(struct __sk_buff *skb)$/;"	f
+bpf_prog2	task_fd_query_kern.c	/^int bpf_prog2(struct pt_regs *ctx)$/;"	f
+bpf_prog2	tracex2_kern.c	/^int bpf_prog2(struct pt_regs *ctx)$/;"	f
+bpf_prog2	tracex3_kern.c	/^int bpf_prog2(struct pt_regs *ctx)$/;"	f
+bpf_prog2	tracex4_kern.c	/^int bpf_prog2(struct pt_regs *ctx)$/;"	f
+bpf_prog2	tracex6_kern.c	/^int bpf_prog2(struct pt_regs *ctx)$/;"	f
+bpf_prog3	tracex2_kern.c	/^int bpf_prog3(struct pt_regs *ctx)$/;"	f
+bpf_prog_create	fds_example.c	/^static int bpf_prog_create(const char *object)$/;"	f	file:
+bpf_rwnd	tcp_rwnd_kern.c	/^int bpf_rwnd(struct bpf_sock_ops *skops)$/;"	f
+bpf_synrto	tcp_synrto_kern.c	/^int bpf_synrto(struct bpf_sock_ops *skops)$/;"	f
+bpfprog_fd	hbm.c	/^int bpfprog_fd;$/;"	v
+bps	edt.h	/^	__u64		bps;$/;"	m	struct:edt_info
+bps	maps.h	/^	__u64 bps;$/;"	m	struct:edt
+bps	qos_user.c	/^	__u64 bps;$/;"	m	struct:edt	file:
+buf	xdp_router_ipv4_user.c	/^char buf[8192];$/;"	v
+buffer	xdpsock_user.c	/^	void *buffer;$/;"	m	struct:xsk_umem_info	file:
+bytes	cookie_uid_helper_example.c	/^	uint64_t bytes;$/;"	m	struct:stats	file:
+bytes	sockex2_kern.c	/^	long bytes;$/;"	m	struct:pair	file:
+bytes	sockex2_user.c	/^	__u64 bytes;$/;"	m	struct:pair	file:
+bytes	sockex3_kern.c	/^	__u64 bytes;$/;"	m	struct:pair	file:
+bytes	sockex3_user.c	/^	__u64 bytes;$/;"	m	struct:pair	file:
+bytes_dropped	hbm.h	/^	unsigned long long bytes_dropped;$/;"	m	struct:hbm_queue_stats
+bytes_marked	hbm.h	/^	unsigned long long bytes_marked;$/;"	m	struct:hbm_queue_stats
+bytes_total	hbm.h	/^	unsigned long long bytes_total;$/;"	m	struct:hbm_queue_stats
+calGtpKey	my_xdp_monitor_down_kern.c	/^static inline u32 calGtpKey(struct iphdr *ip,void *data_end){$/;"	f	file:
+calGtpKey	my_xdp_monitor_kern.c	/^static inline struct xdpkey *calGtpKey(struct udphdr *udph, void *data_end, struct xdpkey *key)$/;"	f	file:
+calGtpKey	upf_kern.c	/^static inline struct xdpkey *calGtpKey(struct udphdr *udph, void *data_end, struct xdpkey *key)$/;"	f	file:
+cal_cpuoccupy	linux_resource.c	/^double cal_cpuoccupy(CPU_OCCUPY *o, CPU_OCCUPY *n)$/;"	f
+calc_drop	xdp_monitor_user.c	/^static double calc_drop(struct datarec *r, struct datarec *p, double period)$/;"	f	file:
+calc_drop_pps	xdp_redirect_cpu_user.c	/^static __u64 calc_drop_pps(struct datarec *r, struct datarec *p, double period_)$/;"	f	file:
+calc_err	xdp_monitor_user.c	/^static double calc_err(struct datarec *r, struct datarec *p, double period)$/;"	f	file:
+calc_errs_pps	xdp_redirect_cpu_user.c	/^static __u64 calc_errs_pps(struct datarec *r,$/;"	f	file:
+calc_errs_pps	xdp_rxq_info_user.c	/^static __u64 calc_errs_pps(struct datarec *r,$/;"	f	file:
+calc_info	xdp_monitor_user.c	/^static double calc_info(struct datarec *r, struct datarec *p, double period)$/;"	f	file:
+calc_period	xdp_monitor_user.c	/^static double calc_period(struct record *r, struct record *p)$/;"	f	file:
+calc_period	xdp_redirect_cpu_user.c	/^static double calc_period(struct record *r, struct record *p)$/;"	f	file:
+calc_period	xdp_rxq_info_user.c	/^static double calc_period(struct record *r, struct record *p)$/;"	f	file:
+calc_period_u64	xdp_monitor_user.c	/^static double calc_period_u64(struct record_u64 *r, struct record_u64 *p)$/;"	f	file:
+calc_pps	xdp_monitor_user.c	/^static double calc_pps(struct datarec *r, struct datarec *p, double period)$/;"	f	file:
+calc_pps	xdp_redirect_cpu_user.c	/^static __u64 calc_pps(struct datarec *r, struct datarec *p, double period_)$/;"	f	file:
+calc_pps	xdp_rxq_info_user.c	/^static __u64 calc_pps(struct datarec *r, struct datarec *p, double period_)$/;"	f	file:
+calc_pps_u64	xdp_monitor_user.c	/^static double calc_pps_u64(struct u64rec *r, struct u64rec *p, double period)$/;"	f	file:
+call_ip	xdp2skb_meta.sh	/^function call_ip() {$/;"	f
+call_tc	xdp2skb_meta.sh	/^function call_tc() {$/;"	f
+call_tc_allow_fail	xdp2skb_meta.sh	/^function call_tc_allow_fail() {$/;"	f
+cfg_options_flags	xdp_rxq_info_kern.c	/^enum cfg_options_flags {$/;"	g	file:
+cfg_options_flags	xdp_rxq_info_user.c	/^enum cfg_options_flags {$/;"	g	file:
+cgroup_storage_fd	hbm.c	/^int cgroup_storage_fd;$/;"	v
+ch	upf.h	/^  u8 ch : 1;$/;"	m	struct:fteid
+check_map_id	test_map_in_map_user.c	/^static void check_map_id(int inner_map_fd, int map_in_map_fd, uint32_t key)$/;"	f	file:
+check_on_cpu	tracex6_user.c	/^static void check_on_cpu(int cpu, struct perf_event_attr *attr)$/;"	f	file:
+check_sock	test_cgrp2_sock.sh	/^check_sock()$/;"	f
+check_sock6	test_cgrp2_sock.sh	/^check_sock6()$/;"	f
+check_test_flags	map_perf_test_user.c	/^static int check_test_flags(enum test_type t)$/;"	f	file:
+chid	upf.h	/^  u8 chid : 1;$/;"	m	struct:fteid
+choose_id	upf.h	/^  u8 choose_id;$/;"	m	struct:fteid
+class_specific	ibumad_kern.c	/^	u16 class_specific;$/;"	m	struct:ib_umad_rw_args	file:
+class_version	ibumad_kern.c	/^	u8 class_version;$/;"	m	struct:ib_umad_rw_args	file:
+cleanup	lwt_len_hist.sh	/^function cleanup {$/;"	f
+cleanup	tc_l2_redirect.sh	/^function cleanup {$/;"	f
+cleanup	test_cgrp2_sock.sh	/^cleanup()$/;"	f
+cleanup	test_cgrp2_sock2.sh	/^function cleanup {$/;"	f
+cleanup	test_ipip.sh	/^function cleanup {$/;"	f
+cleanup	test_lwt_bpf.sh	/^function cleanup {$/;"	f
+cleanup_and_exit	test_cgrp2_sock.sh	/^cleanup_and_exit()$/;"	f
+cleanup_routes	test_lwt_bpf.sh	/^function cleanup_routes {$/;"	f
+clear_stats	tracex3_user.c	/^static void clear_stats(int fd)$/;"	f	file:
+closeMysql	linux_resource.c	/^void closeMysql(MYSQL *connect)$/;"	f
+close_and_exit	xdp_router_ipv4_user.c	/^static void close_and_exit(int sig)$/;"	f	file:
+cmp_symbols	bpf_load.c	/^static int cmp_symbols(const void *l, const void *r)$/;"	f	file:
+cnt	trace_output_user.c	/^static __u64 cnt;$/;"	v	file:
+collection_process	my_xdp_monitor_down_kern.c	/^static inline void collection_process(u32 key)$/;"	f	file:
+collection_process	my_xdp_monitor_kern.c	/^static inline void collection_process(struct xdpkey *key)$/;"	f	file:
+collection_process	upf_kern.c	/^static inline void collection_process(struct xdpkey *key)$/;"	f	file:
+color	tracex3_user.c	/^const char *color[] = {$/;"	v
+comm	trace_event_kern.c	/^	char comm[TASK_COMM_LEN];$/;"	m	struct:key_t	file:
+comm	trace_event_user.c	/^	char comm[TASK_COMM_LEN];$/;"	m	struct:key_t	file:
+comm	tracex2_kern.c	/^	char comm[16];$/;"	m	struct:hist_key	file:
+comm	tracex2_user.c	/^	char comm[16];$/;"	m	struct:task	file:
+complete_tx_l2fwd	xdpsock_user.c	/^static inline void complete_tx_l2fwd(struct xsk_socket_info *xsk,$/;"	f	file:
+complete_tx_only	xdpsock_user.c	/^static inline void complete_tx_only(struct xsk_socket_info *xsk)$/;"	f	file:
+config	xdp_rxq_info_kern.c	/^struct config {$/;"	s	file:
+config	xdp_rxq_info_user.c	/^struct config {$/;"	s	file:
+config_cgroup	test_cgrp2_sock2.sh	/^function config_cgroup {$/;"	f
+config_common	tc_l2_redirect.sh	/^function config_common {$/;"	f
+config_device	test_cgrp2_sock2.sh	/^function config_device {$/;"	f
+config_device	test_ipip.sh	/^function config_device {$/;"	f
+container_of	test_lru_dist.c	28;"	d	file:
+count	sampleip_user.c	/^	__u32 count;$/;"	m	struct:ipcount	file:
+count	syscall_tp_kern.c	/^static __always_inline void count(void *map)$/;"	f	file:
+count_cmp	sampleip_user.c	/^static int count_cmp(const void *p1, const void *p2)$/;"	f	file:
+count_icmp	xdp_adjust_tail_kern.c	/^static __always_inline void count_icmp(void)$/;"	f	file:
+count_tx	xdp_tx_iptunnel_kern.c	/^static __always_inline void count_tx(u32 protocol)$/;"	f	file:
+counts	sampleip_user.c	/^struct ipcount counts[MAX_IPS];$/;"	v	typeref:struct:ipcount
+cpu	xdp_monitor_kern.c	/^	int cpu;		\/\/	offset:16; size:4; signed:1;$/;"	m	struct:cpumap_enqueue_ctx	file:
+cpu	xdp_monitor_kern.c	/^	int cpu;		\/\/	offset:16; size:4; signed:1;$/;"	m	struct:cpumap_kthread_ctx	file:
+cpu	xdp_monitor_user.c	/^	struct datarec *cpu;$/;"	m	struct:record	typeref:struct:record::datarec	file:
+cpu	xdp_monitor_user.c	/^	struct u64rec *cpu;$/;"	m	struct:record_u64	typeref:struct:record_u64::u64rec	file:
+cpu	xdp_redirect_cpu_kern.c	/^	int cpu;		\/\/	offset:16; size:4; signed:1;$/;"	m	struct:cpumap_enqueue_ctx	file:
+cpu	xdp_redirect_cpu_kern.c	/^	int cpu;		\/\/	offset:16; size:4; signed:1;$/;"	m	struct:cpumap_kthread_ctx	file:
+cpu	xdp_redirect_cpu_user.c	/^	struct datarec *cpu;$/;"	m	struct:record	typeref:struct:record::datarec	file:
+cpu	xdp_rxq_info_user.c	/^	struct datarec *cpu;$/;"	m	struct:record	typeref:struct:record::datarec	file:
+cpu_args	cpustat_kern.c	/^struct cpu_args {$/;"	s	file:
+cpu_hist	lathist_user.c	/^static struct cpu_hist cpu_hist[MAX_CPU];$/;"	v	typeref:struct:cpu_hist	file:
+cpu_hist	lathist_user.c	/^struct cpu_hist {$/;"	s	file:
+cpu_id	cpustat_kern.c	/^	u32 cpu_id;$/;"	m	struct:cpu_args	file:
+cpu_map_fd	xdp_redirect_cpu_user.c	/^static int cpu_map_fd;$/;"	v	file:
+cpu_opps	cpustat_kern.c	/^static int cpu_opps[] = { 208000, 432000, 729000, 960000, 1200000 };$/;"	v	file:
+cpu_stat_data	cpustat_user.c	/^struct cpu_stat_data {$/;"	s	file:
+cpu_stat_inject_cpu_frequency_event	cpustat_user.c	/^static int cpu_stat_inject_cpu_frequency_event(void)$/;"	f	file:
+cpu_stat_inject_cpu_idle_event	cpustat_user.c	/^static int cpu_stat_inject_cpu_idle_event(void)$/;"	f	file:
+cpu_stat_print	cpustat_user.c	/^static void cpu_stat_print(void)$/;"	f	file:
+cpu_stat_update	cpustat_user.c	/^static void cpu_stat_update(int cstate_fd, int pstate_fd)$/;"	f	file:
+cpumap_enqueue_cnt_map_fd	xdp_redirect_cpu_user.c	/^static int cpumap_enqueue_cnt_map_fd;$/;"	v	file:
+cpumap_enqueue_ctx	xdp_monitor_kern.c	/^struct cpumap_enqueue_ctx {$/;"	s	file:
+cpumap_enqueue_ctx	xdp_redirect_cpu_kern.c	/^struct cpumap_enqueue_ctx {$/;"	s	file:
+cpumap_kthread_cnt_map_fd	xdp_redirect_cpu_user.c	/^static int cpumap_kthread_cnt_map_fd;$/;"	v	file:
+cpumap_kthread_ctx	xdp_monitor_kern.c	/^struct cpumap_kthread_ctx {$/;"	s	file:
+cpumap_kthread_ctx	xdp_redirect_cpu_kern.c	/^struct cpumap_kthread_ctx {$/;"	s	file:
+cpus_available_map_fd	xdp_redirect_cpu_user.c	/^static int cpus_available_map_fd;$/;"	v	file:
+cpus_count_map_fd	xdp_redirect_cpu_user.c	/^static int cpus_count_map_fd;$/;"	v	file:
+cpus_iterator_map_fd	xdp_redirect_cpu_user.c	/^static int cpus_iterator_map_fd;$/;"	v	file:
+cq	xdpsock_user.c	/^	struct xsk_ring_cons cq;$/;"	m	struct:xsk_umem_info	typeref:struct:xsk_umem_info::xsk_ring_cons	file:
+create_cpu_entry	xdp_redirect_cpu_user.c	/^static int create_cpu_entry(__u32 cpu, __u32 queue_size,$/;"	f	file:
+create_map	test_lru_dist.c	/^static int create_map(int map_type, int map_flags, unsigned int size)$/;"	f	file:
+credit	hbm.h	/^	int credit;			\/* In bytes *\/$/;"	m	struct:hbm_vqueue
+cstate	cpustat_user.c	/^	unsigned long cstate[MAX_CSTATE_ENTRIES];$/;"	m	struct:cpu_stat_data	file:
+csum_add	csum.h	/^static __always_inline __wsum csum_add(__wsum csum, __wsum addend)$/;"	f
+csum_fold	csum.h	/^static __always_inline __sum16 csum_fold(__wsum csum)$/;"	f
+csum_fold_helper	upf_kern.c	/^static __always_inline __u16 csum_fold_helper(__u32 csum)$/;"	f	file:
+csum_fold_helper	xdp_adjust_tail_kern.c	/^static __always_inline __u16 csum_fold_helper(__u32 csum)$/;"	f	file:
+csum_unfold	csum.h	/^static __always_inline __wsum csum_unfold(__sum16 csum)$/;"	f
+ctx_data	edt.h	/^static __always_inline void *ctx_data(const struct __ctx_buff *ctx)$/;"	f
+ctx_data_end	edt.h	/^static __always_inline void *ctx_data_end(const struct __ctx_buff *ctx)$/;"	f
+ctx_data_meta	edt.h	/^static __always_inline void *ctx_data_meta(const struct __ctx_buff *ctx)$/;"	f
+ctx_wire_len	edt.h	/^ctx_wire_len(const struct __sk_buff *ctx)$/;"	f
+cur_size	test_lru_dist.c	/^	unsigned int cur_size;$/;"	m	struct:pfect_lru	file:
+cwnd	hbm_kern.h	/^	int	cwnd;$/;"	m	struct:hbm_pkt_info
+daddr	xdp_tx_iptunnel_common.h	/^	} daddr;$/;"	m	struct:iptnl_info	typeref:union:iptnl_info::__anon17
+daddr	xdp_tx_iptunnel_common.h	/^	} daddr;$/;"	m	struct:vip	typeref:union:vip::__anon15
+data	lathist_user.c	/^	long data[MAX_ENTRIES];$/;"	m	struct:cpu_hist	file:
+datarec	xdp_monitor_kern.c	/^struct datarec {$/;"	s	file:
+datarec	xdp_monitor_user.c	/^struct datarec {$/;"	s	file:
+datarec	xdp_redirect_cpu_kern.c	/^struct datarec {$/;"	s	file:
+datarec	xdp_redirect_cpu_user.c	/^struct datarec {$/;"	s	file:
+datarec	xdp_rxq_info_kern.c	/^struct datarec {$/;"	s	file:
+datarec	xdp_rxq_info_user.c	/^struct datarec {$/;"	s	file:
+debug	xdp_monitor_user.c	/^static bool debug = false;$/;"	v	file:
+debugFlag	hbm.c	/^bool debugFlag;$/;"	v
+def	bpf_load.h	/^	struct bpf_load_map_def def;$/;"	m	struct:bpf_map_data	typeref:struct:bpf_map_data::bpf_load_map_def
+des_ip	maps.h	/^    __u32 des_ip;$/;"	m	struct:pdrs
+des_ip	maps.h	/^    __u32 des_ip;$/;"	m	struct:psa_gtpu
+des_ip	qos_user.c	/^    __u32 des_ip;$/;"	m	struct:pdrs	file:
+des_ip	qos_user.c	/^    __u32 des_ip;$/;"	m	struct:psa_gtpu	file:
+des_mac	maps.h	/^    __u8 des_mac[ETH_ALEN];$/;"	m	struct:pdrs
+des_mac	maps.h	/^    __u8 des_mac[ETH_ALEN];$/;"	m	struct:psa_gtpu
+des_mac	qos_user.c	/^    __u8 des_mac[ETH_ALEN];$/;"	m	struct:pdrs	file:
+des_mac	qos_user.c	/^    __u8 des_mac[ETH_ALEN];$/;"	m	struct:psa_gtpu	file:
+destination_interface_value_e	upf.h	/^enum destination_interface_value_e$/;"	g
+dev_index	ibumad_kern.c	/^	u32 dev_index;$/;"	m	struct:ib_umad_rw_args	file:
+devmap_xmit_ctx	xdp_monitor_kern.c	/^struct devmap_xmit_ctx {$/;"	s	file:
+direct_map	xdp_router_ipv4_kern.c	/^struct direct_map {$/;"	s	file:
+dist_key_counts	test_lru_dist.c	/^static unsigned int dist_key_counts;$/;"	v	file:
+dist_keys	test_lru_dist.c	/^static unsigned long long *dist_keys;$/;"	v	file:
+dmac	xdp_tx_iptunnel_common.h	/^	__u8 dmac[6];$/;"	m	struct:iptnl_info
+do_attach	qos_user.c	/^static int do_attach(int ifindex, int prog_fd)$/;"	f	file:
+do_attach	xdp_fwd_user.c	/^static int do_attach(int idx, int prog_fd, int map_fd, const char *name)$/;"	f	file:
+do_attach	xdp_sample_pkts_user.c	/^static int do_attach(int idx, int fd, const char *name)$/;"	f	file:
+do_detach	xdp_fwd_user.c	/^static int do_detach(int idx, const char *name)$/;"	f	file:
+do_detach	xdp_sample_pkts_user.c	/^static int do_detach(int idx, const char *name)$/;"	f	file:
+do_drop_all	test_lwt_bpf.c	/^int do_drop_all(struct __sk_buff *skb)$/;"	f
+do_error	hbm.c	/^static void do_error(char *msg, bool errno_flag)$/;"	f	file:
+do_exit	test_cgrp2_tc.sh	/^do_exit() {$/;"	f
+do_fill_garbage	test_lwt_bpf.c	/^int do_fill_garbage(struct __sk_buff *skb)$/;"	f
+do_fill_garbage_and_redirect	test_lwt_bpf.c	/^int do_fill_garbage_and_redirect(struct __sk_buff *skb)$/;"	f
+do_inline_array_lookup	test_map_in_map_kern.c	/^static __always_inline int do_inline_array_lookup(void *inner_map, u32 port)$/;"	f	file:
+do_inline_hash_lookup	test_map_in_map_kern.c	/^static __always_inline int do_inline_hash_lookup(void *inner_map, u32 port)$/;"	f	file:
+do_len_hist	lwt_len_hist_kern.c	/^int do_len_hist(struct __sk_buff *skb)$/;"	f
+do_load_bpf_file	bpf_load.c	/^static int do_load_bpf_file(const char *path, fixup_map_cb fixup_map)$/;"	f	file:
+do_nop	test_lwt_bpf.c	/^int do_nop(struct __sk_buff *skb)$/;"	f
+do_push_ll_and_redirect	test_lwt_bpf.c	/^int do_push_ll_and_redirect(struct __sk_buff *skb)$/;"	f
+do_push_ll_and_redirect_silent	test_lwt_bpf.c	/^int do_push_ll_and_redirect_silent(struct __sk_buff *skb)$/;"	f
+do_reg_lookup	test_map_in_map_kern.c	/^static __always_inline int do_reg_lookup(void *inner_map, u32 port)$/;"	f	file:
+do_sample	sampleip_kern.c	/^int do_sample(struct bpf_perf_event_data *ctx)$/;"	f
+do_test	test_cgrp2_tc.sh	/^do_test() {$/;"	f
+do_test_cb	test_lwt_bpf.c	/^int do_test_cb(struct __sk_buff *skb)$/;"	f
+do_test_ctx	test_lwt_bpf.c	/^int do_test_ctx(struct __sk_buff *skb)$/;"	f
+do_test_data	test_lwt_bpf.c	/^int do_test_data(struct __sk_buff *skb)$/;"	f
+do_test_lru	map_perf_test_user.c	/^static void do_test_lru(enum test_type test, int cpu)$/;"	f	file:
+do_test_lru_dist	test_lru_dist.c	/^static void do_test_lru_dist(int task, void *data)$/;"	f	file:
+do_test_parallel_lru_loss	test_lru_dist.c	/^static void do_test_parallel_lru_loss(int task, void *data)$/;"	f	file:
+do_test_rewrite	test_lwt_bpf.c	/^int do_test_rewrite(struct __sk_buff *skb)$/;"	f
+downlink	upf_kern.c	23;"	d	file:
+dport	xdp_tx_iptunnel_common.h	/^	__u16 dport;$/;"	m	struct:vip
+dropped	xdp_monitor_kern.c	/^	u64 dropped;$/;"	m	struct:datarec	file:
+dropped	xdp_monitor_user.c	/^	__u64 dropped;$/;"	m	struct:datarec	file:
+dropped	xdp_redirect_cpu_kern.c	/^	__u64 dropped;$/;"	m	struct:datarec	file:
+dropped	xdp_redirect_cpu_user.c	/^	__u64 dropped;$/;"	m	struct:datarec	file:
+drops	xdp_monitor_kern.c	/^	int drops;		\/\/	offset:20; size:4; signed:1;$/;"	m	struct:devmap_xmit_ctx	file:
+drops	xdp_monitor_kern.c	/^	unsigned int drops;	\/\/	offset:20; size:4; signed:0;$/;"	m	struct:cpumap_enqueue_ctx	file:
+drops	xdp_monitor_kern.c	/^	unsigned int drops;	\/\/	offset:20; size:4; signed:0;$/;"	m	struct:cpumap_kthread_ctx	file:
+drops	xdp_redirect_cpu_kern.c	/^	unsigned int drops;	\/\/	offset:20; size:4; signed:0;$/;"	m	struct:cpumap_enqueue_ctx	file:
+drops	xdp_redirect_cpu_kern.c	/^	unsigned int drops;	\/\/	offset:20; size:4; signed:0;$/;"	m	struct:cpumap_kthread_ctx	file:
+dst	sockex2_kern.c	/^	__be32 dst;$/;"	m	struct:flow_key_record	file:
+dst	sockex3_kern.c	/^	__be32 dst;$/;"	m	struct:flow_key_record	file:
+dst	sockex3_user.c	/^	__be32 dst;$/;"	m	struct:flow_key_record	file:
+dst	xdp_router_ipv4_kern.c	/^	__be32 dst;$/;"	m	struct:arp_entry	file:
+dummy_prog_id	xdp_redirect_map_user.c	/^static __u32 dummy_prog_id;$/;"	v	file:
+dummy_prog_id	xdp_redirect_user.c	/^static __u32 dummy_prog_id;$/;"	v	file:
+dump_all_counts	ibumad_user.c	/^static void dump_all_counts(void)$/;"	f	file:
+dump_counts	ibumad_user.c	/^static void dump_counts(int fd)$/;"	f	file:
+dump_exit	ibumad_user.c	/^static void dump_exit(int sig)$/;"	f	file:
+dump_stats	xdpsock_user.c	/^static void dump_stats(void)$/;"	f	file:
+dur	hbm.c	/^int dur = 1;$/;"	v
+e	upf.h	/^  unsigned int e : 1;$/;"	m	struct:gtpuhdr
+e	upf.h	/^unsigned int e : 1;$/;"	m	struct:gtpuhdr_down
+ecn	hbm_kern.h	/^	short	ecn;$/;"	m	struct:hbm_pkt_info
+edt	maps.h	/^struct edt {$/;"	s
+edt	qos_user.c	/^struct edt {$/;"	s	file:
+edt_flag	hbm.c	/^bool edt_flag;$/;"	v
+edt_get_aggregate	edt.h	/^static __always_inline __u32 edt_get_aggregate(struct __ctx_buff *ctx)$/;"	f
+edt_id	edt.h	/^struct edt_id {$/;"	s
+edt_info	edt.h	/^struct edt_info {$/;"	s
+edt_sched_departure	qos_kern.c	/^static __always_inline int edt_sched_departure(struct __ctx_buff *ctx)$/;"	f	file:
+edt_set_aggregate	edt.h	/^static __always_inline void edt_set_aggregate(struct __ctx_buff *ctx,$/;"	f
+elf_offset	bpf_load.h	/^	size_t elf_offset;$/;"	m	struct:bpf_map_data
+enq	xdp_redirect_cpu_user.c	/^	struct record enq[MAX_CPUS];$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+err	xdp2skb_meta.sh	/^function err() {$/;"	f
+err	xdp_monitor_kern.c	/^	int err;		\/\/	offset:20  size:4; signed:1;$/;"	m	struct:xdp_redirect_ctx	file:
+err	xdp_monitor_kern.c	/^	int err;		\/\/	offset:36; size:4; signed:1;$/;"	m	struct:devmap_xmit_ctx	file:
+err	xdp_monitor_kern.c	/^	u64 err;$/;"	m	struct:datarec	file:
+err	xdp_monitor_user.c	/^	__u64 err;$/;"	m	struct:datarec	file:
+err	xdp_redirect_cpu_kern.c	/^	int err;	\/\/	offset:20  size:4; signed:1;$/;"	m	struct:xdp_redirect_ctx	file:
+err2str	xdp_monitor_user.c	/^static const char *err2str(int err)$/;"	f	file:
+eth_handle	upf_kern.c	/^static u32 eth_handle(struct xdp_md *ctx, struct ethhdr *ethh)$/;"	f	file:
+eth_hdr	parse_simple.c	/^struct eth_hdr {$/;"	s	file:
+eth_hdr	tc_l2_redirect_kern.c	/^struct eth_hdr {$/;"	s	file:
+eth_hdr	test_cgrp2_tc_kern.c	/^struct eth_hdr {$/;"	s	file:
+event_fd	bpf_load.c	/^int event_fd[MAX_PROGS];$/;"	v
+exact_match_map_fd	xdp_router_ipv4_user.c	/^static int exact_match_map_fd;$/;"	v	file:
+exception	xdp_redirect_cpu_user.c	/^	struct record exception;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+exception_cnt_map_fd	xdp_redirect_cpu_user.c	/^static int exception_cnt_map_fd;$/;"	v	file:
+exit_with_error	xdpsock_user.c	220;"	d	file:
+expect_fail	test_lwt_bpf.sh	/^function expect_fail {$/;"	f
+failure	test_lwt_bpf.sh	/^function failure {$/;"	f
+family	xdp_tx_iptunnel_common.h	/^	__u16 family;$/;"	m	struct:iptnl_info
+family	xdp_tx_iptunnel_common.h	/^	__u16 family;$/;"	m	struct:vip
+fd	bpf_load.h	/^	int fd;$/;"	m	struct:bpf_map_data
+filename_ptr	syscall_tp_kern.c	/^	long filename_ptr;$/;"	m	struct:syscalls_enter_open_args	file:
+fill_lpm_trie	map_perf_test_user.c	/^static void fill_lpm_trie(void)$/;"	f	file:
+filter_trace	test_lwt_bpf.sh	/^function filter_trace {$/;"	f
+find_cpu_pstate_idx	cpustat_kern.c	/^static u32 find_cpu_pstate_idx(u32 frequency)$/;"	f	file:
+find_mnt	test_cgrp2_tc.sh	/^find_mnt() {$/;"	f
+finish	cookie_uid_helper_example.c	/^static void finish(int ret)$/;"	f	file:
+firstPacketTime	hbm.h	/^	unsigned long long firstPacketTime;$/;"	m	struct:hbm_queue_stats
+fixup_map	map_perf_test_user.c	/^static void fixup_map(struct bpf_map_data *map, int idx)$/;"	f	file:
+fixup_map_cb	bpf_load.h	/^typedef void (*fixup_map_cb)(struct bpf_map_data *map, int idx);$/;"	t
+flags	lwt_len_hist_kern.c	/^	__u32 flags;$/;"	m	struct:bpf_elf_map	file:
+flags	qos_kern.c	/^	__u32 flags;$/;"	m	struct:bpf_elf_map	file:
+flags	syscall_tp_kern.c	/^	long flags;$/;"	m	struct:syscalls_enter_open_args	file:
+flags	tc_l2_redirect_kern.c	/^	__u32 flags;$/;"	m	struct:bpf_elf_map	file:
+flags	test_cgrp2_tc_kern.c	/^	__u32 flags;$/;"	m	struct:bpf_elf_map	file:
+flags	xdp_router_ipv4_user.c	/^int sock, sock_arp, flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v
+flow	sockex3_kern.c	/^	struct flow_key_record flow;$/;"	m	struct:globals	typeref:struct:globals::flow_key_record	file:
+flow_dissector	sockex2_kern.c	/^static inline bool flow_dissector(struct __sk_buff *skb,$/;"	f	file:
+flow_key_record	sockex2_kern.c	/^struct flow_key_record {$/;"	s	file:
+flow_key_record	sockex3_kern.c	/^struct flow_key_record {$/;"	s	file:
+flow_key_record	sockex3_user.c	/^struct flow_key_record {$/;"	s	file:
+flow_label	ibumad_kern.c	/^	u32 flow_label;$/;"	m	struct:ib_umad_rw_args	file:
+flush_tc	xdp2skb_meta.sh	/^function flush_tc()$/;"	f
+flush_xdp	xdp2skb_meta.sh	/^function flush_xdp()$/;"	f
+fq	xdpsock_user.c	/^	struct xsk_ring_prod fq;$/;"	m	struct:xsk_umem_info	typeref:struct:xsk_umem_info::xsk_ring_prod	file:
+free_nodes	test_lru_dist.c	/^	struct pfect_lru_node *free_nodes;$/;"	m	struct:pfect_lru	typeref:struct:pfect_lru::pfect_lru_node	file:
+free_stats_record	my_xdp_monitor_down_user.c	/^static void free_stats_record(struct stats_record *r)$/;"	f	file:
+free_stats_record	my_xdp_monitor_user.c	/^static void free_stats_record(struct stats_record *r)$/;"	f	file:
+free_stats_record	qos_user.c	/^static void free_stats_record(struct stats_record *r)$/;"	f	file:
+free_stats_record	xdp_monitor_user.c	/^static void free_stats_record(struct stats_record *r)$/;"	f	file:
+free_stats_record	xdp_redirect_cpu_user.c	/^static void free_stats_record(struct stats_record *r)$/;"	f	file:
+free_stats_record	xdp_rxq_info_user.c	/^static void free_stats_record(struct stats_record *r)$/;"	f	file:
+from_ifindex	xdp_monitor_kern.c	/^	int from_ifindex;	\/\/	offset:28; size:4; signed:1;$/;"	m	struct:devmap_xmit_ctx	file:
+fteid	upf.h	/^typedef struct fteid$/;"	s
+fteid_t	upf.h	/^}fteid_t;$/;"	t	typeref:struct:fteid
+fteit	upf.h	/^  fteid_t fteit;$/;"	m	struct:pdi
+full_range	tracex3_user.c	/^bool full_range = false;$/;"	v
+gen_eth_frame	xdpsock_user.c	/^static size_t gen_eth_frame(struct xsk_umem_info *umem, u64 addr)$/;"	f	file:
+generate_load	trace_event_user.c	/^static inline int generate_load(void)$/;"	f	file:
+get16bits	hash_func01.h	7;"	d
+getCpuRate	linux_resource.c	/^double getCpuRate(void)$/;"	f
+get_arp_table	xdp_router_ipv4_user.c	/^static int get_arp_table(int rtm_family)$/;"	f	file:
+get_bind_to_device	test_cgrp2_sock.c	/^static int get_bind_to_device(int sd, char *name, size_t len)$/;"	f	file:
+get_cpuoccupy	linux_resource.c	/^void get_cpuoccupy(CPU_OCCUPY *cpust)$/;"	f
+get_data	lathist_user.c	/^static void get_data(int fd)$/;"	f	file:
+get_dest_port_ipv4_udp	xdp_redirect_cpu_kern.c	/^u16 get_dest_port_ipv4_udp(struct xdp_md *ctx, u64 nh_off)$/;"	f	file:
+get_devmem	linux_resource.c	/^DEV_MEM *get_devmem(void) \/\/ get hard disk meeeage$/;"	f
+get_dport	xdp_tx_iptunnel_kern.c	/^static __always_inline int get_dport(void *trans_data, void *data_end,$/;"	f	file:
+get_ipv4_hash_ip_pair	xdp_redirect_cpu_kern.c	/^u32 get_ipv4_hash_ip_pair(struct xdp_md *ctx, u64 nh_off)$/;"	f	file:
+get_ipv6_hash_ip_pair	xdp_redirect_cpu_kern.c	/^u32 get_ipv6_hash_ip_pair(struct xdp_md *ctx, u64 nh_off)$/;"	f	file:
+get_memoccupy	linux_resource.c	/^MEM_PACK *get_memoccupy(void) \/\/ get RAM message$/;"	f
+get_nsecs	xdpsock_user.c	/^static unsigned long get_nsecs(void)$/;"	f	file:
+get_priority	test_cgrp2_sock.c	/^static unsigned int get_priority(int sd)$/;"	f	file:
+get_proto_ipv4	xdp_redirect_cpu_kern.c	/^int get_proto_ipv4(struct xdp_md *ctx, u64 nh_off)$/;"	f	file:
+get_proto_ipv6	xdp_redirect_cpu_kern.c	/^int get_proto_ipv6(struct xdp_md *ctx, u64 nh_off)$/;"	f	file:
+get_route_table	xdp_router_ipv4_user.c	/^static int get_route_table(int rtm_family)$/;"	f	file:
+get_sec	bpf_load.c	/^static int get_sec(Elf *elf, int i, GElf_Ehdr *ehdr, char **shname,$/;"	f	file:
+get_somark	test_cgrp2_sock.c	/^static unsigned int get_somark(int sd)$/;"	f	file:
+get_tcp_info	hbm_kern.h	/^static int get_tcp_info(struct __sk_buff *skb, struct hbm_pkt_info *pkti)$/;"	f
+get_trace	test_lwt_bpf.sh	/^function get_trace {$/;"	f
+getmac	xdp_router_ipv4_user.c	/^static __be64 getmac(char *iface)$/;"	f	file:
+gettime	my_xdp_monitor_down_user.c	/^static __u64 gettime(void)$/;"	f	file:
+gettime	my_xdp_monitor_user.c	/^static __u64 gettime(void)$/;"	f	file:
+gettime	qos_user.c	/^static __u64 gettime(void)$/;"	f	file:
+gettime	xdp_monitor_user.c	/^static __u64 gettime(void)$/;"	f	file:
+gettime	xdp_redirect_cpu_user.c	/^static __u64 gettime(void)$/;"	f	file:
+gettime	xdp_rxq_info_user.c	/^static __u64 gettime(void)$/;"	f	file:
+gid	ibumad_kern.c	/^	u8 gid[16];$/;"	m	struct:ib_umad_rw_args	file:
+gid_index	ibumad_kern.c	/^	u8 gid_index;$/;"	m	struct:ib_umad_rw_args	file:
+globals	sockex3_kern.c	/^struct globals {$/;"	s	file:
+got_bits	test_overhead_tp_kern.c	/^	int got_bits;$/;"	m	struct:urandom_read	file:
+grh_present	ibumad_kern.c	/^	u8 grh_present;$/;"	m	struct:ib_umad_rw_args	file:
+gtp_handle	upf_kern.c	/^static u32 gtp_handle(struct xdp_md *ctx, struct gtpuhdr *gtpuh)$/;"	f	file:
+gtp_redirect	upf_kern.c	/^int gtp_redirect(struct __sk_buff *skb)$/;"	f
+gtpu_decap	upf_kern.c	/^static u32 gtpu_decap(struct xdp_md *ctx, struct gtpuhdr *gtpuh)$/;"	f	file:
+gtpuhdr	upf.h	/^struct gtpuhdr$/;"	s
+gtpuhdr_down	upf.h	/^struct gtpuhdr_down$/;"	s
+gw	xdp_router_ipv4_kern.c	/^	__be32 gw;$/;"	m	struct:trie_value	file:
+h_dest	parse_simple.c	/^	unsigned char   h_dest[ETH_ALEN];$/;"	m	struct:eth_hdr	file:
+h_dest	tc_l2_redirect_kern.c	/^	unsigned char   h_dest[ETH_ALEN];$/;"	m	struct:eth_hdr	file:
+h_dest	test_cgrp2_tc_kern.c	/^	unsigned char   h_dest[ETH_ALEN];$/;"	m	struct:eth_hdr	file:
+h_proto	parse_simple.c	/^	unsigned short  h_proto;$/;"	m	struct:eth_hdr	file:
+h_proto	tc_l2_redirect_kern.c	/^	unsigned short  h_proto;$/;"	m	struct:eth_hdr	file:
+h_proto	test_cgrp2_tc_kern.c	/^	unsigned short  h_proto;$/;"	m	struct:eth_hdr	file:
+h_source	parse_simple.c	/^	unsigned char   h_source[ETH_ALEN];$/;"	m	struct:eth_hdr	file:
+h_source	tc_l2_redirect_kern.c	/^	unsigned char   h_source[ETH_ALEN];$/;"	m	struct:eth_hdr	file:
+h_source	test_cgrp2_tc_kern.c	/^	unsigned char   h_source[ETH_ALEN];$/;"	m	struct:eth_hdr	file:
+h_vlan_TCI	sockex2_kern.c	/^	__be16 h_vlan_TCI;$/;"	m	struct:vlan_hdr	file:
+h_vlan_TCI	sockex3_kern.c	/^	__be16 h_vlan_TCI;$/;"	m	struct:vlan_hdr	file:
+h_vlan_TCI	xdp_redirect_cpu_kern.c	/^	__be16 h_vlan_TCI;$/;"	m	struct:vlan_hdr	file:
+h_vlan_encapsulated_proto	sockex2_kern.c	/^	__be16 h_vlan_encapsulated_proto;$/;"	m	struct:vlan_hdr	file:
+h_vlan_encapsulated_proto	sockex3_kern.c	/^	__be16 h_vlan_encapsulated_proto;$/;"	m	struct:vlan_hdr	file:
+h_vlan_encapsulated_proto	xdp_redirect_cpu_kern.c	/^	__be16 h_vlan_encapsulated_proto;$/;"	m	struct:vlan_hdr	file:
+handle_egress	test_cgrp2_tc_kern.c	/^int handle_egress(struct __sk_buff *skb)$/;"	f
+handle_ingress	parse_ldabs.c	/^int handle_ingress(struct __sk_buff *skb)$/;"	f
+handle_ingress	parse_simple.c	/^int handle_ingress(struct __sk_buff *skb)$/;"	f
+handle_ingress	parse_varlen.c	/^int handle_ingress(struct __sk_buff *skb)$/;"	f
+handle_ipv4	xdp_adjust_tail_kern.c	/^static __always_inline int handle_ipv4(struct xdp_md *xdp)$/;"	f	file:
+handle_ipv4	xdp_tx_iptunnel_kern.c	/^static __always_inline int handle_ipv4(struct xdp_md *xdp)$/;"	f	file:
+handle_ipv6	xdp_tx_iptunnel_kern.c	/^static __always_inline int handle_ipv6(struct xdp_md *xdp)$/;"	f	file:
+hbm_get_pkt_info	hbm_kern.h	/^static void hbm_get_pkt_info(struct __sk_buff *skb,$/;"	f
+hbm_init_edt_vqueue	hbm_kern.h	/^static __always_inline void hbm_init_edt_vqueue(struct hbm_vqueue *qdp,$/;"	f
+hbm_init_vqueue	hbm_kern.h	/^static __always_inline void hbm_init_vqueue(struct hbm_vqueue *qdp, int rate)$/;"	f
+hbm_pkt_info	hbm_kern.h	/^struct hbm_pkt_info {$/;"	s
+hbm_queue_stats	hbm.h	/^struct hbm_queue_stats {$/;"	s
+hbm_update_stats	hbm_kern.h	/^static __always_inline void hbm_update_stats(struct hbm_queue_stats *qsp,$/;"	f
+hbm_vqueue	hbm.h	/^struct hbm_vqueue {$/;"	s
+hex_dump	xdpsock_user.c	/^static void hex_dump(void *pkt, size_t length, u64 addr)$/;"	f	file:
+hist_key	tracex2_kern.c	/^struct hist_key {$/;"	s	file:
+hist_key	tracex2_user.c	/^struct hist_key {$/;"	s	file:
+hop_limit	ibumad_kern.c	/^	u8 hop_limit;$/;"	m	struct:ib_umad_rw_args	file:
+hostprogs-y	Makefile	/^hostprogs-y := qos$/;"	m
+htonl	upf.h	89;"	d
+htons	upf.h	85;"	d
+ib_umad_rw_args	ibumad_kern.c	/^struct ib_umad_rw_args {$/;"	s	file:
+id	edt.h	/^	__u64		id;$/;"	m	struct:edt_id
+id	ibumad_kern.c	/^	u32 id;$/;"	m	struct:ib_umad_rw_args	file:
+id	lwt_len_hist_kern.c	/^	__u32 id;$/;"	m	struct:bpf_elf_map	file:
+id	qos_kern.c	/^	__u32 id;$/;"	m	struct:bpf_elf_map	file:
+id	tc_l2_redirect_kern.c	/^	__u32 id;$/;"	m	struct:bpf_elf_map	file:
+id	test_cgrp2_tc_kern.c	/^	__u32 id;$/;"	m	struct:bpf_elf_map	file:
+idle	linux_resource.h	/^unsigned int idle;         \/\/定义一个无符号的int类型的idle$/;"	m	struct:CPU_PACKED
+if_idx	xdp_sample_pkts_user.c	/^static int if_idx;$/;"	v	file:
+if_name	xdp_sample_pkts_user.c	/^static char *if_name;$/;"	v	file:
+ifindex	my_xdp_monitor_down_user.c	/^static int ifindex;$/;"	v	file:
+ifindex	my_xdp_monitor_user.c	/^static int ifindex;$/;"	v	file:
+ifindex	qos_user.c	/^static int ifindex;$/;"	v	file:
+ifindex	xdp1_user.c	/^static int ifindex;$/;"	v	file:
+ifindex	xdp_adjust_tail_user.c	/^static int ifindex = -1;$/;"	v	file:
+ifindex	xdp_monitor_kern.c	/^	int ifindex;		\/\/	offset:16  size:4; signed:1;$/;"	m	struct:xdp_redirect_ctx	file:
+ifindex	xdp_monitor_kern.c	/^	int ifindex;	\/\/	offset:16; size:4; signed:1;$/;"	m	struct:xdp_exception_ctx	file:
+ifindex	xdp_redirect_cpu_kern.c	/^	int ifindex;	\/\/	offset:16  size:4; signed:1;$/;"	m	struct:xdp_redirect_ctx	file:
+ifindex	xdp_redirect_cpu_kern.c	/^	int ifindex;	\/\/	offset:16; size:4; signed:1;$/;"	m	struct:xdp_exception_ctx	file:
+ifindex	xdp_redirect_cpu_user.c	/^static int ifindex = -1;$/;"	v	file:
+ifindex	xdp_router_ipv4_kern.c	/^	int ifindex;$/;"	m	struct:direct_map	file:
+ifindex	xdp_router_ipv4_kern.c	/^	int ifindex;$/;"	m	struct:trie_value	file:
+ifindex	xdp_rxq_info_kern.c	/^	int ifindex;$/;"	m	struct:config	file:
+ifindex	xdp_rxq_info_user.c	/^	int ifindex;$/;"	m	struct:config	file:
+ifindex	xdp_rxq_info_user.c	/^static int ifindex = -1;$/;"	v	file:
+ifindex	xdp_tx_iptunnel_user.c	/^static int ifindex = -1;$/;"	v	file:
+ifindex_in	xdp_redirect_map_user.c	/^static int ifindex_in;$/;"	v	file:
+ifindex_in	xdp_redirect_user.c	/^static int ifindex_in;$/;"	v	file:
+ifindex_list	xdp_router_ipv4_user.c	/^static int *ifindex_list;$/;"	v	file:
+ifindex_out	xdp_redirect_map_user.c	/^static int ifindex_out;$/;"	v	file:
+ifindex_out	xdp_redirect_user.c	/^static int ifindex_out;$/;"	v	file:
+ifindex_out_xdp_dummy_attached	xdp_redirect_map_user.c	/^static bool ifindex_out_xdp_dummy_attached = true;$/;"	v	file:
+ifindex_out_xdp_dummy_attached	xdp_redirect_user.c	/^static bool ifindex_out_xdp_dummy_attached = true;$/;"	v	file:
+ifname	xdp_redirect_cpu_user.c	/^static char *ifname;$/;"	v	file:
+ifname	xdp_rxq_info_user.c	/^static char *ifname;$/;"	v	file:
+ifname_buf	xdp_redirect_cpu_user.c	/^static char ifname_buf[IF_NAMESIZE];$/;"	v	file:
+ifname_buf	xdp_rxq_info_user.c	/^static char ifname_buf[IF_NAMESIZE];$/;"	v	file:
+index	tracex2_kern.c	/^	u64 index;$/;"	m	struct:hist_key	file:
+index	tracex2_user.c	/^	__u32 index;$/;"	m	struct:hist_key	file:
+info	xdp2skb_meta.sh	/^function info() {$/;"	f
+info	xdp_monitor_kern.c	/^	u64 info;$/;"	m	struct:datarec	file:
+info	xdp_monitor_user.c	/^	__u64 info;$/;"	m	struct:datarec	file:
+initResourceMysql	linux_resource.c	/^MYSQL *initResourceMysql(void)$/;"	f
+init_bpf_fs_vars	test_cgrp2_tc.sh	/^init_bpf_fs_vars() {$/;"	f
+init_cgrp2_vars	test_cgrp2_tc.sh	/^init_cgrp2_vars() {$/;"	f
+init_map_fds	xdp_redirect_cpu_user.c	/^static int init_map_fds(struct bpf_object *obj)$/;"	f	file:
+inner_lru_hash_idx	map_perf_test_user.c	/^static int inner_lru_hash_idx = -1;$/;"	v	file:
+inner_lru_hash_size	map_perf_test_user.c	/^static uint32_t inner_lru_hash_size;$/;"	v	file:
+inner_map_idx	bpf_load.h	/^	unsigned int inner_map_idx;$/;"	m	struct:bpf_load_map_def
+input_left	test_overhead_tp_kern.c	/^	int input_left;$/;"	m	struct:urandom_read	file:
+insertResourceMysql	linux_resource.c	/^int insertResourceMysql(MYSQL *my_connection, long timestape, int type, double value, long long TEID, long long ip, int is_up)$/;"	f
+install_accept_all_seccomp	tracex5_user.c	/^static void install_accept_all_seccomp(void)$/;"	f	file:
+install_test	test_lwt_bpf.sh	/^function install_test {$/;"	f
+int_exit	cpustat_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	my_xdp_monitor_down_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	my_xdp_monitor_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	offwaketime_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	qos_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	sampleip_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	trace_event_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	tracex2_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	xdp1_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	xdp_adjust_tail_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	xdp_redirect_cpu_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	xdp_redirect_map_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	xdp_redirect_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	xdp_router_ipv4_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	xdp_rxq_info_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	xdp_tx_iptunnel_user.c	/^static void int_exit(int sig)$/;"	f	file:
+int_exit	xdpsock_user.c	/^static void int_exit(int sig)$/;"	f	file:
+interface_value	upf.h	/^  u8 interface_value;$/;"	m	struct:source_interface
+iowait	linux_resource.h	/^unsigned int iowait;$/;"	m	struct:CPU_PACKED
+ip	maps.h	/^  u64 ip;$/;"	m	struct:xdpkey
+ip	monitor.h	/^    long ip;$/;"	m	struct:xdpkey
+ip	my_xdp_monitor_kern.c	/^    u64 ip;$/;"	m	struct:xdpkey	file:
+ip	my_xdp_monitor_user.c	/^    __u64 ip;$/;"	m	struct:xdpkey	file:
+ip	qos_user.c	/^    __u64 ip;$/;"	m	struct:xdpkey	file:
+ip	sampleip_user.c	/^	__u64 ip;$/;"	m	struct:ipcount	file:
+ip	tracex4_kern.c	/^	u64 ip;$/;"	m	struct:pair	file:
+ip	tracex4_user.c	/^	__u64 ip;$/;"	m	struct:pair	file:
+ip_decrease_ttl	xdp_fwd_kern.c	/^static __always_inline int ip_decrease_ttl(struct iphdr *iph)$/;"	f	file:
+ip_is_fragment	parse_ldabs.c	/^static inline int ip_is_fragment(struct __sk_buff *ctx, __u64 nhoff)$/;"	f	file:
+ip_is_fragment	sockex2_kern.c	/^static inline int ip_is_fragment(struct __sk_buff *ctx, __u64 nhoff)$/;"	f	file:
+ip_is_fragment	sockex3_kern.c	/^static inline int ip_is_fragment(struct __sk_buff *ctx, __u64 nhoff)$/;"	f	file:
+ip_proto	sockex2_kern.c	/^	__u8 ip_proto;$/;"	m	struct:flow_key_record	file:
+ip_proto	sockex3_kern.c	/^	__u32 ip_proto;$/;"	m	struct:flow_key_record	file:
+ip_proto	sockex3_user.c	/^	__u32 ip_proto;$/;"	m	struct:flow_key_record	file:
+ipcount	sampleip_user.c	/^struct ipcount {$/;"	s	file:
+iptnl_info	xdp_tx_iptunnel_common.h	/^struct iptnl_info {$/;"	s
+ipv4_address	upf.h	/^  u32 ipv4_address;$/;"	m	struct:fteid
+ipv4_address	upf.h	/^  u32 ipv4_address;$/;"	m	struct:ue_ip_address
+ipv4_csum	upf_kern.c	/^static __always_inline void ipv4_csum(void *data_start, int data_size,$/;"	f	file:
+ipv4_csum	xdp_adjust_tail_kern.c	/^static __always_inline void ipv4_csum(void *data_start, int data_size,$/;"	f	file:
+ipv4_handle	upf_kern.c	/^static u32 ipv4_handle(struct xdp_md *ctx, struct iphdr *iph)$/;"	f	file:
+ipv6_addr_hash	sockex2_kern.c	/^static inline __u32 ipv6_addr_hash(struct __sk_buff *ctx, __u64 off)$/;"	f	file:
+ipv6_addr_hash	sockex3_kern.c	/^static inline __u32 ipv6_addr_hash(struct __sk_buff *ctx, __u64 off)$/;"	f	file:
+ipv6_address	upf.h	/^  u8 ipv6_address[16];$/;"	m	struct:fteid
+ipv6_address	upf.h	/^  u8 ipv6_address[16];$/;"	m	struct:ue_ip_address
+ipv6_prefix_delegation_bits	upf.h	/^  u8 ipv6_prefix_delegation_bits;$/;"	m	struct:ue_ip_address
+ipv6d	upf.h	/^  u8 ipv6d : 1;$/;"	m	struct:ue_ip_address
+irq	linux_resource.h	/^unsigned int irq;$/;"	m	struct:CPU_PACKED
+is_gtp	upf_kern.c	/^static u32 is_gtp(struct xdp_md *ctx, struct udphdr *udph)$/;"	f	file:
+is_ip	hbm_kern.h	/^	bool	is_ip;$/;"	m	struct:hbm_pkt_info
+is_tcp	hbm_kern.h	/^	bool	is_tcp;$/;"	m	struct:hbm_pkt_info
+is_vip_addr	tc_l2_redirect_kern.c	/^static __always_inline bool is_vip_addr(__be16 eth_proto, __be32 daddr)$/;"	f	file:
+issue	xdp_redirect_cpu_kern.c	/^	__u64 issue;$/;"	m	struct:datarec	file:
+issue	xdp_redirect_cpu_user.c	/^	__u64 issue;$/;"	m	struct:datarec	file:
+issue	xdp_rxq_info_kern.c	/^	__u64 issue;$/;"	m	struct:datarec	file:
+issue	xdp_rxq_info_user.c	/^	__u64 issue;$/;"	m	struct:datarec	file:
+kern_version	bpf_load.c	/^static int kern_version;$/;"	v	file:
+kernstack	trace_event_kern.c	/^	u32 kernstack;$/;"	m	struct:key_t	file:
+kernstack	trace_event_user.c	/^	__u32 kernstack;$/;"	m	struct:key_t	file:
+key	tcp_dumpstats_kern.c	/^	int *key;$/;"	m	struct:__anon8	file:
+key	test_lru_dist.c	/^	unsigned long long key;$/;"	m	struct:pfect_lru_node	file:
+key_4	xdp_router_ipv4_kern.c	/^union key_4 {$/;"	u	file:
+key_size	bpf_load.h	/^	unsigned int key_size;$/;"	m	struct:bpf_load_map_def
+key_size	qos_kern.c	/^	__u32 key_size;$/;"	m	struct:bpf_elf_map	file:
+key_t	offwaketime_kern.c	/^struct key_t {$/;"	s	file:
+key_t	offwaketime_user.c	/^struct key_t {$/;"	s	file:
+key_t	trace_event_kern.c	/^struct key_t {$/;"	s	file:
+key_t	trace_event_user.c	/^struct key_t {$/;"	s	file:
+kick_tx	xdpsock_user.c	/^static void kick_tx(struct xsk_socket_info *xsk)$/;"	f	file:
+kthread	xdp_redirect_cpu_user.c	/^	struct record kthread;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+l2_to_ip6tnl	tc_l2_redirect.sh	/^function l2_to_ip6tnl {$/;"	f
+l2_to_ipip	tc_l2_redirect.sh	/^function l2_to_ipip {$/;"	f
+l2fwd	xdpsock_user.c	/^static void l2fwd(struct xsk_socket_info *xsk, struct pollfd *fds)$/;"	f	file:
+l2fwd_all	xdpsock_user.c	/^static void l2fwd_all(void)$/;"	f	file:
+l4_csum_replace	csum.h	/^l4_csum_replace(const struct xdp_md *ctx, __u64 off, __u32 from, __u32 to,$/;"	f
+lastPacketTime	hbm.h	/^	unsigned long long lastPacketTime;$/;"	m	struct:hbm_queue_stats
+lasttime	hbm.h	/^	unsigned long long lasttime;	\/* In ns *\/$/;"	m	struct:hbm_vqueue
+length	ibumad_kern.c	/^	u32 length;$/;"	m	struct:ib_umad_rw_args	file:
+license	bpf_load.c	/^static char license[128];$/;"	v	file:
+lid	ibumad_kern.c	/^	u16 lid;$/;"	m	struct:ib_umad_rw_args	file:
+list	test_lru_dist.c	/^	struct list_head list;$/;"	m	struct:pfect_lru	typeref:struct:pfect_lru::list_head	file:
+list	test_lru_dist.c	/^	struct list_head list;$/;"	m	struct:pfect_lru_node	typeref:struct:pfect_lru_node::list_head	file:
+list_add	test_lru_dist.c	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f	file:
+list_empty	test_lru_dist.c	/^static inline int list_empty(const struct list_head *head)$/;"	f	file:
+list_entry	test_lru_dist.c	83;"	d	file:
+list_head	test_lru_dist.c	/^struct list_head {$/;"	s	file:
+list_last_entry	test_lru_dist.c	86;"	d	file:
+list_move	test_lru_dist.c	/^static inline void list_move(struct list_head *list, struct list_head *head)$/;"	f	file:
+list_tc	xdp2skb_meta.sh	/^function list_tc()$/;"	f
+list_xdp	xdp2skb_meta.sh	/^function list_xdp()$/;"	f
+list_xdp_actions	xdp_rxq_info_user.c	/^static void list_xdp_actions(void)$/;"	f	file:
+load_and_attach	bpf_load.c	/^static int load_and_attach(const char *event, struct bpf_insn *prog, int size)$/;"	f	file:
+load_bpf_file	bpf_load.c	/^int load_bpf_file(char *path)$/;"	f
+load_bpf_file_fixup_map	bpf_load.c	/^int load_bpf_file_fixup_map(const char *path, fixup_map_cb fixup_map)$/;"	f
+load_elf_maps_section	bpf_load.c	/^static int load_elf_maps_section(struct bpf_map_data *maps, int maps_shndx,$/;"	f	file:
+load_maps	bpf_load.c	/^static int load_maps(struct bpf_map_data *maps, int nr_maps,$/;"	f	file:
+lock	hbm.h	/^	struct bpf_spin_lock lock;$/;"	m	struct:hbm_vqueue	typeref:struct:hbm_vqueue::bpf_spin_lock
+log2	lathist_kern.c	/^static unsigned int log2(unsigned int v)$/;"	f	file:
+log2	lwt_len_hist_kern.c	/^static unsigned int log2(unsigned int v)$/;"	f	file:
+log2	tracex2_kern.c	/^static unsigned int log2(unsigned int v)$/;"	f	file:
+log2l	lathist_kern.c	/^static unsigned int log2l(unsigned long v)$/;"	f	file:
+log2l	lwt_len_hist_kern.c	/^static unsigned int log2l(unsigned long v)$/;"	f	file:
+log2l	tracex2_kern.c	/^static unsigned int log2l(unsigned long v)$/;"	f	file:
+log2l	tracex3_kern.c	/^static unsigned int log2l(unsigned long long n)$/;"	f	file:
+long_options	ibumad_user.c	/^static const struct option long_options[] = {$/;"	v	typeref:struct:option	file:
+long_options	xdp_monitor_user.c	/^static const struct option long_options[] = {$/;"	v	typeref:struct:option	file:
+long_options	xdp_redirect_cpu_user.c	/^static const struct option long_options[] = {$/;"	v	typeref:struct:option	file:
+long_options	xdp_rxq_info_user.c	/^static const struct option long_options[] = {$/;"	v	typeref:struct:option	file:
+long_options	xdpsock_user.c	/^static struct option long_options[] = {$/;"	v	typeref:struct:option	file:
+lookup_mac	test_lwt_bpf.sh	/^function lookup_mac()$/;"	f
+loop	map_perf_test_user.c	/^static void loop(int cpu)$/;"	f	file:
+loop	test_overhead_user.c	/^static void loop(int cpu, int flags)$/;"	f	file:
+loopback	hbm.h	/^		loopback:1,		\/* also limit flows using loopback *\/$/;"	m	struct:hbm_queue_stats
+loopback_flag	hbm.c	/^bool loopback_flag;$/;"	v
+lpm_map_fd	xdp_router_ipv4_user.c	/^static int lpm_map_fd;$/;"	v	file:
+lru_hash_lookup_idx	map_perf_test_user.c	/^static int lru_hash_lookup_idx = -1;$/;"	v	file:
+lru_hash_lookup_test_entries	map_perf_test_user.c	/^static int lru_hash_lookup_test_entries = 32;$/;"	v	file:
+lru_size	test_lru_dist.c	/^	unsigned int lru_size;$/;"	m	struct:pfect_lru	file:
+mac	xdp_router_ipv4_kern.c	/^	__be64 mac;$/;"	m	struct:arp_entry	file:
+mac	xdp_router_ipv4_kern.c	/^	__be64 mac;$/;"	m	struct:direct_map	file:
+mac_str_to_bin	qos_user.c	/^static int mac_str_to_bin( char *str, unsigned  char *mac)$/;"	f	file:
+mad_status	ibumad_kern.c	/^	u16 mad_status;$/;"	m	struct:ib_umad_rw_args	file:
+main	cookie_uid_helper_example.c	/^int main(int argc, char *argv[])$/;"	f
+main	cpustat_user.c	/^int main(int argc, char **argv)$/;"	f
+main	fds_example.c	/^int main(int argc, char **argv)$/;"	f
+main	hbm.c	/^int main(int argc, char **argv)$/;"	f
+main	ibumad_user.c	/^int main(int argc, char **argv)$/;"	f
+main	lathist_user.c	/^int main(int argc, char **argv)$/;"	f
+main	lwt_len_hist_user.c	/^int main(int argc, char **argv)$/;"	f
+main	map_perf_test_user.c	/^int main(int argc, char **argv)$/;"	f
+main	my_xdp_monitor_down_user.c	/^int main(int argc, char **argv)$/;"	f
+main	my_xdp_monitor_user.c	/^int main(int argc, char **argv)$/;"	f
+main	offwaketime_user.c	/^int main(int argc, char **argv)$/;"	f
+main	qos_user.c	/^int main(int argc, char **argv)$/;"	f
+main	sampleip_user.c	/^int main(int argc, char **argv)$/;"	f
+main	sock_example.c	/^int main(void)$/;"	f
+main	sockex1_user.c	/^int main(int ac, char **argv)$/;"	f
+main	sockex2_user.c	/^int main(int ac, char **argv)$/;"	f
+main	sockex3_user.c	/^int main(int argc, char **argv)$/;"	f
+main	spintest_user.c	/^int main(int ac, char **argv)$/;"	f
+main	syscall_tp_user.c	/^int main(int argc, char **argv)$/;"	f
+main	task_fd_query_user.c	/^int main(int argc, char **argv)$/;"	f
+main	tc_l2_redirect_user.c	/^int main(int argc, char **argv)$/;"	f
+main	test_cgrp2_array_pin.c	/^int main(int argc, char **argv)$/;"	f
+main	test_cgrp2_attach.c	/^int main(int argc, char **argv)$/;"	f
+main	test_cgrp2_sock.c	/^int main(int argc, char **argv)$/;"	f
+main	test_cgrp2_sock2.c	/^int main(int argc, char **argv)$/;"	f
+main	test_current_task_under_cgroup_user.c	/^int main(int argc, char **argv)$/;"	f
+main	test_lru_dist.c	/^int main(int argc, char **argv)$/;"	f
+main	test_map_in_map_user.c	/^int main(int argc, char **argv)$/;"	f
+main	test_overhead_user.c	/^int main(int argc, char **argv)$/;"	f
+main	test_probe_write_user_user.c	/^int main(int ac, char **argv)$/;"	f
+main	trace_event_user.c	/^int main(int argc, char **argv)$/;"	f
+main	trace_output_user.c	/^int main(int argc, char **argv)$/;"	f
+main	tracex1_user.c	/^int main(int ac, char **argv)$/;"	f
+main	tracex2_user.c	/^int main(int ac, char **argv)$/;"	f
+main	tracex3_user.c	/^int main(int ac, char **argv)$/;"	f
+main	tracex4_user.c	/^int main(int ac, char **argv)$/;"	f
+main	tracex5_user.c	/^int main(int ac, char **argv)$/;"	f
+main	tracex6_user.c	/^int main(int argc, char **argv)$/;"	f
+main	tracex7_user.c	/^int main(int argc, char **argv)$/;"	f
+main	xdp1_user.c	/^int main(int argc, char **argv)$/;"	f
+main	xdp_adjust_tail_user.c	/^int main(int argc, char **argv)$/;"	f
+main	xdp_fwd_user.c	/^int main(int argc, char **argv)$/;"	f
+main	xdp_monitor_user.c	/^int main(int argc, char **argv)$/;"	f
+main	xdp_redirect_cpu_user.c	/^int main(int argc, char **argv)$/;"	f
+main	xdp_redirect_map_user.c	/^int main(int argc, char **argv)$/;"	f
+main	xdp_redirect_user.c	/^int main(int argc, char **argv)$/;"	f
+main	xdp_router_ipv4_user.c	/^int main(int ac, char **argv)$/;"	f
+main	xdp_rxq_info_user.c	/^int main(int argc, char **argv)$/;"	f
+main	xdp_sample_pkts_user.c	/^int main(int argc, char **argv)$/;"	f
+main	xdp_tx_iptunnel_user.c	/^int main(int argc, char **argv)$/;"	f
+main	xdpsock_user.c	/^int main(int argc, char **argv)$/;"	f
+main_prog	sockex3_kern.c	/^int main_prog(struct __sk_buff *skb)$/;"	f
+map_collect_percpu	xdp_redirect_cpu_user.c	/^static bool map_collect_percpu(int fd, __u32 key, struct record *rec)$/;"	f	file:
+map_collect_percpu	xdp_rxq_info_user.c	/^static bool map_collect_percpu(int fd, __u32 key, struct record *rec)$/;"	f	file:
+map_collect_record	xdp_monitor_user.c	/^static bool map_collect_record(int fd, __u32 key, struct record *rec)$/;"	f	file:
+map_collect_record_u64	xdp_monitor_user.c	/^static bool map_collect_record_u64(int fd, __u32 key, struct record_u64 *rec)$/;"	f	file:
+map_data	bpf_load.c	/^struct bpf_map_data map_data[MAX_MAPS];$/;"	v	typeref:struct:bpf_map_data
+map_data_count	bpf_load.c	/^int map_data_count;$/;"	v
+map_fd	bpf_load.c	/^int map_fd[MAX_MAPS];$/;"	v
+map_fd	cookie_uid_helper_example.c	/^static int map_fd, prog_fd;$/;"	v	file:
+map_fd	my_xdp_monitor_down_user.c	/^static int map_fd;$/;"	v	file:
+map_fd	my_xdp_monitor_user.c	/^static int map_fd;$/;"	v	file:
+map_fd	test_lru_dist.c	/^	int map_fd;$/;"	m	struct:pfect_lru	file:
+map_flags	bpf_load.h	/^	unsigned int map_flags;$/;"	m	struct:bpf_load_map_def
+map_flags	tcp_dumpstats_kern.c	/^	__u32 map_flags;$/;"	m	struct:__anon8	file:
+map_id	xdp_monitor_kern.c	/^	int map_id;		\/\/	offset:8;  size:4; signed:1;$/;"	m	struct:cpumap_enqueue_ctx	file:
+map_id	xdp_monitor_kern.c	/^	int map_id;		\/\/	offset:8;  size:4; signed:1;$/;"	m	struct:cpumap_kthread_ctx	file:
+map_id	xdp_monitor_kern.c	/^	int map_id;		\/\/	offset:8;  size:4; signed:1;$/;"	m	struct:devmap_xmit_ctx	file:
+map_id	xdp_monitor_kern.c	/^	u32 map_id;		\/\/	offset:28  size:4; signed:0;$/;"	m	struct:xdp_redirect_ctx	file:
+map_id	xdp_redirect_cpu_kern.c	/^	int map_id;		\/\/	offset:8;  size:4; signed:1;$/;"	m	struct:cpumap_enqueue_ctx	file:
+map_id	xdp_redirect_cpu_kern.c	/^	int map_id;		\/\/	offset:8;  size:4; signed:1;$/;"	m	struct:cpumap_kthread_ctx	file:
+map_id	xdp_redirect_cpu_kern.c	/^	u32 map_id;	\/\/	offset:28  size:4; signed:0;$/;"	m	struct:xdp_redirect_ctx	file:
+map_index	xdp_monitor_kern.c	/^	int map_index;		\/\/	offset:32  size:4; signed:1;$/;"	m	struct:xdp_redirect_ctx	file:
+map_index	xdp_monitor_kern.c	/^	u32 map_index;		\/\/	offset:16; size:4; signed:0;$/;"	m	struct:devmap_xmit_ctx	file:
+map_index	xdp_redirect_cpu_kern.c	/^	int map_index;	\/\/	offset:32  size:4; signed:1;$/;"	m	struct:xdp_redirect_ctx	file:
+maps_create	cookie_uid_helper_example.c	/^static void maps_create(void)$/;"	f	file:
+mark	xdp2skb_meta_kern.c	/^	__u32 mark;$/;"	m	struct:meta_info	file:
+mark_cpus_unavailable	xdp_redirect_cpu_user.c	/^static void mark_cpus_unavailable(void)$/;"	f	file:
+match_trace	test_lwt_bpf.sh	/^function match_trace {$/;"	f
+match_ueip	upf_kern.c	/^static u32 match_ueip(u32 ip, u32 ran_ip)$/;"	f	file:
+max	lathist_user.c	/^	long max;$/;"	m	struct:cpu_hist	file:
+max_cnt	map_perf_test_user.c	/^static uint32_t max_cnt = 1000000;$/;"	v	file:
+max_elem	lwt_len_hist_kern.c	/^	__u32 max_elem;$/;"	m	struct:bpf_elf_map	file:
+max_elem	qos_kern.c	/^	__u32 max_elem;$/;"	m	struct:bpf_elf_map	file:
+max_elem	tc_l2_redirect_kern.c	/^	__u32 max_elem;$/;"	m	struct:bpf_elf_map	file:
+max_elem	test_cgrp2_tc_kern.c	/^	__u32 max_elem;$/;"	m	struct:bpf_elf_map	file:
+max_entries	bpf_load.h	/^	unsigned int max_entries;$/;"	m	struct:bpf_load_map_def
+message_length	upf.h	/^  uint16_t message_length;$/;"	m	struct:gtpuhdr
+message_length	upf.h	/^  uint16_t message_length;$/;"	m	struct:gtpuhdr_down
+message_type	upf.h	/^  uint8_t message_type;$/;"	m	struct:gtpuhdr
+message_type	upf.h	/^  uint8_t message_type;$/;"	m	struct:gtpuhdr_down
+meta_info	xdp2skb_meta_kern.c	/^struct meta_info {$/;"	s	file:
+method	ibumad_kern.c	/^	u8 method;$/;"	m	struct:ib_umad_rw_args	file:
+metric	xdp_router_ipv4_kern.c	/^	int metric;$/;"	m	struct:trie_value	file:
+mgmt_class	ibumad_kern.c	/^	u8 mgmt_class;$/;"	m	struct:ib_umad_rw_args	file:
+min	test_lru_dist.c	24;"	d	file:
+minRate	hbm.c	/^int minRate = 1000;		\/* cgroup rate limit in Mbps *\/$/;"	v
+mode	syscall_tp_kern.c	/^	long mode;$/;"	m	struct:syscalls_enter_open_args	file:
+monitor_route	xdp_router_ipv4_user.c	/^static int monitor_route(void)$/;"	f	file:
+my_connection	linux_resource.h	/^MYSQL my_connection;$/;"	v
+my_xdp_monitor-objs	Makefile	/^my_xdp_monitor-objs := bpf_load.o linux_resource.o my_xdp_monitor_user.o$/;"	m
+my_xdp_monitor_down-objs	Makefile	/^my_xdp_monitor_down-objs := bpf_load.o linux_resource.o my_xdp_monitor_down_user.o$/;"	m
+name	bpf_load.h	/^	char *name;$/;"	m	struct:bpf_map_data
+name	linux_resource.h	/^        char name[20];      \/\/定义一个char类型的数组名name有20个元素$/;"	m	struct:MEM_PACKED
+name	linux_resource.h	/^char name[20];             \/\/定义一个char类型的数组名name有20个元素$/;"	m	struct:CPU_PACKED
+name	offwaketime_kern.c	/^	char name[TASK_COMM_LEN];$/;"	m	struct:wokeby_t	file:
+name2	linux_resource.h	/^        char name2[20];$/;"	m	struct:MEM_PACKED
+newcomm	test_overhead_tp_kern.c	/^	char newcomm[16];$/;"	m	struct:task_rename	file:
+next	test_lru_dist.c	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head	file:
+next_comm	offwaketime_kern.c	/^	char next_comm[16];$/;"	m	struct:sched_switch_args	file:
+next_pid	offwaketime_kern.c	/^	int next_pid;$/;"	m	struct:sched_switch_args	file:
+next_prio	offwaketime_kern.c	/^	int next_prio;$/;"	m	struct:sched_switch_args	file:
+nice	linux_resource.h	/^unsigned int nice;        \/\/定义一个无符号的int类型的nice$/;"	m	struct:CPU_PACKED
+no_cn	hbm.h	/^		no_cn:1;		\/* do not use cn flags *\/$/;"	m	struct:hbm_queue_stats
+no_cn_flag	hbm.c	/^bool no_cn_flag;$/;"	v
+nocolor	tracex3_user.c	/^const char nocolor[] = "\\033[00m";$/;"	v
+nr_cpus	sampleip_user.c	/^static int nr_cpus;$/;"	v	file:
+nr_cpus	test_lru_dist.c	/^static int nr_cpus;$/;"	v	file:
+nr_misses	test_lru_dist.c	/^	unsigned int nr_misses;$/;"	m	struct:pfect_lru	file:
+nr_unique	test_lru_dist.c	/^	unsigned int nr_unique;$/;"	m	struct:pfect_lru	file:
+num_colors	tracex3_user.c	/^const int num_colors = ARRAY_SIZE(color);$/;"	v
+num_map_entries	map_perf_test_user.c	/^static uint32_t num_map_entries;$/;"	v	file:
+num_socks	xdpsock_user.c	/^static int num_socks;$/;"	v	file:
+numa_node	bpf_load.h	/^	unsigned int numa_node;$/;"	m	struct:bpf_load_map_def
+obj	hbm.c	/^struct bpf_object *obj;$/;"	v	typeref:struct:bpf_object
+offsetof	cookie_uid_helper_example.c	33;"	d	file:
+offsetof	test_lru_dist.c	26;"	d	file:
+oldcomm	test_overhead_tp_kern.c	/^	char oldcomm[16];$/;"	m	struct:task_rename	file:
+on_exit	run_cookie_uid_helper_example.sh	/^on_exit() {$/;"	f
+on_ib_umad_read_recv	ibumad_kern.c	/^int on_ib_umad_read_recv(struct ib_umad_rw_args *ctx)$/;"	f
+on_ib_umad_read_send	ibumad_kern.c	/^int on_ib_umad_read_send(struct ib_umad_rw_args *ctx)$/;"	f
+on_ib_umad_write	ibumad_kern.c	/^int on_ib_umad_write(struct ib_umad_rw_args *ctx)$/;"	f
+oncpu	offwaketime_kern.c	/^int oncpu(struct sched_switch_args *ctx)$/;"	f
+oom_score_adj	test_overhead_tp_kern.c	/^	__u16 oom_score_adj;$/;"	m	struct:task_rename	file:
+open_raw_sock	sock_example.h	/^static inline int open_raw_sock(const char *name)$/;"	f
+opt_bench	xdpsock_user.c	/^static enum benchmark_type opt_bench = BENCH_RXDROP;$/;"	v	typeref:enum:benchmark_type	file:
+opt_if	xdpsock_user.c	/^static const char *opt_if = "";$/;"	v	file:
+opt_ifindex	xdpsock_user.c	/^static int opt_ifindex;$/;"	v	file:
+opt_interval	xdpsock_user.c	/^static int opt_interval = 1;$/;"	v	file:
+opt_mmap_flags	xdpsock_user.c	/^static int opt_mmap_flags;$/;"	v	file:
+opt_need_wakeup	xdpsock_user.c	/^static bool opt_need_wakeup = true;$/;"	v	file:
+opt_poll	xdpsock_user.c	/^static int opt_poll;$/;"	v	file:
+opt_queue	xdpsock_user.c	/^static int opt_queue;$/;"	v	file:
+opt_timeout	xdpsock_user.c	/^static int opt_timeout = 1000;$/;"	v	file:
+opt_umem_flags	xdpsock_user.c	/^static u32 opt_umem_flags;$/;"	v	file:
+opt_unaligned_chunks	xdpsock_user.c	/^static int opt_unaligned_chunks;$/;"	v	file:
+opt_xdp_bind_flags	xdpsock_user.c	/^static u32 opt_xdp_bind_flags = XDP_USE_NEED_WAKEUP;$/;"	v	file:
+opt_xdp_bind_flags	xdpsock_user.c	/^static u32 opt_xdp_bind_flags;$/;"	v	file:
+opt_xdp_flags	xdpsock_user.c	/^static u32 opt_xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+opt_xsk_frame_size	xdpsock_user.c	/^static int opt_xsk_frame_size = XSK_UMEM__DEFAULT_FRAME_SIZE;$/;"	v	file:
+options	xdp_rxq_info_kern.c	/^	__u32 options;$/;"	m	struct:config	file:
+options	xdp_rxq_info_user.c	/^	__u32 options;$/;"	m	struct:config	file:
+options2str	xdp_rxq_info_user.c	/^static char* options2str(enum cfg_options_flags flag)$/;"	f	file:
+outFlag	hbm.c	/^bool outFlag = true;$/;"	v
+outer_header_removal_description	upf.h	/^  u8 outer_header_removal_description;$/;"	m	struct:outer_header_removal_s
+outer_header_removal_s	upf.h	/^typedef struct outer_header_removal_s$/;"	s
+outer_header_removal_t	upf.h	/^} outer_header_removal_t;$/;"	t	typeref:struct:outer_header_removal_s
+outstanding_tx	xdpsock_user.c	/^	u32 outstanding_tx;$/;"	m	struct:xsk_socket_info	file:
+packets	cookie_uid_helper_example.c	/^	uint64_t packets;$/;"	m	struct:stats	file:
+packets	sockex2_kern.c	/^	long packets;$/;"	m	struct:pair	file:
+packets	sockex2_user.c	/^	__u64 packets;$/;"	m	struct:pair	file:
+packets	sockex3_kern.c	/^	__u64 packets;$/;"	m	struct:pair	file:
+packets	sockex3_user.c	/^	__u64 packets;$/;"	m	struct:pair	file:
+packets_out	hbm_kern.h	/^	int	packets_out;$/;"	m	struct:hbm_pkt_info
+pad	cpustat_kern.c	/^	u64 pad;$/;"	m	struct:cpu_args	file:
+pad	edt.h	/^	__u64		pad[4];$/;"	m	struct:edt_info
+pad	ibumad_kern.c	/^	u64 pad;$/;"	m	struct:ib_umad_rw_args	file:
+pad	offwaketime_kern.c	/^	unsigned long long pad;$/;"	m	struct:sched_switch_args	file:
+pad	test_overhead_tp_kern.c	/^	__u64 pad;$/;"	m	struct:task_rename	file:
+pad	test_overhead_tp_kern.c	/^	__u64 pad;$/;"	m	struct:urandom_read	file:
+pair	sockex2_kern.c	/^struct pair {$/;"	s	file:
+pair	sockex2_user.c	/^struct pair {$/;"	s	file:
+pair	sockex3_kern.c	/^struct pair {$/;"	s	file:
+pair	sockex3_user.c	/^struct pair {$/;"	s	file:
+pair	tracex4_kern.c	/^struct pair {$/;"	s	file:
+pair	tracex4_user.c	/^struct pair {$/;"	s	file:
+parse_command_line	xdpsock_user.c	/^static void parse_command_line(int argc, char **argv)$/;"	f	file:
+parse_eth	xdp_redirect_cpu_kern.c	/^bool parse_eth(struct ethhdr *eth, void *data_end,$/;"	f	file:
+parse_eth_proto	sockex3_kern.c	/^static inline void parse_eth_proto(struct __sk_buff *skb, u32 proto)$/;"	f	file:
+parse_ip	sockex2_kern.c	/^static inline __u64 parse_ip(struct __sk_buff *skb, __u64 nhoff, __u64 *ip_proto,$/;"	f	file:
+parse_ip_proto	sockex3_kern.c	/^static __always_inline void parse_ip_proto(struct __sk_buff *skb,$/;"	f	file:
+parse_ipstr	xdp_tx_iptunnel_user.c	/^static int parse_ipstr(const char *ipstr, unsigned int *addr)$/;"	f	file:
+parse_ipv4	parse_varlen.c	/^static int parse_ipv4(void *data, uint64_t nh_off, void *data_end)$/;"	f	file:
+parse_ipv4	xdp1_kern.c	/^static int parse_ipv4(void *data, u64 nh_off, void *data_end)$/;"	f	file:
+parse_ipv4	xdp2_kern.c	/^static int parse_ipv4(void *data, u64 nh_off, void *data_end)$/;"	f	file:
+parse_ipv4	xdp_router_ipv4_kern.c	/^static inline int parse_ipv4(void *data, u64 nh_off, void *data_end,$/;"	f	file:
+parse_ipv6	parse_varlen.c	/^static int parse_ipv6(void *data, uint64_t nh_off, void *data_end)$/;"	f	file:
+parse_ipv6	sockex2_kern.c	/^static inline __u64 parse_ipv6(struct __sk_buff *skb, __u64 nhoff, __u64 *ip_proto,$/;"	f	file:
+parse_ipv6	xdp1_kern.c	/^static int parse_ipv6(void *data, u64 nh_off, void *data_end)$/;"	f	file:
+parse_ipv6	xdp2_kern.c	/^static int parse_ipv6(void *data, u64 nh_off, void *data_end)$/;"	f	file:
+parse_ports	xdp_tx_iptunnel_user.c	/^static int parse_ports(const char *port_str, int *min_port, int *max_port)$/;"	f	file:
+parse_relo_and_apply	bpf_load.c	/^static int parse_relo_and_apply(Elf_Data *data, Elf_Data *symbols,$/;"	f	file:
+parse_xdp_action	xdp_rxq_info_user.c	/^static int parse_xdp_action(char *action_str)$/;"	f	file:
+path_bits	ibumad_kern.c	/^	u8 path_bits;$/;"	m	struct:ib_umad_rw_args	file:
+pb	xdp_sample_pkts_user.c	/^static struct perf_buffer *pb = NULL;$/;"	v	typeref:struct:perf_buffer	file:
+pdi	upf.h	/^typedef struct pdi$/;"	s
+pdi_t	upf.h	/^}pdi_t;$/;"	t	typeref:struct:pdi
+pdr_lookup_downlink	upf_kern.c	/^static u32 pdr_lookup_downlink(struct xdp_md *ctx, struct iphdr *iph, unsigned int ran_ip)$/;"	f	file:
+pdr_lookup_uplink	upf_kern.c	/^static u32 pdr_lookup_uplink(struct xdp_md *ctx, struct gtpuhdr *gtpuh)$/;"	f	file:
+pdrs	maps.h	/^struct pdrs{$/;"	s
+pdrs	qos_user.c	/^struct pdrs{$/;"	s	file:
+pfcp_pdr_match_attribute	upf_kern.c	/^static u32 pfcp_pdr_match_attribute(pfcp_pdr_t *p_pdr, u32 ueIp)$/;"	f	file:
+pfcp_pdr_s	upf.h	/^typedef struct pfcp_pdr_s$/;"	s
+pfcp_pdr_t	upf.h	/^} pfcp_pdr_t;$/;"	t	typeref:struct:pfcp_pdr_s
+pfect_lru	test_lru_dist.c	/^struct pfect_lru {$/;"	s	file:
+pfect_lru_destroy	test_lru_dist.c	/^static void pfect_lru_destroy(struct pfect_lru *lru)$/;"	f	file:
+pfect_lru_init	test_lru_dist.c	/^static void pfect_lru_init(struct pfect_lru *lru, unsigned int lru_size,$/;"	f	file:
+pfect_lru_lookup_or_insert	test_lru_dist.c	/^static int pfect_lru_lookup_or_insert(struct pfect_lru *lru,$/;"	f	file:
+pfect_lru_node	test_lru_dist.c	/^struct pfect_lru_node {$/;"	s	file:
+pid	test_overhead_tp_kern.c	/^	__u32 pid;$/;"	m	struct:task_rename	file:
+pid_tgid	tracex2_kern.c	/^	u64 pid_tgid;$/;"	m	struct:hist_key	file:
+pid_tgid	tracex2_user.c	/^	__u64 pid_tgid;$/;"	m	struct:task	file:
+pinning	lwt_len_hist_kern.c	/^	__u32 pinning;$/;"	m	struct:bpf_elf_map	file:
+pinning	qos_kern.c	/^	__u32 pinning;$/;"	m	struct:bpf_elf_map	file:
+pinning	tc_l2_redirect_kern.c	/^	__u32 pinning;$/;"	m	struct:bpf_elf_map	file:
+pinning	test_cgrp2_tc_kern.c	/^	__u32 pinning;$/;"	m	struct:bpf_elf_map	file:
+pkey_index	ibumad_kern.c	/^	u16 pkey_index;$/;"	m	struct:ib_umad_rw_args	file:
+pkt_data	xdpsock_user.c	/^static const char pkt_data[] =$/;"	v	file:
+pktgen	test_cls_bpf.sh	/^function pktgen {$/;"	f
+pkts_dropped	hbm.h	/^	unsigned long long pkts_dropped;$/;"	m	struct:hbm_queue_stats
+pkts_ecn_ce	hbm.h	/^	unsigned long long pkts_ecn_ce;$/;"	m	struct:hbm_queue_stats
+pkts_marked	hbm.h	/^	unsigned long long pkts_marked;$/;"	m	struct:hbm_queue_stats
+pkts_total	hbm.h	/^	unsigned long long pkts_total;$/;"	m	struct:hbm_queue_stats
+pn	upf.h	/^  unsigned int pn : 1;$/;"	m	struct:gtpuhdr
+pn	upf.h	/^unsigned int pn : 1;$/;"	m	struct:gtpuhdr_down
+poll_stats	xdp1_user.c	/^static void poll_stats(int map_fd, int interval)$/;"	f	file:
+poll_stats	xdp_adjust_tail_user.c	/^static void poll_stats(unsigned int map_fd, unsigned int kill_after_s)$/;"	f	file:
+poll_stats	xdp_redirect_map_user.c	/^static void poll_stats(int interval, int ifindex)$/;"	f	file:
+poll_stats	xdp_redirect_user.c	/^static void poll_stats(int interval, int ifindex)$/;"	f	file:
+poll_stats	xdp_tx_iptunnel_user.c	/^static void poll_stats(unsigned int kill_after_s)$/;"	f	file:
+poller	xdpsock_user.c	/^static void *poller(void *arg)$/;"	f	file:
+pool_left	test_overhead_tp_kern.c	/^	int pool_left;$/;"	m	struct:urandom_read	file:
+populate_map	test_map_in_map_user.c	/^static void populate_map(uint32_t port_key, int magic_result)$/;"	f	file:
+populate_prog_array	bpf_load.c	/^static int populate_prog_array(const char *event, int prog_fd)$/;"	f	file:
+port16	sockex2_kern.c	/^		__be16 port16[2];$/;"	m	union:flow_key_record::__anon9	file:
+port16	sockex3_kern.c	/^		__be16 port16[2];$/;"	m	union:flow_key_record::__anon7	file:
+port16	sockex3_user.c	/^		__be16 port16[2];$/;"	m	union:flow_key_record::__anon12	file:
+port_num	ibumad_kern.c	/^	u8 port_num;$/;"	m	struct:ib_umad_rw_args	file:
+ports	sockex2_kern.c	/^		__be32 ports;$/;"	m	union:flow_key_record::__anon9	file:
+ports	sockex3_kern.c	/^		__be32 ports;$/;"	m	union:flow_key_record::__anon7	file:
+ports	sockex3_user.c	/^		__be32 ports;$/;"	m	union:flow_key_record::__anon12	file:
+pre_test	map_perf_test_user.c	/^static int pre_test(int tasks)$/;"	f	file:
+pre_test_func	map_perf_test_user.c	/^typedef int (*pre_test_func)(int tasks);$/;"	t	file:
+pre_test_funcs	map_perf_test_user.c	/^const pre_test_func pre_test_funcs[] = {$/;"	v
+pre_test_lru_hash_lookup	map_perf_test_user.c	/^static int pre_test_lru_hash_lookup(int tasks)$/;"	f	file:
+prefix	xdp_router_ipv4_kern.c	/^	__u8 prefix[4];$/;"	m	struct:trie_value	file:
+prev	test_lru_dist.c	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::	file:
+prev_comm	offwaketime_kern.c	/^	char prev_comm[16];$/;"	m	struct:sched_switch_args	file:
+prev_pid	offwaketime_kern.c	/^	int prev_pid;$/;"	m	struct:sched_switch_args	file:
+prev_prio	offwaketime_kern.c	/^	int prev_prio;$/;"	m	struct:sched_switch_args	file:
+prev_rx_npkts	xdpsock_user.c	/^	unsigned long prev_rx_npkts;$/;"	m	struct:xsk_socket_info	file:
+prev_state	offwaketime_kern.c	/^	long long prev_state;$/;"	m	struct:sched_switch_args	file:
+prev_time	xdpsock_user.c	/^static unsigned long prev_time;$/;"	v	file:
+prev_tx_npkts	xdpsock_user.c	/^	unsigned long prev_tx_npkts;$/;"	m	struct:xsk_socket_info	file:
+print_addr	trace_event_user.c	/^static void print_addr(__u64 addr)$/;"	f	file:
+print_avail_progs	xdp_redirect_cpu_user.c	/^static void print_avail_progs(struct bpf_object *obj)$/;"	f	file:
+print_banner	tracex3_user.c	/^static void print_banner(void)$/;"	f	file:
+print_benchmark	xdpsock_user.c	/^static void print_benchmark(bool running)$/;"	f	file:
+print_bpf_output	trace_output_user.c	/^static void print_bpf_output(void *ctx, int cpu, void *data, __u32 size)$/;"	f	file:
+print_bpf_output	xdp_sample_pkts_user.c	/^static void print_bpf_output(void *ctx, int cpu, void *data, __u32 size)$/;"	f	file:
+print_bpf_prog_info	xdp_monitor_user.c	/^static void print_bpf_prog_info(void)$/;"	f	file:
+print_hist	lathist_user.c	/^static void print_hist(void)$/;"	f	file:
+print_hist	tracex2_user.c	/^static void print_hist(int fd)$/;"	f	file:
+print_hist	tracex3_user.c	/^static void print_hist(int fd)$/;"	f	file:
+print_hist_for_pid	tracex2_user.c	/^static void print_hist_for_pid(int fd, void *task)$/;"	f	file:
+print_ip_map	sampleip_user.c	/^static void print_ip_map(int fd)$/;"	f	file:
+print_ksym	offwaketime_user.c	/^static void print_ksym(__u64 addr)$/;"	f	file:
+print_ksym	trace_event_user.c	/^static void print_ksym(__u64 addr)$/;"	f	file:
+print_old_objects	tracex4_user.c	/^static void print_old_objects(int fd)$/;"	f	file:
+print_result	test_cgrp2_sock.sh	/^print_result()$/;"	f
+print_stack	offwaketime_user.c	/^static void print_stack(struct key_t *key, __u64 count)$/;"	f	file:
+print_stack	trace_event_user.c	/^static void print_stack(struct key_t *key, __u64 count)$/;"	f	file:
+print_stacks	offwaketime_user.c	/^static void print_stacks(int fd)$/;"	f	file:
+print_stacks	trace_event_user.c	/^static void print_stacks(void)$/;"	f	file:
+print_table	cookie_uid_helper_example.c	/^static void print_table(void)$/;"	f	file:
+printk	lwt_len_hist_kern.c	19;"	d	file:
+printk	test_lwt_bpf.c	26;"	d	file:
+processArgs	do_hbm_test.sh	/^processArgs () {$/;"	f
+processed	xdp_monitor_kern.c	/^	u64 processed;$/;"	m	struct:datarec	file:
+processed	xdp_monitor_kern.c	/^	unsigned int processed;	\/\/	offset:24; size:4; signed:0;$/;"	m	struct:cpumap_enqueue_ctx	file:
+processed	xdp_monitor_kern.c	/^	unsigned int processed;	\/\/	offset:24; size:4; signed:0;$/;"	m	struct:cpumap_kthread_ctx	file:
+processed	xdp_monitor_user.c	/^	__u64 processed;$/;"	m	struct:datarec	file:
+processed	xdp_monitor_user.c	/^	__u64 processed;$/;"	m	struct:u64rec	file:
+processed	xdp_redirect_cpu_kern.c	/^	__u64 processed;$/;"	m	struct:datarec	file:
+processed	xdp_redirect_cpu_kern.c	/^	unsigned int processed;	\/\/	offset:24; size:4; signed:0;$/;"	m	struct:cpumap_enqueue_ctx	file:
+processed	xdp_redirect_cpu_kern.c	/^	unsigned int processed;	\/\/	offset:24; size:4; signed:0;$/;"	m	struct:cpumap_kthread_ctx	file:
+processed	xdp_redirect_cpu_user.c	/^	__u64 processed;$/;"	m	struct:datarec	file:
+processed	xdp_rxq_info_kern.c	/^	__u64 processed;$/;"	m	struct:datarec	file:
+processed	xdp_rxq_info_user.c	/^	__u64 processed;$/;"	m	struct:datarec	file:
+processed_sec	bpf_load.c	/^static bool processed_sec[128];$/;"	v	file:
+prog	test_overhead_kprobe_kern.c	/^int prog(struct pt_regs *ctx)$/;"	f
+prog	test_overhead_raw_tp_kern.c	/^int prog(struct bpf_raw_tracepoint_args *ctx)$/;"	f
+prog	test_overhead_tp_kern.c	/^int prog(struct task_rename *ctx)$/;"	f
+prog2	test_overhead_kprobe_kern.c	/^int prog2(struct pt_regs *ctx)$/;"	f
+prog2	test_overhead_raw_tp_kern.c	/^int prog2(struct bpf_raw_tracepoint_args *ctx)$/;"	f
+prog2	test_overhead_tp_kern.c	/^int prog2(struct urandom_read *ctx)$/;"	f
+prog_array_fd	bpf_load.c	/^int prog_array_fd = -1;$/;"	v
+prog_attach_iptables	cookie_uid_helper_example.c	/^static void prog_attach_iptables(char *file)$/;"	f	file:
+prog_cnt	bpf_load.c	/^int prog_cnt;$/;"	v
+prog_fd	bpf_load.c	/^int prog_fd[MAX_PROGS];$/;"	v
+prog_fd	cookie_uid_helper_example.c	/^static int map_fd, prog_fd;$/;"	v	file:
+prog_id	my_xdp_monitor_down_user.c	/^static __u32 prog_id;$/;"	v	file:
+prog_id	my_xdp_monitor_user.c	/^static __u32 prog_id;$/;"	v	file:
+prog_id	xdp1_user.c	/^static __u32 prog_id;$/;"	v	file:
+prog_id	xdp_adjust_tail_user.c	/^static __u32 prog_id;$/;"	v	file:
+prog_id	xdp_monitor_kern.c	/^	int prog_id;		\/\/	offset:8;  size:4; signed:1;$/;"	m	struct:xdp_redirect_ctx	file:
+prog_id	xdp_monitor_kern.c	/^	int prog_id;	\/\/	offset:8;  size:4; signed:1;$/;"	m	struct:xdp_exception_ctx	file:
+prog_id	xdp_redirect_cpu_kern.c	/^	int prog_id;	\/\/	offset:8;  size:4; signed:1;$/;"	m	struct:xdp_exception_ctx	file:
+prog_id	xdp_redirect_cpu_kern.c	/^	int prog_id;	\/\/	offset:8;  size:4; signed:1;$/;"	m	struct:xdp_redirect_ctx	file:
+prog_id	xdp_redirect_cpu_user.c	/^static __u32 prog_id;$/;"	v	file:
+prog_id	xdp_redirect_map_user.c	/^static __u32 prog_id;$/;"	v	file:
+prog_id	xdp_redirect_user.c	/^static __u32 prog_id;$/;"	v	file:
+prog_id	xdp_rxq_info_user.c	/^static __u32 prog_id;$/;"	v	file:
+prog_id	xdp_sample_pkts_user.c	/^static __u32 prog_id;$/;"	v	file:
+prog_id	xdp_tx_iptunnel_user.c	/^static __u32 prog_id;$/;"	v	file:
+prog_id	xdpsock_user.c	/^static __u32 prog_id;$/;"	v	file:
+prog_id_list	xdp_router_ipv4_user.c	/^static __u32 *prog_id_list;$/;"	v	file:
+prog_load	cookie_uid_helper_example.c	/^static void prog_load(void)$/;"	f	file:
+prog_load	hbm.c	/^static int prog_load(char *prog)$/;"	f	file:
+prog_load	test_cgrp2_attach.c	/^static int prog_load(int map_fd, int verdict)$/;"	f	file:
+prog_load	test_cgrp2_sock.c	/^static int prog_load(__u32 idx, __u32 mark, __u32 prio)$/;"	f	file:
+proto_ports_offset	sockex2_kern.c	/^static inline int proto_ports_offset(__u64 proto)$/;"	f	file:
+protocol	xdp_tx_iptunnel_common.h	/^	__u8 protocol;$/;"	m	struct:vip
+psa_gtpu	maps.h	/^struct psa_gtpu{$/;"	s
+psa_gtpu	qos_user.c	/^struct psa_gtpu{$/;"	s	file:
+pstate	cpustat_user.c	/^	unsigned long pstate[MAX_PSTATE_ENTRIES];$/;"	m	struct:cpu_stat_data	file:
+pt	upf.h	/^  unsigned int pt : 1;$/;"	m	struct:gtpuhdr
+pt	upf.h	/^unsigned int pt : 1;$/;"	m	struct:gtpuhdr_down
+ptr_to_u64	task_fd_query_user.c	/^static __u64 ptr_to_u64(void *ptr)$/;"	f	file:
+qfi	maps.h	/^    __u8 qfi;$/;"	m	struct:pdrs
+qfi	qos_user.c	/^    __u8 qfi;$/;"	m	struct:pdrs	file:
+qkey	ibumad_kern.c	/^	u32 qkey;$/;"	m	struct:ib_umad_rw_args	file:
+qos-objs	Makefile	/^qos-objs := bpf_load.o qos_user.o$/;"	m
+qpn	ibumad_kern.c	/^	u32 qpn;$/;"	m	struct:ib_umad_rw_args	file:
+rate	hbm.c	/^int rate = 1000;		\/* can grow if rate conserving is enabled *\/$/;"	v
+rate	hbm.h	/^	unsigned int rate;		\/* In bytes per NS << 20 *\/$/;"	m	struct:hbm_vqueue
+rate	hbm.h	/^	unsigned long rate;		\/* in Mbps*\/$/;"	m	struct:hbm_queue_stats
+read_arp	xdp_router_ipv4_user.c	/^static void read_arp(struct nlmsghdr *nh, int nll)$/;"	f	file:
+read_keys	test_lru_dist.c	/^static unsigned int read_keys(const char *dist_file,$/;"	f	file:
+read_route	xdp_router_ipv4_user.c	/^static void read_route(struct nlmsghdr *nh, int nll)$/;"	f	file:
+read_trace_pipe	bpf_load.c	/^void read_trace_pipe(void)$/;"	f
+read_trace_pipe2	hbm.c	/^static void read_trace_pipe2(void)$/;"	f	file:
+record	my_xdp_monitor_down_user.c	/^struct record$/;"	s	file:
+record	my_xdp_monitor_user.c	/^struct record$/;"	s	file:
+record	qos_user.c	/^struct record$/;"	s	file:
+record	xdp_monitor_user.c	/^struct record {$/;"	s	file:
+record	xdp_redirect_cpu_user.c	/^struct record {$/;"	s	file:
+record	xdp_rxq_info_user.c	/^struct record {$/;"	s	file:
+record_u64	xdp_monitor_user.c	/^struct record_u64 {$/;"	s	file:
+recv_msg	xdp_router_ipv4_user.c	/^static int recv_msg(struct sockaddr_nl sock_addr, int sock)$/;"	f	file:
+rediect_to_psa_upf	upf_kern.c	/^static u32 rediect_to_psa_upf(struct xdp_md *ctx, struct ethhdr *ethh)$/;"	f	file:
+redir_err	xdp_redirect_cpu_user.c	/^	struct record redir_err;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+redir_names	xdp_monitor_user.c	/^static const char *redir_names[REDIR_RES_MAX] = {$/;"	v	file:
+redirect_err_cnt_map_fd	xdp_redirect_cpu_user.c	/^static int redirect_err_cnt_map_fd;$/;"	v	file:
+redirect_to_ue	upf_kern.c	/^static u32 redirect_to_ue(struct xdp_md *ctx, struct ethhdr *ethh)$/;"	f	file:
+remove_prog	test_lwt_bpf.sh	/^function remove_prog {$/;"	f
+remove_xdp_program	xdpsock_user.c	/^static void remove_xdp_program(void)$/;"	f	file:
+ret	offwaketime_kern.c	/^	u32 ret;$/;"	m	struct:wokeby_t	file:
+ret	syscall_tp_kern.c	/^	long ret;$/;"	m	struct:syscalls_exit_open_args	file:
+retires	ibumad_kern.c	/^	u32 retires;$/;"	m	struct:ib_umad_rw_args	file:
+returnValCount	hbm.h	/^	unsigned long long returnValCount[4];$/;"	m	struct:hbm_queue_stats
+rewrite	test_lwt_bpf.c	/^static inline int rewrite(struct __sk_buff *skb, uint32_t old_ip,$/;"	f	file:
+rtt	hbm_kern.h	/^	int	rtt;$/;"	m	struct:hbm_pkt_info
+run_bpf_prog	hbm.c	/^static int run_bpf_prog(char *prog, int cg_id)$/;"	f	file:
+run_in_cgrp	test_cgrp2_tc.sh	/^run_in_cgrp() {$/;"	f
+run_parallel	test_lru_dist.c	/^static void run_parallel(unsigned int tasks, void (*fn)(int i, void *data),$/;"	f	file:
+run_perf_test	map_perf_test_user.c	/^static void run_perf_test(int tasks)$/;"	f	file:
+run_perf_test	test_overhead_user.c	/^static void run_perf_test(int tasks, int flags)$/;"	f	file:
+rx	xdpsock_user.c	/^	struct xsk_ring_cons rx;$/;"	m	struct:xsk_socket_info	typeref:struct:xsk_socket_info::xsk_ring_cons	file:
+rx_cnt	xdp_redirect_cpu_user.c	/^	struct record rx_cnt;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+rx_cnt_map_fd	xdp_redirect_cpu_user.c	/^static int rx_cnt_map_fd;$/;"	v	file:
+rx_drop	xdpsock_user.c	/^static void rx_drop(struct xsk_socket_info *xsk, struct pollfd *fds)$/;"	f	file:
+rx_drop_all	xdpsock_user.c	/^static void rx_drop_all(void)$/;"	f	file:
+rx_npkts	xdpsock_user.c	/^	unsigned long rx_npkts;$/;"	m	struct:xsk_socket_info	file:
+rx_queue_index_map	xdp_rxq_info_user.c	/^static struct bpf_map *rx_queue_index_map;$/;"	v	typeref:struct:bpf_map	file:
+rxcnt_map_fd	xdp_redirect_map_user.c	/^static int rxcnt_map_fd;$/;"	v	file:
+rxcnt_map_fd	xdp_redirect_user.c	/^static int rxcnt_map_fd;$/;"	v	file:
+rxcnt_map_fd	xdp_router_ipv4_user.c	/^static int rxcnt_map_fd;$/;"	v	file:
+rxcnt_map_fd	xdp_tx_iptunnel_user.c	/^static int rxcnt_map_fd;$/;"	v	file:
+rxq	xdp_rxq_info_user.c	/^	struct record *rxq;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+s	upf.h	/^  unsigned int s : 1;$/;"	m	struct:gtpuhdr
+s	upf.h	/^unsigned int s : 1;$/;"	m	struct:gtpuhdr_down
+saddr	xdp_tx_iptunnel_common.h	/^	} saddr;$/;"	m	struct:iptnl_info	typeref:union:iptnl_info::__anon16
+sampling_end	sampleip_user.c	/^static void sampling_end(int *pmu_fd)$/;"	f	file:
+sampling_start	sampleip_user.c	/^static int sampling_start(int *pmu_fd, int freq)$/;"	f	file:
+sched	xdp_monitor_kern.c	/^	int sched;		\/\/	offset:28; size:4; signed:1;$/;"	m	struct:cpumap_kthread_ctx	file:
+sched	xdp_redirect_cpu_kern.c	/^	int sched;		\/\/	offset:28; size:4; signed:1;$/;"	m	struct:cpumap_kthread_ctx	file:
+sched_next_online	test_lru_dist.c	/^static int sched_next_online(int pid, int next_to_try)$/;"	f	file:
+sched_switch_args	offwaketime_kern.c	/^struct sched_switch_args {$/;"	s	file:
+sd	upf.h	/^  u8 sd : 1;$/;"	m	struct:ue_ip_address
+send_icmp4_too_big	xdp_adjust_tail_kern.c	/^static __always_inline int send_icmp4_too_big(struct xdp_md *xdp)$/;"	f	file:
+sent	xdp_monitor_kern.c	/^	int sent;		\/\/	offset:24; size:4; signed:1;$/;"	m	struct:devmap_xmit_ctx	file:
+set_dst_mac	tcbpf1_kern.c	/^static inline void set_dst_mac(struct __sk_buff *skb, char *mac)$/;"	f	file:
+set_ethhdr	upf_kern.c	/^static __always_inline void set_ethhdr(struct ethhdr *new_eth,$/;"	f	file:
+set_ethhdr	xdp_tx_iptunnel_kern.c	/^static __always_inline void set_ethhdr(struct ethhdr *new_eth,$/;"	f	file:
+set_ip_tos	tcbpf1_kern.c	/^static inline void set_ip_tos(struct __sk_buff *skb, __u8 new_tos)$/;"	f	file:
+set_src_dst_mac	xdp_router_ipv4_kern.c	/^static inline void set_src_dst_mac(void *data, void *src, void *dst)$/;"	f	file:
+set_tcp_dest_port	tcbpf1_kern.c	/^static inline void set_tcp_dest_port(struct __sk_buff *skb, __u16 new_port)$/;"	f	file:
+set_tcp_ip_src	tcbpf1_kern.c	/^static inline void set_tcp_ip_src(struct __sk_buff *skb, __u32 new_ip)$/;"	f	file:
+setup_bpf_cgrp2_array	test_cgrp2_tc.sh	/^setup_bpf_cgrp2_array() {$/;"	f
+setup_cgrp2	test_cgrp2_tc.sh	/^setup_cgrp2() {$/;"	f
+setup_net	test_cgrp2_tc.sh	/^setup_net() {$/;"	f
+setup_one_veth	test_lwt_bpf.sh	/^function setup_one_veth {$/;"	f
+show_sockopts	test_cgrp2_sock.c	/^static int show_sockopts(int family)$/;"	f	file:
+sig_handler	xdp_sample_pkts_user.c	/^static void sig_handler(int signo)$/;"	f	file:
+size_key	lwt_len_hist_kern.c	/^	__u32 size_key;$/;"	m	struct:bpf_elf_map	file:
+size_key	tc_l2_redirect_kern.c	/^	__u32 size_key;$/;"	m	struct:bpf_elf_map	file:
+size_key	test_cgrp2_tc_kern.c	/^	__u32 size_key;$/;"	m	struct:bpf_elf_map	file:
+size_value	lwt_len_hist_kern.c	/^	__u32 size_value;$/;"	m	struct:bpf_elf_map	file:
+size_value	tc_l2_redirect_kern.c	/^	__u32 size_value;$/;"	m	struct:bpf_elf_map	file:
+size_value	test_cgrp2_tc_kern.c	/^	__u32 size_value;$/;"	m	struct:bpf_elf_map	file:
+sl	ibumad_kern.c	/^	u8 sl;$/;"	m	struct:ib_umad_rw_args	file:
+sock	xdp_router_ipv4_user.c	/^int sock, sock_arp, flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v
+sock_arp	xdp_router_ipv4_user.c	/^int sock, sock_arp, flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v
+softirq	linux_resource.h	/^unsigned int softirq;$/;"	m	struct:CPU_PACKED
+source_interface	upf.h	/^  source_interface_t source_interface;$/;"	m	struct:pdi
+source_interface	upf.h	/^typedef struct source_interface$/;"	s
+source_interface_t	upf.h	/^} source_interface_t;$/;"	t	typeref:struct:source_interface
+spare	upf.h	/^  unsigned int spare : 1;$/;"	m	struct:gtpuhdr
+spare	upf.h	/^unsigned int spare : 1;$/;"	m	struct:gtpuhdr_down
+src	sockex2_kern.c	/^	__be32 src;$/;"	m	struct:flow_key_record	file:
+src	sockex3_kern.c	/^	__be32 src;$/;"	m	struct:flow_key_record	file:
+src	sockex3_user.c	/^	__be32 src;$/;"	m	struct:flow_key_record	file:
+src_ip	maps.h	/^    __u32 src_ip;$/;"	m	struct:pdrs
+src_ip	maps.h	/^    __u32 src_ip;$/;"	m	struct:psa_gtpu
+src_ip	qos_user.c	/^    __u32 src_ip;$/;"	m	struct:pdrs	file:
+src_ip	qos_user.c	/^    __u32 src_ip;$/;"	m	struct:psa_gtpu	file:
+src_mac	maps.h	/^    __u8 src_mac[ETH_ALEN];$/;"	m	struct:pdrs
+src_mac	maps.h	/^    __u8 src_mac[ETH_ALEN];$/;"	m	struct:psa_gtpu
+src_mac	qos_user.c	/^    __u8 src_mac[ETH_ALEN];$/;"	m	struct:pdrs	file:
+src_mac	qos_user.c	/^    __u8 src_mac[ETH_ALEN];$/;"	m	struct:psa_gtpu	file:
+stars	lathist_user.c	/^static void stars(char *str, long val, long max, int width)$/;"	f	file:
+stars	lwt_len_hist_user.c	/^static void stars(char *str, long val, long max, int width)$/;"	f	file:
+stars	tracex2_user.c	/^static void stars(char *str, long val, long max, int width)$/;"	f	file:
+start_hbm	do_hbm_test.sh	/^function start_hbm () {$/;"	f
+start_time	trace_output_user.c	/^static __u64 start_time;$/;"	v	file:
+stat_data	cpustat_user.c	/^static struct cpu_stat_data stat_data[MAX_CPU];$/;"	v	typeref:struct:cpu_stat_data	file:
+state	cpustat_kern.c	/^	u32 state;$/;"	m	struct:cpu_args	file:
+stats	cookie_uid_helper_example.c	/^struct stats {$/;"	s	file:
+stats	hbm.h	/^	unsigned long stats:1,		\/* get HBM stats (marked, dropped,..) *\/$/;"	m	struct:hbm_queue_stats
+stats	xdp_rxq_info_user.c	/^	struct record stats;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+stats_collect	my_xdp_monitor_down_user.c	/^static bool stats_collect(MYSQL* mysql,struct stats_record *rec, __u64 timestamp)$/;"	f	file:
+stats_collect	my_xdp_monitor_user.c	/^static bool stats_collect(MYSQL* mysql,struct stats_record *rec, __u64 timestamp)$/;"	f	file:
+stats_collect	qos_user.c	/^static bool stats_collect(MYSQL* mysql,struct stats_record *rec, __u64 timestamp,int gtp_monitor_map_fd)$/;"	f	file:
+stats_collect	xdp_monitor_user.c	/^static bool stats_collect(struct stats_record *rec)$/;"	f	file:
+stats_collect	xdp_redirect_cpu_user.c	/^static void stats_collect(struct stats_record *rec)$/;"	f	file:
+stats_collect	xdp_rxq_info_user.c	/^static void stats_collect(struct stats_record *rec)$/;"	f	file:
+stats_flag	hbm.c	/^bool stats_flag;$/;"	v
+stats_global_map	xdp_rxq_info_user.c	/^static struct bpf_map *stats_global_map;$/;"	v	typeref:struct:bpf_map	file:
+stats_poll	my_xdp_monitor_down_user.c	/^static void stats_poll(int interval, int map_fd,MYSQL *mysql)$/;"	f	file:
+stats_poll	my_xdp_monitor_user.c	/^static void stats_poll(int interval, int map_fd,MYSQL *mysql)$/;"	f	file:
+stats_poll	xdp_monitor_user.c	/^static void stats_poll(int interval, bool err_only)$/;"	f	file:
+stats_poll	xdp_redirect_cpu_user.c	/^static void stats_poll(int interval, bool use_separators, char *prog_name,$/;"	f	file:
+stats_poll	xdp_rxq_info_user.c	/^static void stats_poll(int interval, int action, __u32 cfg_opt)$/;"	f	file:
+stats_print	xdp_monitor_user.c	/^static void stats_print(struct stats_record *stats_rec,$/;"	f	file:
+stats_print	xdp_redirect_cpu_user.c	/^static void stats_print(struct stats_record *stats_rec,$/;"	f	file:
+stats_print	xdp_rxq_info_user.c	/^static void stats_print(struct stats_record *stats_rec,$/;"	f	file:
+stats_record	my_xdp_monitor_down_user.c	/^struct stats_record$/;"	s	file:
+stats_record	my_xdp_monitor_user.c	/^struct stats_record$/;"	s	file:
+stats_record	qos_user.c	/^struct stats_record$/;"	s	file:
+stats_record	xdp_monitor_user.c	/^struct stats_record {$/;"	s	file:
+stats_record	xdp_redirect_cpu_user.c	/^struct stats_record {$/;"	s	file:
+stats_record	xdp_rxq_info_user.c	/^struct stats_record {$/;"	s	file:
+status	ibumad_kern.c	/^	u32 status;$/;"	m	struct:ib_umad_rw_args	file:
+stress_array_map_lookup	map_perf_test_kern.c	/^int stress_array_map_lookup(struct pt_regs *ctx)$/;"	f
+stress_cpumap	xdp_redirect_cpu_user.c	/^static void stress_cpumap(void)$/;"	f	file:
+stress_hash_map_lookup	map_perf_test_kern.c	/^int stress_hash_map_lookup(struct pt_regs *ctx)$/;"	f
+stress_hmap	map_perf_test_kern.c	/^int stress_hmap(struct pt_regs *ctx)$/;"	f
+stress_hmap_alloc	map_perf_test_kern.c	/^int stress_hmap_alloc(struct pt_regs *ctx)$/;"	f
+stress_lpm_trie_map_alloc	map_perf_test_kern.c	/^int stress_lpm_trie_map_alloc(struct pt_regs *ctx)$/;"	f
+stress_lru_hmap_alloc	map_perf_test_kern.c	/^int stress_lru_hmap_alloc(struct pt_regs *ctx)$/;"	f
+stress_percpu_hmap	map_perf_test_kern.c	/^int stress_percpu_hmap(struct pt_regs *ctx)$/;"	f
+stress_percpu_hmap_alloc	map_perf_test_kern.c	/^int stress_percpu_hmap_alloc(struct pt_regs *ctx)$/;"	f
+sum_credit	hbm.h	/^	long long sum_credit;$/;"	m	struct:hbm_queue_stats
+sum_cwnd	hbm.h	/^	unsigned long long sum_cwnd;$/;"	m	struct:hbm_queue_stats
+sum_cwnd_cnt	hbm.h	/^	unsigned long long sum_cwnd_cnt;$/;"	m	struct:hbm_queue_stats
+sum_rtt	hbm.h	/^	unsigned long long sum_rtt;$/;"	m	struct:hbm_queue_stats
+swap	my_xdp_monitor_down_user.c	/^static inline void swap(struct stats_record **a, struct stats_record **b)$/;"	f	file:
+swap	my_xdp_monitor_user.c	/^static inline void swap(struct stats_record **a, struct stats_record **b)$/;"	f	file:
+swap	qos_user.c	/^static inline void swap(struct stats_record **a, struct stats_record **b)$/;"	f	file:
+swap	xdp_monitor_user.c	/^static inline void swap(struct stats_record **a, struct stats_record **b)$/;"	f	file:
+swap	xdp_redirect_cpu_user.c	/^static inline void swap(struct stats_record **a, struct stats_record **b)$/;"	f	file:
+swap	xdp_rxq_info_user.c	/^static inline void swap(struct stats_record **a, struct stats_record **b)$/;"	f	file:
+swap_mac	xdp_adjust_tail_kern.c	/^static __always_inline void swap_mac(void *data, struct ethhdr *orig_eth)$/;"	f	file:
+swap_mac_addresses	xdpsock_user.c	/^static void swap_mac_addresses(void *data)$/;"	f	file:
+swap_src_dst_mac	xdp2_kern.c	/^static void swap_src_dst_mac(void *data)$/;"	f	file:
+swap_src_dst_mac	xdp_redirect_kern.c	/^static void swap_src_dst_mac(void *data)$/;"	f	file:
+swap_src_dst_mac	xdp_redirect_map_kern.c	/^static void swap_src_dst_mac(void *data)$/;"	f	file:
+swap_src_dst_mac	xdp_rxq_info_kern.c	/^void swap_src_dst_mac(void *data)$/;"	f	file:
+sym	tracex3_user.c	/^const char *sym[] = {$/;"	v
+sys_read_seen	trace_event_user.c	/^static bool sys_read_seen, sys_write_seen;$/;"	v	file:
+sys_write_seen	trace_event_user.c	/^static bool sys_read_seen, sys_write_seen;$/;"	v	file:
+syscall_defines	syscall_nrs.c	/^void syscall_defines(void)$/;"	f
+syscall_nr	syscall_tp_kern.c	/^	long syscall_nr;$/;"	m	struct:syscalls_enter_open_args	file:
+syscall_nr	syscall_tp_kern.c	/^	long syscall_nr;$/;"	m	struct:syscalls_exit_open_args	file:
+syscalls_enter_open_args	syscall_tp_kern.c	/^struct syscalls_enter_open_args {$/;"	s	file:
+syscalls_exit_open_args	syscall_tp_kern.c	/^struct syscalls_exit_open_args {$/;"	s	file:
+system	linux_resource.h	/^unsigned int system;    \/\/定义一个无符号的int类型的system$/;"	m	struct:CPU_PACKED
+t	tracex2_user.c	/^	struct task t;$/;"	m	struct:hist_key	typeref:struct:hist_key::task	file:
+t_horizon_drop	edt.h	/^	__u64		t_horizon_drop;$/;"	m	struct:edt_info
+t_horizon_drop	maps.h	/^	__u64 t_horizon_drop;$/;"	m	struct:edt
+t_horizon_drop	qos_user.c	/^	__u64 t_horizon_drop;$/;"	m	struct:edt	file:
+t_last	edt.h	/^	__u64		t_last;$/;"	m	struct:edt_info
+t_last	maps.h	/^	__u64 t_last;$/;"	m	struct:edt
+t_last	qos_user.c	/^	__u64 t_last;$/;"	m	struct:edt	file:
+target	offwaketime_kern.c	/^	char target[TASK_COMM_LEN];$/;"	m	struct:key_t	file:
+target	offwaketime_user.c	/^	char target[TASK_COMM_LEN];$/;"	m	struct:key_t	file:
+task	tracex2_user.c	/^struct task {$/;"	s	file:
+task_rename	test_overhead_tp_kern.c	/^struct task_rename {$/;"	s	file:
+tcp	parse_varlen.c	/^static int tcp(void *data, uint64_t tp_off, void *data_end)$/;"	f	file:
+teid	maps.h	/^    teid_t teid;$/;"	m	struct:psa_gtpu
+teid	maps.h	/^  u64 teid;$/;"	m	struct:xdpkey
+teid	monitor.h	/^    long teid;$/;"	m	struct:xdpkey
+teid	my_xdp_monitor_kern.c	/^    u64 teid;$/;"	m	struct:xdpkey	file:
+teid	my_xdp_monitor_user.c	/^    __u64 teid;$/;"	m	struct:xdpkey	file:
+teid	qos_user.c	/^    __u32 teid;$/;"	m	struct:psa_gtpu	file:
+teid	qos_user.c	/^    __u64 teid;$/;"	m	struct:xdpkey	file:
+teid	upf.h	/^  teid_t teid;$/;"	m	struct:fteid
+teid	upf.h	/^  uint32_t teid;$/;"	m	struct:gtpuhdr
+teid	upf.h	/^  uint32_t teid;$/;"	m	struct:gtpuhdr_down
+teid_t	upf.h	/^typedef u32 teid_t;$/;"	t
+test	syscall_tp_user.c	/^static int test(char *filename, int num_progs)$/;"	f	file:
+test	test_cls_bpf.sh	/^function test {$/;"	f
+test_array_lookup	map_perf_test_user.c	/^static void test_array_lookup(int cpu)$/;"	f	file:
+test_bpf_perf_event	trace_event_user.c	/^static void test_bpf_perf_event(void)$/;"	f	file:
+test_bpf_perf_event	tracex6_user.c	/^static void test_bpf_perf_event(void)$/;"	f	file:
+test_cb	test_lwt_bpf.sh	/^function test_cb {$/;"	f
+test_cb_in	test_lwt_bpf.sh	/^function test_cb_in {$/;"	f
+test_ctx_in	test_lwt_bpf.sh	/^function test_ctx_in {$/;"	f
+test_ctx_out	test_lwt_bpf.sh	/^function test_ctx_out {$/;"	f
+test_ctx_xmit	test_lwt_bpf.sh	/^function test_ctx_xmit {$/;"	f
+test_data	test_lwt_bpf.sh	/^function test_data {$/;"	f
+test_data_in	test_lwt_bpf.sh	/^function test_data_in {$/;"	f
+test_debug_fs_kprobe	task_fd_query_user.c	/^static int test_debug_fs_kprobe(int prog_fd_idx, const char *fn_name,$/;"	f	file:
+test_debug_fs_uprobe	task_fd_query_user.c	/^static int test_debug_fs_uprobe(char *binary_path, long offset, bool is_return)$/;"	f	file:
+test_drop_all	test_lwt_bpf.sh	/^function test_drop_all {$/;"	f
+test_drop_all_in	test_lwt_bpf.sh	/^function test_drop_all_in {$/;"	f
+test_fill_garbage	test_lwt_bpf.sh	/^function test_fill_garbage {$/;"	f
+test_finish	cookie_uid_helper_example.c	/^static bool test_finish;$/;"	v	file:
+test_flags	map_perf_test_user.c	/^static int test_flags = ~0;$/;"	v	file:
+test_func	map_perf_test_user.c	/^typedef void (*test_func)(int cpu);$/;"	t	file:
+test_funcs	map_perf_test_user.c	/^const test_func test_funcs[] = {$/;"	v
+test_hash_kmalloc	map_perf_test_user.c	/^static void test_hash_kmalloc(int cpu)$/;"	f	file:
+test_hash_lookup	map_perf_test_user.c	/^static void test_hash_lookup(int cpu)$/;"	f	file:
+test_hash_prealloc	map_perf_test_user.c	/^static void test_hash_prealloc(int cpu)$/;"	f	file:
+test_inner_lru_hash_prealloc	map_perf_test_user.c	/^static void test_inner_lru_hash_prealloc(int cpu)$/;"	f	file:
+test_ip6ip6	test_ipip.sh	/^function test_ip6ip6 {$/;"	f
+test_ipip	test_ipip.sh	/^function test_ipip {$/;"	f
+test_ipip6	test_ipip.sh	/^function test_ipip6 {$/;"	f
+test_lpm_kmalloc	map_perf_test_user.c	/^static void test_lpm_kmalloc(int cpu)$/;"	f	file:
+test_lru_hash_lookup	map_perf_test_user.c	/^static void test_lru_hash_lookup(int cpu)$/;"	f	file:
+test_lru_hash_prealloc	map_perf_test_user.c	/^static void test_lru_hash_prealloc(int cpu)$/;"	f	file:
+test_lru_loss0	test_lru_dist.c	/^static void test_lru_loss0(int map_type, int map_flags)$/;"	f	file:
+test_lru_loss1	test_lru_dist.c	/^static void test_lru_loss1(int map_type, int map_flags)$/;"	f	file:
+test_map_in_map	test_map_in_map_user.c	/^static void test_map_in_map(void)$/;"	f	file:
+test_map_names	map_perf_test_user.c	/^const char *test_map_names[NR_TESTS] = {$/;"	v
+test_names	test_map_in_map_user.c	/^static const char * const test_names[] = {$/;"	v	file:
+test_netperf_nop	test_lwt_bpf.sh	/^function test_netperf_nop {$/;"	f
+test_netperf_redirect	test_lwt_bpf.sh	/^function test_netperf_redirect {$/;"	f
+test_no_l2_and_redirect	test_lwt_bpf.sh	/^function test_no_l2_and_redirect {$/;"	f
+test_nocommon_lru_hash_prealloc	map_perf_test_user.c	/^static void test_nocommon_lru_hash_prealloc(int cpu)$/;"	f	file:
+test_nondebug_fs_kuprobe_common	task_fd_query_user.c	/^static int test_nondebug_fs_kuprobe_common(const char *event_type,$/;"	f	file:
+test_nondebug_fs_probe	task_fd_query_user.c	/^static int test_nondebug_fs_probe(const char *event_type, const char *name,$/;"	f	file:
+test_parallel_lru_dist	test_lru_dist.c	/^static void test_parallel_lru_dist(int map_type, int map_flags,$/;"	f	file:
+test_parallel_lru_loss	test_lru_dist.c	/^static void test_parallel_lru_loss(int map_type, int map_flags, int nr_tasks)$/;"	f	file:
+test_percpu_hash_kmalloc	map_perf_test_user.c	/^static void test_percpu_hash_kmalloc(int cpu)$/;"	f	file:
+test_percpu_hash_prealloc	map_perf_test_user.c	/^static void test_percpu_hash_prealloc(int cpu)$/;"	f	file:
+test_perf_event_all_cpu	trace_event_user.c	/^static void test_perf_event_all_cpu(struct perf_event_attr *attr)$/;"	f	file:
+test_perf_event_array	tracex6_user.c	/^static void test_perf_event_array(struct perf_event_attr *attr,$/;"	f	file:
+test_perf_event_task	trace_event_user.c	/^static void test_perf_event_task(struct perf_event_attr *attr)$/;"	f	file:
+test_push_ll_and_redirect	test_lwt_bpf.sh	/^function test_push_ll_and_redirect {$/;"	f
+test_rewrite	test_lwt_bpf.sh	/^function test_rewrite {$/;"	f
+test_sock	sock_example.c	/^static int test_sock(void)$/;"	f	file:
+test_start	test_lwt_bpf.sh	/^function test_start {$/;"	f
+test_task_rename	test_overhead_user.c	/^static void test_task_rename(int cpu)$/;"	f	file:
+test_type	map_perf_test_user.c	/^enum test_type {$/;"	g	file:
+test_urandom_read	test_overhead_user.c	/^static void test_urandom_read(int cpu)$/;"	f	file:
+text_only	tracex3_user.c	/^bool text_only = false;$/;"	v
+this_cpu_globals	sockex3_kern.c	/^static struct globals *this_cpu_globals(void)$/;"	f	file:
+thoff	sockex2_kern.c	/^	__u16 thoff;$/;"	m	struct:flow_key_record	file:
+tid	ibumad_kern.c	/^	u64 tid;$/;"	m	struct:ib_umad_rw_args	file:
+time_get_ns	map_perf_test_user.c	/^static __u64 time_get_ns(void)$/;"	f	file:
+time_get_ns	test_overhead_user.c	/^static __u64 time_get_ns(void)$/;"	f	file:
+time_get_ns	trace_output_user.c	/^static __u64 time_get_ns(void)$/;"	f	file:
+time_get_ns	tracex4_user.c	/^static __u64 time_get_ns(void)$/;"	f	file:
+timeout_ms	ibumad_kern.c	/^	u32 timeout_ms;$/;"	m	struct:ib_umad_rw_args	file:
+timestamp	my_xdp_monitor_down_user.c	/^    __u64 timestamp;$/;"	m	struct:record	file:
+timestamp	my_xdp_monitor_user.c	/^    __u64 timestamp;$/;"	m	struct:record	file:
+timestamp	qos_user.c	/^    __u64 timestamp;$/;"	m	struct:record	file:
+timestamp	xdp_monitor_user.c	/^	__u64 timestamp;$/;"	m	struct:record	file:
+timestamp	xdp_monitor_user.c	/^	__u64 timestamp;$/;"	m	struct:record_u64	file:
+timestamp	xdp_redirect_cpu_user.c	/^	__u64 timestamp;$/;"	m	struct:record	file:
+timestamp	xdp_rxq_info_user.c	/^	__u64 timestamp;$/;"	m	struct:record	file:
+to_cpu	xdp_monitor_kern.c	/^	int to_cpu;		\/\/	offset:28; size:4; signed:1;$/;"	m	struct:cpumap_enqueue_ctx	file:
+to_cpu	xdp_redirect_cpu_kern.c	/^	int to_cpu;		\/\/	offset:28; size:4; signed:1;$/;"	m	struct:cpumap_enqueue_ctx	file:
+to_ifindex	xdp_monitor_kern.c	/^	int to_ifindex;		\/\/	offset:24  size:4; signed:1;$/;"	m	struct:xdp_redirect_ctx	file:
+to_ifindex	xdp_monitor_kern.c	/^	int to_ifindex;		\/\/	offset:32; size:4; signed:1;$/;"	m	struct:devmap_xmit_ctx	file:
+to_ifindex	xdp_redirect_cpu_kern.c	/^	int to_ifindex;	\/\/	offset:24  size:4; signed:1;$/;"	m	struct:xdp_redirect_ctx	file:
+to_netdev	qos_kern.c	/^int to_netdev(struct __ctx_buff *ctx)$/;"	f
+total	linux_resource.h	/^        double total,used_rate;$/;"	m	struct:DEV_MEM
+total	linux_resource.h	/^        double total,used_rate;$/;"	m	struct:MEM_PACK
+total	linux_resource.h	/^        unsigned long total;$/;"	m	struct:MEM_PACKED
+total	my_xdp_monitor_down_user.c	/^    long total;$/;"	m	struct:record	file:
+total	my_xdp_monitor_user.c	/^    long total;$/;"	m	struct:record	file:
+total	qos_user.c	/^    long total;$/;"	m	struct:record	file:
+total	test_lru_dist.c	/^	unsigned int total;$/;"	m	struct:pfect_lru	file:
+total	xdp_monitor_user.c	/^	struct datarec total;$/;"	m	struct:record	typeref:struct:record::datarec	file:
+total	xdp_monitor_user.c	/^	struct u64rec total;$/;"	m	struct:record_u64	typeref:struct:record_u64::u64rec	file:
+total	xdp_redirect_cpu_user.c	/^	struct datarec total;$/;"	m	struct:record	typeref:struct:record::datarec	file:
+total	xdp_rxq_info_user.c	/^	struct datarec total;$/;"	m	struct:record	typeref:struct:record::datarec	file:
+total_ifindex	xdp_router_ipv4_user.c	/^static int total_ifindex;$/;"	v	file:
+trace_enter_exit	syscall_tp_kern.c	/^int trace_enter_exit(struct syscalls_exit_open_args *ctx)$/;"	f
+trace_enter_open	syscall_tp_kern.c	/^int trace_enter_open(struct syscalls_enter_open_args *ctx)$/;"	f
+trace_sys_connect	test_map_in_map_kern.c	/^int trace_sys_connect(struct pt_regs *ctx)$/;"	f
+trace_xdp_cpumap_enqueue	xdp_monitor_kern.c	/^int trace_xdp_cpumap_enqueue(struct cpumap_enqueue_ctx *ctx)$/;"	f
+trace_xdp_cpumap_enqueue	xdp_redirect_cpu_kern.c	/^int trace_xdp_cpumap_enqueue(struct cpumap_enqueue_ctx *ctx)$/;"	f
+trace_xdp_cpumap_kthread	xdp_monitor_kern.c	/^int trace_xdp_cpumap_kthread(struct cpumap_kthread_ctx *ctx)$/;"	f
+trace_xdp_cpumap_kthread	xdp_redirect_cpu_kern.c	/^int trace_xdp_cpumap_kthread(struct cpumap_kthread_ctx *ctx)$/;"	f
+trace_xdp_devmap_xmit	xdp_monitor_kern.c	/^int trace_xdp_devmap_xmit(struct devmap_xmit_ctx *ctx)$/;"	f
+trace_xdp_exception	xdp_monitor_kern.c	/^int trace_xdp_exception(struct xdp_exception_ctx *ctx)$/;"	f
+trace_xdp_exception	xdp_redirect_cpu_kern.c	/^int trace_xdp_exception(struct xdp_exception_ctx *ctx)$/;"	f
+trace_xdp_redirect	xdp_monitor_kern.c	/^int trace_xdp_redirect(struct xdp_redirect_ctx *ctx)$/;"	f
+trace_xdp_redirect_err	xdp_monitor_kern.c	/^int trace_xdp_redirect_err(struct xdp_redirect_ctx *ctx)$/;"	f
+trace_xdp_redirect_err	xdp_redirect_cpu_kern.c	/^int trace_xdp_redirect_err(struct xdp_redirect_ctx *ctx)$/;"	f
+trace_xdp_redirect_map	xdp_monitor_kern.c	/^int trace_xdp_redirect_map(struct xdp_redirect_ctx *ctx)$/;"	f
+trace_xdp_redirect_map_err	xdp_monitor_kern.c	/^int trace_xdp_redirect_map_err(struct xdp_redirect_ctx *ctx)$/;"	f
+trace_xdp_redirect_map_err	xdp_redirect_cpu_kern.c	/^int trace_xdp_redirect_map_err(struct xdp_redirect_ctx *ctx)$/;"	f
+traffic_class	ibumad_kern.c	/^	u8 traffic_class;$/;"	m	struct:ib_umad_rw_args	file:
+tret	offwaketime_kern.c	/^	u32 tret;$/;"	m	struct:key_t	file:
+tret	offwaketime_user.c	/^	__u32 tret;$/;"	m	struct:key_t	file:
+trie_value	xdp_router_ipv4_kern.c	/^struct trie_value {$/;"	s	file:
+tx	xdpsock_user.c	/^	struct xsk_ring_prod tx;$/;"	m	struct:xsk_socket_info	typeref:struct:xsk_socket_info::xsk_ring_prod	file:
+tx_npkts	xdpsock_user.c	/^	unsigned long tx_npkts;$/;"	m	struct:xsk_socket_info	file:
+tx_only	xdpsock_user.c	/^static void tx_only(struct xsk_socket_info *xsk, u32 frame_nb)$/;"	f	file:
+tx_only_all	xdpsock_user.c	/^static void tx_only_all(void)$/;"	f	file:
+tx_port_map_fd	xdp_router_ipv4_user.c	/^static int tx_port_map_fd;$/;"	v	file:
+type	bpf_load.h	/^	unsigned int type;$/;"	m	struct:bpf_load_map_def
+type	lwt_len_hist_kern.c	/^	__u32 type;$/;"	m	struct:bpf_elf_map	file:
+type	maps.h	/^  u32 type;$/;"	m	struct:xdpkey
+type	monitor.h	/^    long type;$/;"	m	struct:xdpkey
+type	my_xdp_monitor_kern.c	/^    u32 type;$/;"	m	struct:xdpkey	file:
+type	my_xdp_monitor_user.c	/^    __u32 type;$/;"	m	struct:xdpkey	file:
+type	qos_kern.c	/^	__u32 type;$/;"	m	struct:bpf_elf_map	file:
+type	qos_user.c	/^    __u32 type;$/;"	m	struct:xdpkey	file:
+type	tc_l2_redirect_kern.c	/^	__u32 type;$/;"	m	struct:bpf_elf_map	file:
+type	tcp_dumpstats_kern.c	/^	__u32 type;$/;"	m	struct:__anon8	file:
+type	test_cgrp2_tc_kern.c	/^	__u32 type;$/;"	m	struct:bpf_elf_map	file:
+u32	xdpsock_user.c	/^typedef __u32 u32;$/;"	t	file:
+u64	xdpsock_user.c	/^typedef __u64 u64;$/;"	t	file:
+u64rec	xdp_monitor_user.c	/^struct u64rec {$/;"	s	file:
+udp	parse_varlen.c	/^static int udp(void *data, uint64_t tp_off, void *data_end)$/;"	f	file:
+udp_client	cookie_uid_helper_example.c	/^static void udp_client(void)$/;"	f	file:
+udp_handle	upf_kern.c	/^static u32 udp_handle(struct xdp_md *ctx, struct udphdr *udph)$/;"	f	file:
+ueIp	upf.h	/^  u32 ueIp;$/;"	m	struct:pfcp_pdr_s
+ue_ip_address	upf.h	/^  ue_ip_address_t ue_ip_address;$/;"	m	struct:pdi
+ue_ip_address	upf.h	/^typedef struct ue_ip_address$/;"	s
+ue_ip_address_t	upf.h	/^}ue_ip_address_t;$/;"	t	typeref:struct:ue_ip_address
+uid	cookie_uid_helper_example.c	/^	uint32_t uid;$/;"	m	struct:stats	file:
+uid_gid	tracex2_kern.c	/^	u64 uid_gid;$/;"	m	struct:hist_key	file:
+uid_gid	tracex2_user.c	/^	__u64 uid_gid;$/;"	m	struct:task	file:
+umem	xdpsock_user.c	/^	struct xsk_umem *umem;$/;"	m	struct:xsk_umem_info	typeref:struct:xsk_umem_info::xsk_umem	file:
+umem	xdpsock_user.c	/^	struct xsk_umem_info *umem;$/;"	m	struct:xsk_socket_info	typeref:struct:xsk_socket_info::xsk_umem_info	file:
+unload_progs	test_overhead_user.c	/^static void unload_progs(void)$/;"	f	file:
+unused	syscall_tp_kern.c	/^	unsigned long long unused;$/;"	m	struct:syscalls_enter_open_args	file:
+unused	syscall_tp_kern.c	/^	unsigned long long unused;$/;"	m	struct:syscalls_exit_open_args	file:
+update_counts	offwaketime_kern.c	/^static inline int update_counts(void *ctx, u32 pid, u64 delta)$/;"	f	file:
+update_stats	sockex3_kern.c	/^static void update_stats(struct __sk_buff *skb, struct globals *g)$/;"	f	file:
+upf_input	upf_kern.c	/^int upf_input(struct xdp_md *ctx)$/;"	f
+uplink	upf_kern.c	24;"	d	file:
+urandom_read	test_overhead_tp_kern.c	/^struct urandom_read {$/;"	s	file:
+usage	cookie_uid_helper_example.c	/^static int usage(void)$/;"	f	file:
+usage	fds_example.c	/^static void usage(void)$/;"	f	file:
+usage	ibumad_user.c	/^static void usage(char *cmd)$/;"	f	file:
+usage	qos_user.c	/^static void usage(void)$/;"	f	file:
+usage	sampleip_user.c	/^static void usage(void)$/;"	f	file:
+usage	syscall_tp_user.c	/^static void usage(const char *cmd)$/;"	f	file:
+usage	tc_l2_redirect_user.c	/^static void usage(void)$/;"	f	file:
+usage	test_cgrp2_array_pin.c	/^static void usage(void)$/;"	f	file:
+usage	test_cgrp2_attach.c	/^static int usage(const char *argv0)$/;"	f	file:
+usage	test_cgrp2_sock.c	/^static int usage(const char *argv0)$/;"	f	file:
+usage	test_cgrp2_sock2.c	/^static int usage(const char *argv0)$/;"	f	file:
+usage	xdp1_user.c	/^static void usage(const char *prog)$/;"	f	file:
+usage	xdp2skb_meta.sh	/^function usage() {$/;"	f
+usage	xdp_adjust_tail_user.c	/^static void usage(const char *cmd)$/;"	f	file:
+usage	xdp_fwd_user.c	/^static void usage(const char *prog)$/;"	f	file:
+usage	xdp_monitor_user.c	/^static void usage(char *argv[])$/;"	f	file:
+usage	xdp_redirect_cpu_user.c	/^static void usage(char *argv[], struct bpf_object *obj)$/;"	f	file:
+usage	xdp_redirect_map_user.c	/^static void usage(const char *prog)$/;"	f	file:
+usage	xdp_redirect_user.c	/^static void usage(const char *prog)$/;"	f	file:
+usage	xdp_router_ipv4_user.c	/^static void usage(const char *prog)$/;"	f	file:
+usage	xdp_rxq_info_user.c	/^static void usage(char *argv[])$/;"	f	file:
+usage	xdp_sample_pkts_user.c	/^static void usage(const char *prog)$/;"	f	file:
+usage	xdp_tx_iptunnel_user.c	/^static void usage(const char *cmd)$/;"	f	file:
+usage	xdpsock_user.c	/^static void usage(const char *prog)$/;"	f	file:
+used_rate	linux_resource.h	/^        double total,used_rate;$/;"	m	struct:DEV_MEM
+used_rate	linux_resource.h	/^        double total,used_rate;$/;"	m	struct:MEM_PACK
+user	linux_resource.h	/^unsigned int user;        \/\/定义一个无符号的int类型的user$/;"	m	struct:CPU_PACKED
+userstack	trace_event_kern.c	/^	u32 userstack;$/;"	m	struct:key_t	file:
+userstack	trace_event_user.c	/^	__u32 userstack;$/;"	m	struct:key_t	file:
+v4	upf.h	/^  u8 v4 : 1;$/;"	m	struct:fteid
+v4	upf.h	/^  u8 v4 : 1;$/;"	m	struct:ue_ip_address
+v4	xdp_tx_iptunnel_common.h	/^		__u32 v4;$/;"	m	union:iptnl_info::__anon16
+v4	xdp_tx_iptunnel_common.h	/^		__u32 v4;$/;"	m	union:iptnl_info::__anon17
+v4	xdp_tx_iptunnel_common.h	/^		__u32 v4;$/;"	m	union:vip::__anon15
+v6	upf.h	/^  u8 v6 : 1;$/;"	m	struct:fteid
+v6	upf.h	/^  u8 v6 : 1;$/;"	m	struct:ue_ip_address
+v6	xdp_tx_iptunnel_common.h	/^		__u32 v6[4];$/;"	m	union:iptnl_info::__anon16
+v6	xdp_tx_iptunnel_common.h	/^		__u32 v6[4];$/;"	m	union:iptnl_info::__anon17
+v6	xdp_tx_iptunnel_common.h	/^		__u32 v6[4];$/;"	m	union:vip::__anon15
+val	tracex4_kern.c	/^	u64 val;$/;"	m	struct:pair	file:
+val	tracex4_user.c	/^	long long val;$/;"	m	struct:pair	file:
+validate_ethertype	edt.h	/^static __always_inline bool validate_ethertype(struct __ctx_buff *ctx,$/;"	f
+value	tcp_dumpstats_kern.c	/^	__u64 *value;$/;"	m	struct:__anon8	file:
+value	xdp_router_ipv4_kern.c	/^	__be64 value;$/;"	m	struct:trie_value	file:
+value_size	bpf_load.h	/^	unsigned int value_size;$/;"	m	struct:bpf_load_map_def
+value_size	qos_kern.c	/^	__u32 value_size;$/;"	m	struct:bpf_elf_map	file:
+verbose	my_xdp_monitor_down_user.c	/^static int verbose = 1;$/;"	v	file:
+verbose	my_xdp_monitor_user.c	/^static int verbose = 1;$/;"	v	file:
+verbose	qos_user.c	/^static int verbose = 1;$/;"	v	file:
+verbose	xdp_monitor_user.c	/^static int verbose = 1;$/;"	v	file:
+verify_map	syscall_tp_user.c	/^static void verify_map(int map_id)$/;"	f	file:
+version	upf.h	/^  unsigned int version : 3;$/;"	m	struct:gtpuhdr
+version	upf.h	/^unsigned int version : 3;$/;"	m	struct:gtpuhdr_down
+vip	xdp_tx_iptunnel_common.h	/^struct vip {$/;"	s
+vlan_hdr	sockex2_kern.c	/^struct vlan_hdr {$/;"	s	file:
+vlan_hdr	sockex3_kern.c	/^struct vlan_hdr {$/;"	s	file:
+vlan_hdr	xdp_redirect_cpu_kern.c	/^struct vlan_hdr {$/;"	s	file:
+volatile	asm_goto_workaround.h	27;"	d
+waker	offwaketime_kern.c	/^	char waker[TASK_COMM_LEN];$/;"	m	struct:key_t	file:
+waker	offwaketime_kern.c	/^int waker(struct pt_regs *ctx)$/;"	f
+waker	offwaketime_user.c	/^	char waker[TASK_COMM_LEN];$/;"	m	struct:key_t	file:
+wokeby_t	offwaketime_kern.c	/^struct wokeby_t {$/;"	s	file:
+work_conserving_flag	hbm.c	/^bool work_conserving_flag;$/;"	v
+wret	offwaketime_kern.c	/^	u32 wret;$/;"	m	struct:key_t	file:
+wret	offwaketime_user.c	/^	__u32 wret;$/;"	m	struct:key_t	file:
+write_kprobe_events	bpf_load.c	/^static int write_kprobe_events(const char *val)$/;"	f	file:
+xdp_action_names	xdp_monitor_user.c	/^static const char *xdp_action_names[XDP_ACTION_MAX] = {$/;"	v	file:
+xdp_action_names	xdp_rxq_info_user.c	/^static const char *xdp_action_names[XDP_ACTION_MAX] = {$/;"	v	file:
+xdp_cpumap_enqueue	xdp_monitor_user.c	/^	struct record xdp_cpumap_enqueue[MAX_CPUS];$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_cpumap_kthread	xdp_monitor_user.c	/^	struct record xdp_cpumap_kthread;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_devmap_xmit	xdp_monitor_user.c	/^	struct record xdp_devmap_xmit;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_exception	xdp_monitor_user.c	/^	struct record_u64 xdp_exception[XDP_ACTION_MAX];$/;"	m	struct:stats_record	typeref:struct:stats_record::record_u64	file:
+xdp_exception_ctx	xdp_monitor_kern.c	/^struct xdp_exception_ctx {$/;"	s	file:
+xdp_exception_ctx	xdp_redirect_cpu_kern.c	/^struct xdp_exception_ctx {$/;"	s	file:
+xdp_flags	my_xdp_monitor_down_user.c	/^static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+xdp_flags	my_xdp_monitor_user.c	/^static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+xdp_flags	qos_user.c	/^static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+xdp_flags	xdp1_user.c	/^static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+xdp_flags	xdp_adjust_tail_user.c	/^static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+xdp_flags	xdp_redirect_cpu_user.c	/^static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+xdp_flags	xdp_redirect_map_user.c	/^static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+xdp_flags	xdp_redirect_user.c	/^static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+xdp_flags	xdp_rxq_info_user.c	/^static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+xdp_flags	xdp_sample_pkts_user.c	/^static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+xdp_flags	xdp_tx_iptunnel_user.c	/^static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;$/;"	v	file:
+xdp_fwd_direct_prog	xdp_fwd_kern.c	/^int xdp_fwd_direct_prog(struct xdp_md *ctx)$/;"	f
+xdp_fwd_flags	xdp_fwd_kern.c	/^static __always_inline int xdp_fwd_flags(struct xdp_md *ctx, u32 flags)$/;"	f	file:
+xdp_fwd_prog	xdp_fwd_kern.c	/^int xdp_fwd_prog(struct xdp_md *ctx)$/;"	f
+xdp_gtp	my_xdp_monitor_down_user.c	/^    struct record xdp_gtp;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_gtp	my_xdp_monitor_user.c	/^    struct record xdp_gtp;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_gtp	qos_user.c	/^    struct record xdp_gtp;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_gtp_c	my_xdp_monitor_down_user.c	/^    struct record xdp_gtp_c;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_gtp_c	my_xdp_monitor_user.c	/^    struct record xdp_gtp_c;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_gtp_c	qos_user.c	/^    struct record xdp_gtp_c;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_gtp_u	my_xdp_monitor_down_user.c	/^    struct record xdp_gtp_u;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_gtp_u	my_xdp_monitor_user.c	/^    struct record xdp_gtp_u;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_gtp_u	qos_user.c	/^    struct record xdp_gtp_u;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_monitor	my_xdp_monitor_down_kern.c	/^int xdp_monitor(struct xdp_md *ctx)$/;"	f
+xdp_monitor	my_xdp_monitor_kern.c	/^int xdp_monitor(struct xdp_md *ctx)$/;"	f
+xdp_prog1	xdp1_kern.c	/^int xdp_prog1(struct xdp_md *ctx)$/;"	f
+xdp_prog1	xdp2_kern.c	/^int xdp_prog1(struct xdp_md *ctx)$/;"	f
+xdp_prog_fd	qos_user.c	/^static int xdp_prog_fd;$/;"	v	file:
+xdp_prognum0	xdp_rxq_info_kern.c	/^int  xdp_prognum0(struct xdp_md *ctx)$/;"	f
+xdp_prognum0_no_touch	xdp_redirect_cpu_kern.c	/^int  xdp_prognum0_no_touch(struct xdp_md *ctx)$/;"	f
+xdp_prognum1_touch_data	xdp_redirect_cpu_kern.c	/^int  xdp_prognum1_touch_data(struct xdp_md *ctx)$/;"	f
+xdp_prognum2_round_robin	xdp_redirect_cpu_kern.c	/^int  xdp_prognum2_round_robin(struct xdp_md *ctx)$/;"	f
+xdp_prognum3_proto_separate	xdp_redirect_cpu_kern.c	/^int  xdp_prognum3_proto_separate(struct xdp_md *ctx)$/;"	f
+xdp_prognum4_ddos_filter_pktgen	xdp_redirect_cpu_kern.c	/^int  xdp_prognum4_ddos_filter_pktgen(struct xdp_md *ctx)$/;"	f
+xdp_prognum5_lb_hash_ip_pairs	xdp_redirect_cpu_kern.c	/^int  xdp_prognum5_lb_hash_ip_pairs(struct xdp_md *ctx)$/;"	f
+xdp_redirect	xdp_monitor_user.c	/^	struct record_u64 xdp_redirect[REDIR_RES_MAX];$/;"	m	struct:stats_record	typeref:struct:stats_record::record_u64	file:
+xdp_redirect_collect_stat	xdp_monitor_kern.c	/^int xdp_redirect_collect_stat(struct xdp_redirect_ctx *ctx)$/;"	f	file:
+xdp_redirect_collect_stat	xdp_redirect_cpu_kern.c	/^int xdp_redirect_collect_stat(struct xdp_redirect_ctx *ctx)$/;"	f	file:
+xdp_redirect_ctx	xdp_monitor_kern.c	/^struct xdp_redirect_ctx {$/;"	s	file:
+xdp_redirect_ctx	xdp_redirect_cpu_kern.c	/^struct xdp_redirect_ctx {$/;"	s	file:
+xdp_redirect_dummy_prog	xdp_redirect_kern.c	/^int xdp_redirect_dummy_prog(struct xdp_md *ctx)$/;"	f
+xdp_redirect_dummy_prog	xdp_redirect_map_kern.c	/^int xdp_redirect_dummy_prog(struct xdp_md *ctx)$/;"	f
+xdp_redirect_map_prog	xdp_redirect_map_kern.c	/^int xdp_redirect_map_prog(struct xdp_md *ctx)$/;"	f
+xdp_redirect_prog	xdp_redirect_kern.c	/^int xdp_redirect_prog(struct xdp_md *ctx)$/;"	f
+xdp_router_ipv4_prog	xdp_router_ipv4_kern.c	/^int xdp_router_ipv4_prog(struct xdp_md *ctx)$/;"	f
+xdp_sample_prog	xdp_sample_pkts_kern.c	/^int xdp_sample_prog(struct xdp_md *ctx)$/;"	f
+xdp_unknow	my_xdp_monitor_down_user.c	/^    struct record xdp_unknow;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_unknow	my_xdp_monitor_user.c	/^    struct record xdp_unknow;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdp_unknow	qos_user.c	/^    struct record xdp_unknow;$/;"	m	struct:stats_record	typeref:struct:stats_record::record	file:
+xdpkey	maps.h	/^struct xdpkey$/;"	s
+xdpkey	monitor.h	/^struct xdpkey$/;"	s
+xdpkey	my_xdp_monitor_kern.c	/^struct xdpkey$/;"	s	file:
+xdpkey	my_xdp_monitor_user.c	/^struct xdpkey$/;"	s	file:
+xdpkey	qos_user.c	/^struct xdpkey$/;"	s	file:
+xsk	xdpsock_user.c	/^	struct xsk_socket *xsk;$/;"	m	struct:xsk_socket_info	typeref:struct:xsk_socket_info::xsk_socket	file:
+xsk_configure_socket	xdpsock_user.c	/^static struct xsk_socket_info *xsk_configure_socket(struct xsk_umem_info *umem)$/;"	f	file:
+xsk_configure_umem	xdpsock_user.c	/^static struct xsk_umem_info *xsk_configure_umem(void *buffer, u64 size)$/;"	f	file:
+xsk_socket_info	xdpsock_user.c	/^struct xsk_socket_info {$/;"	s	file:
+xsk_umem_info	xdpsock_user.c	/^struct xsk_umem_info {$/;"	s	file:
+xsks	xdpsock_user.c	/^struct xsk_socket_info *xsks[MAX_SOCKS];$/;"	v	typeref:struct:xsk_socket_info
