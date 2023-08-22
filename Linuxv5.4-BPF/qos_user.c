@@ -46,7 +46,7 @@ static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;
 
 static int array_fd = -1;
 static int ifindex;
-static int verbose = 1;
+//static int verbose = 1;
 struct xdpkey
 {
     __u32 type;
