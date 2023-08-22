@@ -309,7 +309,7 @@ int main(int argc, char **argv)
 	int gtp_monitor_map_fd = -1;
 
     /* Default settings: */
-    int interval = 5;
+    //int interval = 5;
 
 	int num_kBps = 70;
 	int opt;

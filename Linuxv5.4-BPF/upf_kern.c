@@ -1,6 +1,6 @@
 #define KBUILD_MODNAME "upf"
 #include <uapi/linux/bpf.h>
-#include <linux/byteorder/generic.h>
+//#include <linux/byteorder/generic.h>
 #include <linux/ip.h>
 #include <net/checksum.h>
 #include "upf.h"

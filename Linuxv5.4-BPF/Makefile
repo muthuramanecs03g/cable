@@ -4,7 +4,7 @@ BPF_SAMPLES_PATH ?= $(abspath $(srctree)/$(src))
 TOOLS_PATH := $(BPF_SAMPLES_PATH)/../../tools
 
 # List of programs to build
-hostprogs-y := qos
+#hostprogs-y := qos
 
 # Libbpf dependencies
 LIBBPF = $(TOOLS_PATH)/lib/bpf/libbpf.a
@@ -12,14 +12,14 @@ LIBBPF = $(TOOLS_PATH)/lib/bpf/libbpf.a
 CGROUP_HELPERS := ../../tools/testing/selftests/bpf/cgroup_helpers.o
 TRACE_HELPERS := ../../tools/testing/selftests/bpf/trace_helpers.o
 
-qos-objs := bpf_load.o qos_user.o
+#qos-objs := bpf_load.o qos_user.o
 my_xdp_monitor-objs := bpf_load.o linux_resource.o my_xdp_monitor_user.o
 my_xdp_monitor_down-objs := bpf_load.o linux_resource.o my_xdp_monitor_down_user.o
 
 # Tell kbuild to always build the programs
 always := $(hostprogs-y)
 always += upf_kern.o
-always += qos_kern.o
+#always += qos_kern.o
 
 KBUILD_HOSTCFLAGS += -I$(objtree)/usr/include
 KBUILD_HOSTCFLAGS += -I$(srctree)/tools/lib/bpf/
@@ -37,7 +37,7 @@ HOSTLDLIBS_map_perf_test	+= -lrt
 HOSTLDLIBS_test_overhead	+= -lrt
 HOSTLDLIBS_my_xdp_monitor       += -lmysqlclient
 HOSTLDLIBS_my_xdp_monitor_down       += -lmysqlclient
-HOSTLDLIBS_qos       += -lmysqlclient
+#HOSTLDLIBS_qos       += -lmysqlclient
 HOSTLDLIBS_xdpsock		+= -pthread
 
 # Allows pointing LLC/CLANG to a LLVM backend with bpf support, redefine on cmdline:
