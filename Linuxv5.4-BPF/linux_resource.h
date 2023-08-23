@@ -36,6 +36,8 @@ typedef struct DEV_MEM         //定义一个mem occupy的结构体
         double total,used_rate;
 }DEV_MEM;
 
+double cal_cpuoccupy(CPU_OCCUPY *o, CPU_OCCUPY *n);
+void get_cpuoccupy(CPU_OCCUPY *cpust);
 double getCpuRate(void);
 MEM_PACK *get_memoccupy (void);
 DEV_MEM *get_devmem(void);

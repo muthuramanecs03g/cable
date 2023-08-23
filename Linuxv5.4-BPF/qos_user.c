@@ -46,7 +46,8 @@ static __u32 xdp_flags = XDP_FLAGS_UPDATE_IF_NOEXIST;
 
 static int array_fd = -1;
 static int ifindex;
-//static int verbose = 1;
+static int verbose = 1;
+
 struct xdpkey
 {
     __u32 type;
@@ -125,6 +126,8 @@ static __u64 gettime(void)
 /* enum xdp_action */
 #define PKG_TYPE_MAX	4
 
+int run_flg = 0;
+
 static void usage(void)
 {
 	printf("Usage: tc_redirect_qos [...]\n");
@@ -147,6 +150,8 @@ static int do_attach(int ifindex, int prog_fd)
 static void int_exit(int sig)
 {
 	__u32 curr_prog_id = 0;
+
+    run_flg = 1;
 
 	if (bpf_get_link_xdp_id(ifindex, &curr_prog_id, xdp_flags)) {
 		printf("bpf_get_link_xdp_id failed\n");
@@ -230,7 +235,7 @@ static bool stats_collect(MYSQL* mysql,struct stats_record *rec,
     return true;
 }
 
-static struct stats_record *alloc_stats_record(void)
+static inline struct stats_record *alloc_stats_record(void)
 {
     struct stats_record *rec;
     /* Alloc main stats_record structure */
@@ -245,7 +250,7 @@ static struct stats_record *alloc_stats_record(void)
     return rec;
 }
 
-static void free_stats_record(struct stats_record *r)
+static inline void free_stats_record(struct stats_record *r)
 {
     free(r);
 }
@@ -259,7 +264,6 @@ static inline void swap(struct stats_record **a, struct stats_record **b)
     *b = tmp;
 }
 
-#if 0
 static void stats_poll(int interval, int gtp_monitor_map_fd,MYSQL *mysql)
 {
     struct stats_record *rec, *prev;
@@ -292,12 +296,14 @@ static void stats_poll(int interval, int gtp_monitor_map_fd,MYSQL *mysql)
 
         fflush(stdout);
         sleep(interval);
+
+        if (run_flg)
+            break;
     }
 
     free_stats_record(rec);
     free_stats_record(prev);
 }
-#endif
 
 int main(int argc, char **argv)
 {
@@ -309,7 +315,7 @@ int main(int argc, char **argv)
 	int gtp_monitor_map_fd = -1;
 
     /* Default settings: */
-    //int interval = 5;
+    int interval = 5;
 
 	int num_kBps = 70;
 	int opt;
@@ -482,6 +488,10 @@ int main(int argc, char **argv)
     
     signal(SIGINT, int_exit);
     signal(SIGTERM, int_exit);
+
+    MYSQL *mysql = initResourceMysql();
+    stats_poll(interval, gtp_monitor_map_fd, mysql);
+    closeMysql(mysql);
 
     return 0;
 }

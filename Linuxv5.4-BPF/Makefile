@@ -12,7 +12,7 @@ LIBBPF = $(TOOLS_PATH)/lib/bpf/libbpf.a
 CGROUP_HELPERS := ../../tools/testing/selftests/bpf/cgroup_helpers.o
 TRACE_HELPERS := ../../tools/testing/selftests/bpf/trace_helpers.o
 
-qos-objs := bpf_load.o qos_user.o
+qos-objs := bpf_load.o linux_resource.o qos_user.o
 my_xdp_monitor-objs := bpf_load.o linux_resource.o my_xdp_monitor_user.o
 my_xdp_monitor_down-objs := bpf_load.o linux_resource.o my_xdp_monitor_down_user.o
 

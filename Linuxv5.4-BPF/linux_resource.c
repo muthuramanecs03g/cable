@@ -107,6 +107,7 @@ DEV_MEM *get_devmem(void) // get hard disk meeeage
     pclose(fp);
     return dev;
 }
+
 MYSQL *initResourceMysql(void)
 {
     
@@ -127,6 +128,7 @@ MYSQL *initResourceMysql(void)
         return NULL;
     }
 }
+
 int insertResourceMysql(MYSQL *my_connection, long timestape, int type, double value, long long TEID, long long ip, int is_up)
 {
     int result;
@@ -155,6 +157,7 @@ int insertResourceMysql(MYSQL *my_connection, long timestape, int type, double v
         return -1;
     }
 }
+
 void closeMysql(MYSQL *connect)
 {
     mysql_close(connect);
